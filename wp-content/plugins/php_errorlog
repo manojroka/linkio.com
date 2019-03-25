@@ -1,0 +1,40 @@
+[26-Nov-2017 04:53:38 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[26-Nov-2017 04:54:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[11-Jan-2018 12:42:05 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[07-Feb-2018 06:05:30 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[31-May-2018 14:25:23 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[07-Nov-2018 03:48:06 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[07-Nov-2018 03:48:08 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[07-Nov-2018 03:48:18 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[05-Jan-2019 11:08:29 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60
+[30-Jan-2019 23:29:43 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/plugins/hello.php on line 60

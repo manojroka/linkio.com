@@ -1,0 +1,160 @@
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'apiKey' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wordfence::getLog, wfLog::shared, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'howGetIPs' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfLog->initLogRequest, wfUtils::getIP, wfUtils::getIPAndServerVariable, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'detectProxyRecommendation' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfLog->initLogRequest, wfUtils::getIP, wfUtils::getIPAndServerVariable, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'howGetIPs_trusted_proxies' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfLog->initLogRequest, wfUtils::getIP, wfUtils::getIPAndServerVariable, wfUtils::getCleanIPAndServerVar, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'whitelistPresets' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfLog->initLogRequest, wfUtils::getIP, wfUtils::getIPAndServerVariable, wfUtils::getCleanIPAndServerVar, wfUtils::isPrivateAddress, wfUtils::getIPWhitelist, wfUtils::whitelistedServiceIPs, wfUtils::whitelistPresets, wfConfig::getJSON, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'whitelistedServices' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfLog->initLogRequest, wfUtils::getIP, wfUtils::getIPAndServerVariable, wfUtils::getCleanIPAndServerVar, wfUtils::isPrivateAddress, wfUtils::getIPWhitelist, wfUtils::whitelistedServiceIPs, wfConfig::getJSON, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'whitelisted' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfLog->initLogRequest, wfUtils::getIP, wfUtils::getIPAndServerVariable, wfUtils::getCleanIPAndServerVar, wfUtils::isPrivateAddress, wfUtils::getIPWhitelist, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'ajaxWatcherDisabled_front' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'ajaxWatcherDisabled_admin' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfBlocks7' doesn't exist for query SHOW FULL COLUMNS FROM `wp6f_wfBlocks7` made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfBlock::lockoutForIP
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfBlocks7' doesn't exist for query SHOW FULL COLUMNS FROM `wp6f_wfBlocks7` made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfBlock::lockoutForIP
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'loginSec_enableSeparateTwoFactor' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'other_hideWPVersion' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'loginSec_disableAuthorScan' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'scanType' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfAdminUserMonitor->isEnabled, wfScanner::shared, wfScanner->__construct, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'scan_exclude' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfAdminUserMonitor->isEnabled, wfScanner->scanOptions, wfScanner::standardScanTypeOptions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'scan_include_extra' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfAdminUserMonitor->isEnabled, wfScanner->scanOptions, wfScanner::standardScanTypeOptions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'liveTrafficEnabled' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfConfig::liveTrafficEnabled, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'other_hideWPVersion' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), include_once('/plugins/wordfence/wordfence.php'), wordfence::install_actions, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'wp_home_url' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfUtils::wpHomeURL, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'wp_site_url' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfUtils::wpSiteURL, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'needsGeoIPSync' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'geoIPVersionHash' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'email_summary_interval' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfBlockedIPLog' doesn't exist for query SELECT DISTINCT countryCode, IP FROM `wp6f_wfBlockedIPLog` WHERE unixday >= FLOOR(UNIX_TIMESTAMP(DATE_SUB(NOW(), interval 7 day)) / 86400) GROUP BY IP ORDER BY unixday DESC LIMIT 500 made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query INSERT INTO wp6f_wfConfig (name, val, autoload) values ('geoIPVersionHash', 'e79c78994b3b6b57e0bd98f37ce5b1eebe6238434e98e5f72fa758474369d0c5', 'yes') ON DUPLICATE KEY UPDATE val = 'e79c78994b3b6b57e0bd98f37ce5b1eebe6238434e98e5f72fa758474369d0c5', autoload = 'yes' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::set
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'lastPermissionsTemplateCheck' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::getInt, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query INSERT INTO wp6f_wfConfig (name, val, autoload) values ('lastPermissionsTemplateCheck', '1550495626', 'yes') ON DUPLICATE KEY UPDATE val = '1550495626', autoload = 'yes' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::set
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'previousWflogsFileList' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::getJSON, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query INSERT INTO wp6f_wfConfig (name, val, autoload) values ('previousWflogsFileList', '[\"config-synced.php\",\"GeoLite2-Country.mmdb\",\"template.php\",\"rules.php\",\"ips.php\",\"config-livewaf.php\",\"config-transient.php\",\"config.php\",\".htaccess\",\"attack-data.php\"]', 'yes') ON DUPLICATE KEY UPDATE val = '[\"config-synced.php\",\"GeoLite2-Country.mmdb\",\"template.php\",\"rules.php\",\"ips.php\",\"config-livewaf.php\",\"config-transient.php\",\"config.php\",\".htaccess\",\"attack-data.php\"]', autoload = 'yes' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::setJSON, wfConfig::set
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'apiKey' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'isPaid' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'whitelisted' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'whitelistedServices' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfUtils::whitelistedServiceIPs, wfConfig::getJSON, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'howGetIPs' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'howGetIPs_trusted_proxies' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'other_WFNet' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'serverIP' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfUtils::serverIPs, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'serverDNS' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfUtils::serverIPs, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query INSERT INTO wp6f_wfConfig (name, val, autoload) values ('serverDNS', '1550495626;14400;37.60.234.164', 'yes') ON DUPLICATE KEY UPDATE val = '1550495626;14400;37.60.234.164', autoload = 'yes' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfUtils::serverIPs, wfConfig::set
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'blockCustomText' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'betaThreatDefenseFeed' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'disableWAFIPBlocking' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'timeoffset_wf' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfHits' doesn't exist for query SELECT MAX(attackLogTime) FROM wp6f_wfHits made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'firewallEnabled' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('plugins_loaded'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::veryFirstAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'other_hideWPVersion' made by require('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), WP_Hook->do_action, WP_Hook->apply_filters, wordfence::initAction, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'liveTrafficEnabled' made by wfLog->logHit, wfConfig::liveTrafficEnabled, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'liveTraf_ignorePublishers' made by wfLog->logHit, wfLog->logHitOK, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'liveTraf_ignoreUsers' made by wfLog->logHit, wfLog->logHitOK, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'liveTraf_ignoreIPs' made by wfLog->logHit, wfLog->logHitOK, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'liveTraf_ignoreUA' made by wfLog->logHit, wfLog->logHitOK, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfBlocks7' doesn't exist for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp6f_wfBlocks7` WHERE `type` IN (4) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::patternBlocks, wfBlock::allBlocks
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfBlocks7' doesn't exist for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp6f_wfBlocks7` WHERE `type` IN (3) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlocks, wfBlock::allBlocks
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'cbl_action' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'cbl_loggedInBlocked' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'cbl_bypassRedirURL' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'cbl_bypassRedirDest' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'cbl_bypassViewURL' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'cbl_redirURL' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'cbl_cookieVal' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlockingBypassCookieValue, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query INSERT INTO wp6f_wfConfig (name, val, autoload) values ('cbl_cookieVal', '5c6aaf8a6c05c', 'yes') ON DUPLICATE KEY UPDATE val = '5c6aaf8a6c05c', autoload = 'yes' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::countryBlockingBypassCookieValue, wfConfig::set
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'blockedTime' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfBlocks7' doesn't exist for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp6f_wfBlocks7` WHERE `type` IN (1, 8, 9, 2, 5, 6) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::ipBlocks, wfBlock::allBlocks
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfBlocks7' doesn't exist for query SELECT *, CASE 
+WHEN `type` = 3 THEN 0
+WHEN `type` = 4 THEN 1
+WHEN `type` = 7 THEN 2
+WHEN `type` = 6 THEN 3
+WHEN `type` = 5 THEN 4
+WHEN `type` = 9 THEN 5
+WHEN `type` = 8 THEN 6
+WHEN `type` = 2 THEN 7
+WHEN `type` = 1 THEN 8
+ELSE 9999
+END AS `typeSort`, CASE 
+WHEN `type` = 3 THEN `parameters`
+WHEN `type` = 4 THEN `parameters`
+WHEN `type` = 1 THEN `IP`
+WHEN `type` = 9 THEN `IP`
+WHEN `type` = 5 THEN `IP`
+WHEN `type` = 6 THEN `IP`
+WHEN `type` = 7 THEN `IP`
+WHEN `type` = 2 THEN `IP`
+WHEN `type` = 8 THEN `IP`
+ELSE 9999
+END AS `detailSort`
+ FROM `wp6f_wfBlocks7` WHERE `type` IN (7) AND (`expiration` = 0 OR `expiration` > UNIX_TIMESTAMP()) ORDER BY `typeSort` ASC, `id` DESC made by wfWAFIPBlocksController::synchronizeConfigSettings, wfBlock::lockouts, wfBlock::allBlocks
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'loginSec_lockoutMins' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'firewallEnabled' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get
+[18-Feb-2019 13:13:46 UTC] WordPress database error Table 'linkio07_dev.wp6f_wfConfig' doesn't exist for query SELECT name, val, autoload FROM wp6f_wfConfig WHERE name = 'disableWAFIPBlocking' made by wfWAFIPBlocksController::synchronizeConfigSettings, wfConfig::get

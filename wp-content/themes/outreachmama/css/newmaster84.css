@@ -1,0 +1,4113 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700,700i,900,900i');
+/*font-family: 'Source Sans Pro', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i');
+/*font-family: 'Nunito', sans-serif;*/
+
+
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+/*font-family: 'Lato', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700');
+/*font-family: 'Open Sans Condensed', sans-serif;*/
+
+
+.page-template-linkio-home{
+    
+}
+.page-template-linkio-home .site-header-main {
+    width: 1140px;
+    margin: 0 auto;
+}
+.page-template-linkio-home .custom-logo {
+    max-width: 160px;
+}
+.page-template-linkio-home #menu-item-5644{
+    /*display:none;*/
+}
+.page-template-linkio-home #menu-item-5804{
+    /*display:none;*/
+}
+.page-template-linkio-home #menu-item-5721{
+ /*   display:none;*/
+}
+.page-template-linkio-home .site-header {
+    padding: 23px 60px;
+    background: none;
+}
+.page-template-linkio-home .main-navigation a {
+color: #005689 !important;
+}
+.page-template-linkio-home #menu-item-5602 a{
+    font-weight: bold !important;
+}
+.page-template-linkio-home .menu-main-menu-container ul li:last-child a {
+    border: 1px solid #005689;
+    width: 120px;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.page-template-linkio-home .menu-main-menu-container ul ul li:last-child a {
+    border: none;
+    text-align: left;
+    padding: 8px 20px;
+    line-height: 23px !important;
+}
+.page-template-linkio-home  .menu-main-menu-container ul li:last-child a:hover {
+    background-color: #005688 !important;  
+}
+.page-template-linkio-home .menu-main-menu-container ul ul li:last-child a:hover {
+    background-color: transparent !important;
+}
+.page-template-linkio-home  .menu-main-menu-container ul li:last-child a:focus {
+    color: #fff !important;
+    border: 1px solid #7FAAC3;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(182, 162, 146) !important;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(182, 162, 146) !important;
+    box-shadow: 0px 2px 5px 0px rgba(182, 162, 146) !important;
+    background-color: #005689 !important;
+}
+.page-template-linkio-home .main-navigation a:hover, .page-template-linkio-home .main-navigation a:focus {
+    background-color: transparent !important;
+    
+}
+.main-navigation ul ul li a:hover{
+    color:#fff !important;
+}
+.header-section {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/Header-Background.png");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    padding-top: 56px;
+    float: left;
+    width: 100%;
+    padding-bottom: 275px;
+    background-size: 100%;
+}
+.header-section h2 {
+    text-align: center;
+    font-size: 54px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#5A676F;
+    line-height: 60px;
+}
+.header-section h2 strong {
+    font-weight: 600;
+    color: #005689;
+}
+.bottom-button {
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin-top: 20px;
+}
+.bottom-button a{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color:#fff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+/*
+.bottom-button .blue-button {
+    height: 47px;
+    width: 241px;
+    border: 1px solid #FFFFFF;
+    background-color: #005689;
+    display: inline-block;
+    line-height: 47px;
+    margin-right: 3px;
+}
+*/
+.bottom-button .green-button{
+	height: 46px;
+	width: 240px;
+    background-color: #1ABC9C;  
+	display: inline-block;
+    line-height: 47px;
+    margin-left: 3px;
+}
+.header-bottom {
+    background-color: #203442;
+    text-align: center;
+    padding: 33px 0px;
+    float: left;
+    width: 100%;
+}
+.header-bottom p {
+    color: #fff;
+    font-size: 26px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.section06-inner img {
+    margin: 0 auto;
+}
+.page-template-linkio-home .tab-1 {
+    float: left;
+    width: 100%;
+    padding-top: 120px;
+    padding-bottom: 180px;
+}
+.page-template-linkio-home .tab-2 {
+    background-color: #F6F7F8;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/leftimage2.jpg");
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.page-template-linkio-home .tab-1 .left-tab {
+    width: 50%;
+    float: left;
+}
+.page-template-linkio-home .tab-1 .right-tab {
+    width: 50%;
+    float: right;
+    padding-top: 29px;
+}
+.page-template-linkio-home .tab-1 h2 {
+    color: #5A676F;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 50px;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/header-border.jpg");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    padding-bottom: 11px;
+    margin-bottom: 30px;
+}
+.page-template-linkio-home .tab-1 p {
+    font-family: 'Nunito', sans-serif;
+    color: #929292;
+    font-weight: 300;
+    font-size: 19px;
+}
+.row {
+    width: 1100px;
+    margin: 0 auto;
+}
+.page-template-linkio-home .tab-3 {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/11/bg.jpg);
+    background-repeat: repeat;
+    background-position: left top;
+    padding-bottom: 120px;
+}
+.page-template-linkio-home .tab-3 .left-tab img {
+    width: 490px;
+}
+.page-template-linkio-home .tab-3 .right-tab {
+    padding-top: 0px;
+}
+.page-template-linkio-home .tab-4 .right-tab{
+    padding-top: 0px;
+}
+.page-template-linkio-home .tab-4 {
+    background-image: none;
+    padding-bottom: 70px;
+}
+.page-template-linkio-home .tab-4 .right-tab img {
+    margin-top: -40px;
+}
+.page-template-linkio-home .tab-5 {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.page-template-linkio-home .tab-5 h2 {
+    background-position: center bottom;
+    margin-bottom: 0;
+}
+.page-template-linkio-home .tab-5 .testimonial_rotator_slide {
+    width: 33%;
+    float: left;
+    margin-top: 34px;
+}
+.page-template-linkio-home .tab-5 .testimonial_rotator_img.img {
+    width: 100% !important;
+    margin-right: 0 !important;
+}
+.page-template-linkio-home .tab-5 .text.testimonial_rotator_description {
+    width: 100% !important;
+}
+.page-template-linkio-home .tab-5 .text.testimonial_rotator_description h2{
+   display:none;
+}
+.page-template-linkio-home .tab-5 .text.testimonial_rotator_description h3 {
+    color: #25384E;
+    font-family: 'Calibri';
+    font-size: 24px !important;
+    margin-bottom: 5px !important;
+    margin-top: 12px !important;
+}
+.page-template-linkio-home .tab-5 .text.testimonial_rotator_description br {
+    display: none;
+}
+.page-template-linkio-home .tab-5 .text.testimonial_rotator_description h5 {
+    color: #005689;
+    font-family: 'Calibri';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.page-template-linkio-home .tab-5 .text.testimonial_rotator_description .testimonial_rotator_quote {
+    font-family: 'Futura Std Light';
+    color: #929292;
+    font-size: 16px;
+    padding: 0px 10px;
+}
+.page-template-linkio-home .tab-5 .testimonial_rotator_img.img img {
+    max-width: 110px;
+}
+.page-template-linkio-home .tab-6 {
+    background-color: #005689;
+    text-align: center;
+    padding: 80px;
+}
+.page-template-linkio-home .tab-6 h2 {
+    color: white;
+    line-height: 44px;
+    background-position: center bottom;
+    padding-bottom: 20px;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+.page-template-linkio-home .tab-6 .f-width {
+    width: 86%;
+    margin: 0 auto;
+}
+.page-template-linkio-home .tab-6 p{
+    color:#fff;
+}
+.page-template-linkio-home .tab-6 a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: #1ABC9C;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.page-template-linkio-home .tab-7 {
+    text-align: center;
+    padding: 80px 0px;
+}
+.page-template-linkio-home .tab-7 h2 {
+    background-position: center bottom;
+    margin-bottom: 70px;
+}
+.page-template-linkio-home .tab-7 ul{
+    margin:0px;
+}
+.page-template-linkio-home .tab-7 ul li {
+    list-style-type: none;
+    width: 33%;
+    float: left;
+    padding: 0px 32px;
+}
+.page-template-linkio-home .tab-7 ul li h4{
+    color:#0A5787;
+    font-size:20px;
+    font-family: 'Nunito', sans-serif;
+}
+.page-template-linkio-home .tab-7 ul li p{
+    font-family: 'Nunito', sans-serif;
+    font-size:18px;
+}
+.page-template-linkio-home .tab-7 ul li img{
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(163,163,163,1);
+-moz-box-shadow: 0px 0px 10px 0px rgba(163,163,163,1);
+box-shadow: 0px 0px 10px 0px rgba(163,163,163,1);
+}
+.page-template-linkio-home .tab-8 {
+    background-color: #F6F7F9;
+    text-align: center;
+    padding-top: 78px;
+    padding-bottom: 60px;
+}
+.page-template-linkio-home .tab-8 h2 {
+    background-image: none;
+}
+.page-template-linkio-home .tab-8 a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: #005689;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.page-template-linkio-home .footer-one{
+    display:none;
+}
+.page-template-linkio-home .site-footer-two {
+    display: block;
+    background-color: #203442;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 42px !important;
+}
+.page-template-linkio-home .footer-box {
+    float: left;
+    width: 25%;
+}
+.page-template-linkio-home .footer-bottom {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #364855;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.page-template-linkio-home .footer-bottom p {
+    margin: 0;
+    color: #898EA2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+.page-template-linkio-home .site-footer-two .footer-two {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.page-template-linkio-home .foot-1.footer-box a {
+    width: 160px;
+    float: left;
+}
+.page-template-linkio-home .footer-box h5 {
+    color: #A5A8BB;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.page-template-linkio-home .foot-2.footer-box ul{
+    margin: 0;
+}
+.page-template-linkio-home .foot-2.footer-box ul li{
+    list-style-type: none;
+}
+.page-template-linkio-home .foot-2.footer-box ul li a {
+    color: #7F829A;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.page-template-linkio-home .foot-3.footer-box ul{
+    margin: 0;
+}
+.page-template-linkio-home .foot-3.footer-box ul li{
+    list-style-type: none;
+}
+.page-template-linkio-home .foot-3.footer-box ul li a{
+    color: transparent;
+}
+.page-template-linkio-home .foot-3.footer-box ul li .facebook {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/facebook_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+
+.page-template-linkio-home .foot-3.footer-box ul li .youtube {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/youtube_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.page-template-linkio-home .foot-3.footer-box ul li .twitter {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/twitter.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.page-template-linkio-home .footer-box input {
+    border-radius: 4px !important;
+    box-shadow: 0 2px 1px 0 #0000;
+    height: 48px;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    background-color: #fff;
+}
+.page-template-linkio-home .footer-box input.wpcf7-submit {
+    background-color: transparent;
+    color: transparent;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/button-input.jpg");
+    background-size: 100%;
+    width: 37px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.page-template-linkio-home .footer-box .wpcf7-form {
+    position: relative;
+}
+.page-template-linkio-home .footer-box .wpcf7-form p {
+    margin: 0;
+}
+
+
+
+
+
+/*------------------------------------------------------------------------------*/
+
+
+.page-id-5860 .header-bottom p {
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+}
+.page-id-5860 .header-bottom {
+    background-color: #4F6371;
+}
+.page-template-linkio-home .featured-content-image.square img {
+    width: 110px !important;
+    top: 15px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(66,66,66);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(66,66,66);
+    box-shadow: 0px 2px 5px 0px rgba(66,66,66);
+}
+.page-template-linkio-home .testimonials {
+    padding-top: 85px;
+    padding-bottom: 85px;
+}
+.page-template-linkio-home .featured-content .featured_short_content h3 {
+    color: #25384E;
+    font-family: 'Calibri';
+    font-size: 24px !important;
+    margin-bottom: 5px !important;
+    margin-top: 20px !important;
+}
+.page-template-linkio-home .featured-content .featured_short_content h5 {
+    color: #005689;
+    font-family: 'Calibri';
+    font-size: 16px;
+    font-weight: 400;
+   margin-bottom: 15px;
+}
+.page-template-linkio-home .featured-content-slider .slick-slide {
+    padding: 0 15px;
+}
+.page-template-linkio-home .sub-content {
+    font-family: 'Nunito', sans-serif;
+    color: #929292;
+    font-weight: 300;
+    font-size: 16px;
+}
+.page-template-linkio-home .bottom-button .blue-button {
+   width: 241px;
+    display: inline-block;
+    height: auto;
+    width: 243px;
+    border: 0px #FFFFFF;
+    background-color: transparent;
+}
+.page-template-linkio-home .bottom-button .blue-button a {
+    height: 47px;
+    width: 243px;
+    border: 1px solid #FFFFFF;
+    background-color: #005689;
+    display: inline-block;
+    line-height: 47px;
+    margin-right: 3px;
+    border-radius: 4px !important;
+}
+.page-id-5837 #secondary {
+    margin-top: 50px;
+}
+.page-id-5837 article {
+    margin-top: 50px !important;
+}
+.page-id-5837 .entry-content h1 {
+    color: #0057a7;
+    font-size: 45px;
+    font-weight: 400;
+    text-transform: none;
+}
+.page-id-5837  strong {
+    font-weight: 700;
+    color: #0A5787;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                          Link Manage Backlink CSS
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#menu-item-6775 {
+    display: none;
+}
+.foot-3 .manage-backlink-header5 {
+    display: none ;
+}
+.page-template-linkio-manage-backlink .foot-3 h5{
+    display:none;
+}
+.page-template-linkio-manage-backlink .foot-3 h5.manage-backlink-header5{   
+    display:block;
+}
+.page-template-linkio-manage-backlink #menu-item-6775 {
+    display: block;
+}
+.page-template-linkio-manage-backlink #menu-item-5804 a {
+    color: white !important;
+}
+.page-template-linkio-manage-backlink #menu-item-6775 a {
+    color: #F1961C !important;
+}
+.page-template-linkio-manage-backlink #menu-item-5846 a {
+    color: white !important;
+}
+.page-template-linkio-manage-backlink #menu-item-5602 a {
+    color: #084376 !important;
+    font-weight: bold !important;
+}
+.page-template-linkio-manage-backlink #menu-item-5603 a {
+    height: 36px;
+    width: 120px;
+    color: white !important;
+    font-size: 15px !important;
+    line-height: 36px;
+    text-align: center;
+    display: block;
+    border: none;
+    border-radius: 5px;
+    text-transform: capitalize;
+    padding: 0;
+    margin-right: 0;
+    background-color: #1ABC9C;
+}
+.page-template-linkio-manage-backlink .section-1 {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/bg-1.jpg);
+    background-size: 100%;
+    background-position: center center;
+    height: 570px;
+    background-repeat: no-repeat;
+    float: left;
+width: 100%;
+}
+#masthead.site-header.header-1 #menu-item-5602 a {
+  font-weight: bold !important;
+}
+.page-template-linkio-manage-backlink .section-1 h2 {
+    color: #084376;
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 63px;
+    text-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+    /*letter-spacing: 3px;*/
+	margin-bottom: 0px;
+	/*font-family: 'caviar_dreamsbold';*/
+	font-family: 'Nunito', sans-serif;
+
+}
+.page-template-linkio-manage-backlink .section-1 h3 {
+    color: #005689;
+    font-size: 60px !important;
+    font-weight: 300;
+    line-height: 63px;
+    text-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+    /*letter-spacing: 3px;*/
+    margin: 0px !important;
+    /*font-family: 'caviar_dreamsbold';*/
+    font-family: 'Nunito', sans-serif;
+}
+.page-template-linkio-manage-backlink .section-1 h4 {
+    color: #005689;
+    font-size: 60px !important;
+    font-weight: 300;
+    line-height: 63px;
+    text-shadow: 0 1px 4px 0 rgba(0,0,0,0.3);
+    /*letter-spacing: 3px;*/
+    margin: 0px !important;
+    font-family: 'Nunito', sans-serif;
+}
+.page-template-linkio-manage-backlink .section-1 h3 strong {
+    color: #1ABC9C;
+}
+.page-template-linkio-manage-backlink .section-1 .left-title {
+    width: 1100px;
+    float: none;
+    margin: 102px auto;
+}
+.page-template-linkio-manage-backlink .section-2 {
+    width: 100%;
+    float: left;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.page-template-linkio-manage-backlink .section-2 h4 {
+    /*color: #5a676f;*/
+    /*font-size: 40px;*/
+    /*font-weight: normal;*/
+    /*line-height: 45px;*/
+    /*text-align: center;*/
+    /*font-family: 'caviar_dreamsbold';*/
+    color: #5a676f;
+font-size: 32px;
+font-weight: normal;
+line-height: 45px;
+text-align: center;
+/*font-family: 'caviar_dreamsregular';*/
+font-family: 'Nunito', sans-serif;
+font-weight: 100;
+}
+.page-template-linkio-manage-backlink .section-2 h4 strong {
+    color: #1ABC9C;
+}
+.page-template-linkio-manage-backlink .section-2-repeater {
+    padding-top: 60px;
+    width: 100%;
+    float: left;
+}
+.page-template-linkio-manage-backlink .timeline-figure {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+}
+.page-template-linkio-manage-backlink .timeline-figure h5 {
+    color: #5a676f;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.page-template-linkio-manage-backlink .section-4 {
+    width: 100%;
+}
+.page-template-linkio-manage-backlink .section-4 .left-tab {
+    width: 50%;
+    float: left;
+    background-color: #005689;
+    color: #fff;
+}
+.page-template-linkio-manage-backlink .section-4 .right-tab {
+    width: 50%;
+    float: left;
+    background-color: #1ABC9C;
+    color: #fff;
+}
+.page-template-linkio-manage-backlink .section-4 .right-tab .Right-tab-float-left {
+    float: left;
+    width: 75%;
+    padding: 75px 120px;
+    text-align: center;
+}
+.page-template-linkio-manage-backlink .section-4 .left-tab .left-tab-float-right {
+    width: 75%;
+    float: right;
+    padding: 75px 120px;
+}
+.page-template-linkio-manage-backlink .section-4 h4 {
+    color: #FFFFFF;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    /*letter-spacing: 2px;*/
+    /*font-family: 'caviar_dreamsbold';*/
+    font-family: 'Nunito', sans-serif;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/border-bottom.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-bottom: 20px;
+    /*width: 200px;*/
+    width: 300px;
+    background-size: 94px;
+    font-size: 44px;
+    font-weight: 300;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.page-template-linkio-manage-backlink .Right-tab-float-left h4 {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/border-bottom2.jpg);
+}
+.page-template-linkio-manage-backlink .section-4 p {
+    
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+}
+.page-template-linkio-manage-backlink .section-5 {
+    background-color: #F6F7F8;
+    padding: 75px 0px;
+    text-align: center;
+	float:left;
+	width:100%;
+}
+.page-template-linkio-manage-backlink .section5-content h3 {
+    color: #5a676f;
+    font-size: 52px !important;
+    font-weight: 300;
+    line-height: 55px;
+    text-align: center;
+    background-image: url('https://www.linkio.com/wp-content/uploads/2017/12/border-bottom.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 150px;
+    padding-bottom: 20px;
+    margin-bottom: 50px !important;
+    /*letter-spacing: 1px;*/
+    font-weight: normal;
+    /*font-family: 'caviar_dreamsbold';*/
+    font-family: 'Nunito', sans-serif;
+}
+.page-template-linkio-manage-backlink .section5-content p {
+    color: #667088;
+    font-family: "Source Sans Pro";
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+}
+.page-template-linkio-manage-backlink .section5-content a {
+    color: white;
+    height: 50px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: #005689;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+.page-template-linkio-manage-backlink .site-footer-two {
+    display: block;
+}
+.page-template-linkio-manage-backlink .footer-two {
+    display: block;
+}
+.page-template-linkio-manage-backlink .footer-box {
+    float: left;
+    width: 25%;
+}
+.page-template-linkio-manage-backlink .site-footer-two {
+    display: block !important;
+    background-color: #203442;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 42px !important;
+}
+.page-template-linkio-manage-backlink .foot-1.footer-box a {
+    width: 160px;
+    float: left;
+}
+.page-template-linkio-manage-backlink .footer-box h5 {
+    color: #A5A8BB;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.page-template-linkio-manage-backlink .foot-2.footer-box ul li {
+    list-style-type: none;
+}
+.page-template-linkio-manage-backlink .foot-2.footer-box ul li a {
+    color: #7F829A;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.page-template-linkio-manage-backlink .foot-2.footer-box ul {
+    margin: 0;
+}
+.page-template-linkio-manage-backlink .foot-3.footer-box ul li .facebook {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/facebook_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.page-template-linkio-manage-backlink .foot-3.footer-box ul {
+    margin: 0;
+}
+.page-template-linkio-manage-backlink .foot-3.footer-box ul li {
+    list-style-type: none;
+}
+.page-template-linkio-manage-backlink .foot-3.footer-box ul li a {
+    color: transparent;
+}
+.page-template-linkio-manage-backlink .section-3 {
+    float: left;
+    width: 100%;
+}
+.page-template-linkio-manage-backlink .section-3 {
+	background-image: url('https://www.linkio.com/wp-content/uploads/2017/12/Section_03_bg@3x-Copy.jpg');
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+.page-template-linkio-manage-backlink .section-3 .row {
+    padding: 60px 0px;
+}
+.page-template-linkio-manage-backlink .section-3 .header-title-section-3 {
+    float: none;
+    width: 505px;
+    margin: 0 auto;
+}
+.page-template-linkio-manage-backlink .section-3 h3 {
+    color: #084376;
+    font-size: 44px !important;
+    font-weight: 300;
+    float: none;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    /*font-family: 'caviar_dreamsregular';*/
+    font-family: 'Nunito', sans-serif;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/border-bottom.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    background-size: 179px;
+    padding-bottom: 20px !important;
+}
+.page-template-linkio-manage-backlink  .content-1-2 {
+    float: left;
+    width: 33.3%;
+}
+.page-template-linkio-manage-backlink .image-overlay h4 {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/h4-bg.png);
+    background-size: 100%;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100%;
+    color: #525E7A;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 1px 1px 0 rgba(0,0,0,0.5);
+}
+.page-template-linkio-manage-backlink .image-overlay {
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.page-template-linkio-manage-backlink .overlay-icon {
+    position: absolute;
+    top: -17px;
+    bottom: 0;
+    left: 45.5%;
+    right: 0;
+    width: 35px;
+    height: 35px;
+}
+.page-template-linkio-manage-backlink .backlink-management-list {
+    float: left;
+    width: 100%;
+    padding: 40px 0px;
+}
+.page-template-linkio-manage-backlink .section-3-logo img {
+    position: absolute;
+    max-width: 200px;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    vertical-align: middle;
+}
+.page-template-linkio-manage-backlink .section-3-logo {
+    width: 33%;
+    float: left;
+    position: relative;
+    height: 180px;
+}
+.page-template-linkio-manage-backlink .image-overlay {
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 50px;
+}
+.page-template-linkio-manage-backlink .content-4-5 {
+    float: left;
+    width: 33%;
+}
+.page-template-linkio-manage-backlink .image-overlay h4 {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/h4-bg.png);
+    background-size: 100%;
+    padding-top: 24px;
+    padding-bottom: 20px;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 100%;
+    color: #525E7A;
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    text-shadow: 0 1px 1px 0 rgba(0,0,0,0.5);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page-template-linkio-manage-backlink .content-5 {
+    width: 366px;
+    float: none;
+    margin: 0 auto;
+}
+.page-template-linkio-manage-backlink .foot-3.footer-box ul li .youtube {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/youtube_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.page-template-linkio-manage-backlink .footer-box .wpcf7-form {
+    position: relative;
+}
+.page-template-linkio-manage-backlink .footer-box .wpcf7-form p {
+    margin: 0;
+}
+.page-template-linkio-manage-backlink .footer-box input {
+    border-radius: 4px !important;
+    box-shadow: 0 2px 1px 0 #0000;
+    height: 48px;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    background-color: #fff;
+}
+.page-template-linkio-manage-backlink .footer-box input.wpcf7-submit {
+    background-color: transparent;
+    color: transparent;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/button-input.jpg");
+    background-size: 100%;
+    width: 37px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.page-template-linkio-manage-backlink .footer-bottom {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #364855;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.page-template-linkio-manage-backlink .footer-bottom p {
+    margin: 0;
+    color: #898EA2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+.page-template-linkio-manage-backlink .site-footer {
+    display: none;
+}
+.page-template-linkio-manage-backlink .site-header-main {
+    width: 1100px;
+    margin: 0 auto;
+}
+.page-template-linkio-manage-backlink .foot-2.footer-box li:first-child a {
+    display: none;
+}
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     
+                                                                     Link 500 CSS
+                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+.page-template-helloworld .main-navigation .current_page_item a {
+    color: #005689 !important;
+}
+.page-template-helloworld .main-navigation a {
+    color: #005689 !important;
+}
+
+.page-template-helloworld #menu-item-5602 a {
+    font-weight: bold !important;
+}
+.page-template-helloworld .menu-main-menu-container ul li:last-child a {
+    border: 1px solid #005689;
+    width: 120px;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.page-template-helloworld .menu-main-menu-container ul ul li:last-child a {
+    border: none;
+    background-color: transparent !important;
+}
+.main-navigation .sub-menu li a:hover {
+    color: white !important;
+}
+.page-template-helloworld .menu-main-menu-container ul li:last-child a {
+ 
+}
+
+.page-template-helloworld .menu-main-menu-container ul li:last-child a:hover {
+    background-color: #005688 !important;
+    color: #fff !important;
+}
+/*.page-template-helloworld .site-header {*/
+/*    padding: 23px 60px;*/
+/*    background: none;*/
+/*}*/
+.page-template-helloworld .site-header-main {
+    width: 1140px;
+    margin: 0 auto;
+}
+.page-template-helloworld .custom-logo {
+    max-width: 160px;
+}
+.page-template-helloworld h2 {
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    font-family: 'Futura Std Condensed Light';
+    color: #808a90;
+    line-height: 55px;
+}
+.page-template-helloworld h2 strong {
+    font-weight: 600;
+    color: #005689;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.page-template-helloworld h3 {
+    text-align: center;
+    font-size: 29px !important;
+    font-weight: normal;
+    font-family: 'Futura Std Light';
+    color: #005689;
+    line-height: 40px;
+}
+.page-template-helloworld .header1 {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/bg-common.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top 30px center;
+    padding-top: 45px;
+    float: left;
+    width: 100%;
+    padding-bottom: 44px;
+}
+.page-template-helloworld .tab-2 .left-tab {
+    background-color: #f8f8f8;
+    width: 78%;
+    float: left;
+    text-align: center;
+    padding: 0px 25px;
+    position: relative;
+}
+.page-template-helloworld .tab-2 .right-tab {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/right-bg.jpg");
+    background-repeat: no-repeat;
+    width: 22%;
+    float: right;
+    padding: 0px 25px;
+}
+.page-template-helloworld .tab-2 .right-tab h3 {
+    color: #fff;
+    font-weight: 900;
+    margin-top: 50px !important;
+    margin-bottom: 80px !important;
+}
+.page-template-helloworld .tab-2 .right-tab .testimonials {
+    background-color: white;
+    border-radius: 10px !important;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page-template-helloworld .tab-2 {
+    float: left;
+    width: 100%;
+    background-color: #f8f8f8;
+}
+.page-template-helloworld .link-lists{
+    
+}
+.page-template-helloworld .tab-2 .left-tab h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 36px !important;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 47px !important;
+    margin-bottom: 6px !important;
+}
+.page-template-helloworld .tab-2 .left-tab p {
+    color: #808a90;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: left;
+}
+.page-template-helloworld .left-tab .link-lists {
+   
+    background-color: white;
+    border-radius: 10px;
+    float: left;
+    width: 938px;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 60px;
+    -webkit-box-shadow: 0px 0px 20px -4px rgba(227,227,227,1);
+    -moz-box-shadow: 0px 0px 20px -4px rgba(227,227,227,1);
+    box-shadow: 0px 0px 20px -4px rgba(227,227,227,1);
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+    padding: 10px;
+    border-bottom: 2px solid #fbfbfb;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box{
+    float: left;
+    width:20.5%;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box p {
+    color: black;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px !important;
+    font-weight: 600;
+    margin: 0;
+    text-align: center;
+}
+.page-template-helloworld .row {
+    width: 1275px;
+    margin: 0 auto;
+}
+.link-lists-500 {
+    float: left;
+    width: 100%;
+    margin: 0;
+    overflow-y: scroll;
+    height: 543px;
+}
+.link-lists-500 li {
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    padding: 20px 10px;
+    border-bottom: 2px solid #efefef;
+}
+.link-lists-500 li .list-box{
+    float: left;
+    width:20.5%;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box1{
+    width: 10%;
+}
+.link-lists-500 li .list-box1 {
+    width: 10%;
+    color: #1abc9c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.link-lists-500 li .list-box2{
+    
+}
+.link-lists-500 li .list-box3 {
+    line-height: 26px;
+    color: #7c7c7c;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.link-lists-500 li .list-box4{
+    line-height: 26px;
+    color: #7c7c7c;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.link-lists-500 li .list-box5{
+    line-height: 26px;
+}
+.link-lists-500 li .list-box5 a{
+    color:#005689;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+ 
+.link-lists-500::-webkit-scrollbar-track {
+   /* -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+}
+ 
+.link-lists-500::-webkit-scrollbar-thumb {
+  background-color: #fff;
+  outline: 1px solid #fff;
+}
+.link-lists-500::-webkit-scrollbar {
+    width: 10px;
+    background-color: #1abc9c;
+    height:70px;
+}
+
+
+.page-template-helloworld .site-footer {
+    display: none;
+}
+.page-template-helloworld .site-footer-two {
+    display: block;
+    background-color: #203442;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 42px !important;
+}
+.page-template-helloworld .site-footer-two .footer-two {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.page-template-helloworld .footer-box {
+    float: left;
+    width: 25%;
+}
+.page-template-helloworld .footer-bottom {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #364855;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.page-template-helloworld .foot-1.footer-box a {
+    width: 160px;
+    float: left;
+}
+.page-template-helloworld .footer-box h5 {
+    color: #A5A8BB;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.page-template-helloworld .foot-2.footer-box ul {
+    margin: 0;
+}
+.page-template-helloworld .foot-2.footer-box ul li {
+    list-style-type: none;
+}
+.page-template-helloworld .foot-3.footer-box ul li {
+    list-style-type: none;
+}
+.page-template-helloworld .foot-3.footer-box ul li a {
+    color: transparent;
+}
+.page-template-helloworld .foot-2.footer-box ul li a {
+    color: #7F829A;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.page-template-helloworld .foot-3.footer-box ul li .facebook {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/facebook_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.page-template-helloworld .foot-3.footer-box ul li .youtube {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/youtube_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.page-template-helloworld .footer-box .wpcf7-form p {
+    margin: 0;
+}
+.page-template-helloworld .footer-box input {
+    border-radius: 4px !important;
+    box-shadow: 0 2px 1px 0 #0000;
+    height: 48px;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    background-color: white;
+}
+.page-template-helloworld .footer-box input.wpcf7-submit {
+    background-color: transparent;
+    color: transparent;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/button-input.jpg");
+    background-size: 100%;
+    width: 37px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.page-template-helloworld .footer-bottom p {
+    margin: 0;
+    color: #898EA2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+.page-template-helloworld .tab-3 {
+    float: left;
+    width: 100%;
+    padding: 80px 0px;
+}
+.page-template-helloworld .tab-3-left {
+    width: 50%;
+    float: left;
+    padding-right: 120px;
+    border-right: 1px solid #b9bec1;
+    padding-left: 66px;
+}
+.page-template-helloworld .tab-3-right {
+    width: 50%;
+    float: right;
+    padding-left: 160px;
+}
+.page-template-helloworld .tab-3 h2 {
+    text-align: left;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #a7aeb2;
+    margin-bottom: 50px;
+}
+.page-template-helloworld .tab-3 h2 strong{
+    
+}
+.page-template-helloworld .tab-3 p {
+    font-family: 'Futura Std Condensed Light';
+    color: #838383;
+    letter-spacing: 1px;
+    font-size: 23px;
+}
+.page-template-helloworld .button-1-l {
+    background-color: #005689;
+    color: #fff;
+    width: 327px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 69px;
+    border-radius: 5px;
+    margin-top: 26px;
+    margin-bottom: 40px;
+}
+.page-template-helloworld .button-1-l:hover {
+    background-color: #1ABC9C;
+}
+.page-template-helloworld .button-2-l {
+    background-color: #1abc9c;
+    color: white;
+    width: 327px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 5px;
+    margin-top: 141px;
+    margin-bottom: 40px;
+}
+.page-template-helloworld .button-2-l:hover {
+    background-color: #005689;
+}
+.page-template-helloworld .tab-2 .right-tab .featured-content-image.square img {
+    border-radius: 50px;
+}
+.page-template-helloworld .tab-2 .right-tab .featured_short_content h3 {
+    color: #005689;
+    font-size: 22px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    margin-top: 15px !important;
+    margin-bottom: 0 !important;
+}
+.page-template-helloworld .tab-2 .right-tab .featured_short_content h5 {
+    color: #818181;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    margin-bottom: 15px;
+    line-height: 15px;
+}
+.page-template-helloworld .tab-2 .right-tab .featured_short_content h4 {
+    color: #818181;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.page-template-helloworld .tab-2 .right-tab .featured_short_content h4 strong {
+    color: #005689;
+    font-weight: 600;
+}
+.page-template-helloworld .tab-2 .right-tab .sub-content {
+    color: #636363;
+    font-size: 18px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 27px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+.page-template-helloworld .tab-2 .right-tab .slick-dots {
+    display: none !important;
+}
+.page-template-helloworld .tab-2 .right-tab .featured-content-slider .slick-prev {
+    left: 15px !important;
+    bottom: 30px !important;
+    top: unset !important;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/previous.png") !important;
+    width: 34px !important;
+    height: 34px !important;
+    background-size: 100% !important;
+}
+.page-template-helloworld .tab-2 .right-tab .featured-content-slider .slick-next {
+    right: 15px !important;
+    bottom: 30px !important;
+    top: unset !important;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/next.png") !important;
+    width: 34px !important;
+    height: 34px !important;
+    background-size: 100% !important;
+}
+.page-template-helloworld .tab-2 .right-tab .featured-content-slider .slick-prev:hover {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/previous-hover.png") !important;
+    width: 34px !important;
+    height: 34px !important;
+    background-size: 100% !important;
+}
+.page-template-helloworld .tab-2 .right-tab .featured-content-slider .slick-next:hover {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/next-hover.png") !important;
+    width: 34px !important;
+    height: 34px !important;
+    background-size: 100% !important;
+}
+.page-template-helloworld  .social-icons {
+    position: absolute;
+    right: 30px;
+    top: 53px;
+}
+.page-template-helloworld .tab-2 .right-tab .featured_short_content h6 {
+    color: #1e3d53;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: normal;
+    margin-bottom: 5px;
+}
+.page-template-helloworld .tab-2 .right-tab .featured_short_content img {
+    width: 100%;
+    margin: 0 auto;
+        margin-bottom: 0px;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/testimonial-border.png");
+    padding: 0px 63px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 208px;
+    margin-bottom: 25px;
+}
+.page-template-helloworld .tab-2 .right-tab .button-2-l {
+    background-color: #1abc9c;
+    color: white;
+    width: 230px;
+    float: left;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.page-template-helloworld .footer-box .wpcf7-form {
+    position: relative;
+}
+.page-template-helloworld .foot-3.footer-box ul {
+    margin: 0;
+}
+.page-template-linkio-home .main-navigation .current_page_item a {
+    color: #005689 !important;
+}
+.page-template-helloworld .menu-main-menu-container ul li:last-child a:hover {
+    background-color: #005688 !important;
+}
+.page-template-helloworld .menu-main-menu-container ul ul li:last-child a:hover {
+    background-color: transparent !important;
+}
+.page-template-helloworld .link-lists-500 li .list-box2 {
+    width: 15%;
+}
+
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box2 {
+    width: 15%;
+}
+
+.page-template-helloworld .link-lists-500 li .list-box2{
+    width: 15%;
+}
+
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box4 {
+    width: 14%;
+}
+.page-template-helloworld .link-lists-500 li .list-box4{
+    width: 14%;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box3 {
+    width: 30.5%;
+}
+.page-template-helloworld .link-lists-500 li .list-box3 {
+    width: 30.5%;
+    position: relative;
+    right: -20px;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box5 {
+    width: 30.5%;
+}
+.page-template-helloworld .link-lists-500 li .list-box5{
+    width: 30.5%;
+}
+
+.header1 img {
+    width: 300px;
+}
+
+.page-template-helloworld .main-navigation a:hover, .page-template-helloworld .main-navigation a:focus {
+    background-color: transparent !important;
+    color: #005689 !important;
+}
+
+
+
+
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     
+                                                                     Seo Conference CSS
+                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+
+.page-template-seo-conference .main-navigation a:hover, .page-template-seo-conference .main-navigation a:focus {
+    background-color: transparent !important;
+    color: #005689 !important;
+}
+
+.page-template-seo-conference .main-navigation a {
+    color: #005689 !important;
+}
+.page-template-helloworld #menu-item-5602 a {
+    font-weight: bold !important;
+}
+.page-template-seo-conference .menu-main-menu-container ul li:last-child a {
+    border: none;
+    width: 120px;
+    border-radius: 5px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.page-template-seo-conference .menu-main-menu-container ul li:last-child a:hover {
+   
+}
+.page-template-seo-conference .menu-main-menu-container ul ul li:last-child a:hover {
+    background-color: transparent !important;
+}
+.page-template-seo-conference .menu-main-menu-container ul li:last-child a {
+    
+}
+.page-template-seo-conference .menu-main-menu-container ul ul li:last-child a {
+    border: none;
+}
+.page-template-seo-conference .main-navigation ul ul li a:hover {
+    color: white !important;
+}
+.page-template-seo-conference .site-header {
+    background: none;
+}
+.page-template-seo-conference .tab-01 {
+    /*background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/37c6ed4d-517d-417c-bf74-9839149b9894.png");*/
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/header-bg1.jpg");
+    color: #484d50;
+    text-align: center;
+    padding-top: 35px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    float: left;
+    width: 100%;
+    padding-bottom: 170px;
+}
+.page-template-seo-conference .tab-01 h4 {
+    display: inline-block;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/logo-inner-page.png");
+    line-height: 43px;
+    background-repeat: no-repeat;
+    padding-left: 180px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 33px;
+    color: #fff;
+}
+.page-template-seo-conference .tab-01 h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 53px;
+    text-transform: uppercase;
+    /*color: #00314E;*/
+    color: #fff;
+}
+.page-template-seo-conference .tab-01 .left {
+    float: left;
+    width: 40%;
+    text-align: left;
+    border-right: none;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    padding-top: 30px;
+    border-right: 1px solid #938581;
+}
+.page-template-seo-conference .tab-01 .right {
+    float: right;
+    width: 48%;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    /*background-color: #1e3d53e6;*/
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.page-template-seo-conference .tab-01 .left h3 {
+    color: #1abc9c;
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+    font-size: 40px !important;
+}
+
+.page-template-seo-conference .tab-01 .left h5 {
+    font-size: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    color:#fff;
+}
+.page-template-seo-conference .tab-01 .left p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px !important;
+    padding-right: 30px;
+    font-weight: 500;
+    line-height: 25px;
+    color: #fff !important;
+}
+.page-template-seo-conference .tab-01 .right h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: 40px !important;
+    margin-top: 0px !important;
+    margin-bottom: 20px !important;
+}
+
+.page-template-seo-conference .tab-01 .right p:first-child {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 17px !important;
+    font-weight: 300;
+    margin-bottom: 0;
+    color: #fff;
+}
+.page-template-seo-conference .tab-01 .right p {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px !important;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #fff !important;
+}
+.page-template-seo-conference .tab-02-inner {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/speaker-bg.png");
+    width: 1280px;
+    margin: 0 auto;
+    
+    padding-top: 135px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-repeat: no-repeat;
+    left: 0;
+    right: 0;
+}
+.page-template-seo-conference .tab-02-inner p {
+    font-family: 'Futura Std Light';
+    font-size: 25px;
+    color: #808a90;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.page-template-seo-conference .tab-02-inner p strong{
+    font-size: 18px;
+    color: #005689;
+    font-weight: bold;
+}
+
+.page-template-seo-conference .tab-02-inner h2 {
+    color: #808a90;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 400;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/title-bg.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 59px;
+}
+
+.page-template-seo-conference .tab-02-inner .left {
+    float: left;
+    width: 40%;
+    padding-right: 85px;
+}
+/*.page-template-seo-conference .tab-02-inner .left p {*/
+/*    color: #005689;*/
+/*    font-family: 'Futura Std Condensed Light';*/
+/*    font-size: 36px;*/
+/*    text-align: left;*/
+/*    text-transform: uppercase;*/
+/*}*/
+.page-template-seo-conference .tab-02-inner .left p {
+    color: #005689 !important;
+    font-family: 'Futura Std Condensed Light';
+    font-size: 35px !important;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 45px !important;
+    font-weight: normal;
+}
+.page-template-seo-conference .tab-02-inner .right {
+    float: right;
+    width: 60%;
+    padding-left: 80px;
+}
+.page-template-seo-conference .tab-02-inner .right p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #808a90;
+    font-weight: 400;
+    text-align: left;
+}
+.page-template-seo-conference .tab-02-inner p img {
+    margin-bottom: 60px;
+}
+.page-template-seo-conference .tab-02 {
+    float: left;
+    width: 100%;
+    margin-top: -250px;
+}
+.page-template-seo-conference .tab-03 {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/tab03-bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-size: 100%;
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #D8E5ED;
+    padding-bottom: 98px;
+}
+.page-template-seo-conference .tab-03 .free-ticket {
+    width: 680px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 10px 0px #e3e3e3;
+    -moz-box-shadow: 0px 0px 10px 0px #e3e3e3;
+    box-shadow: 0px 0px 10px 0px #e3e3e3;
+}
+.page-template-seo-conference .tab-03 .free-ticket h5 {
+    color: #005689;
+    font-size: 17px;
+    font-family: 'Futura Std Light';
+}
+.page-template-seo-conference .tab-03 .free-ticket h2 {
+    color: #1abc9c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 37px;
+    margin-bottom: 30px;
+}
+.page-template-seo-conference .tab-03 .free-ticket p {
+    color: #808a90;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.page-template-seo-conference .tab-03 .free-ticket p:last-child {
+    color: #808a90;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+.page-template-seo-conference .tab-03 .wpcf7-form {
+    position: relative;
+}
+.page-template-seo-conference .tab-03 ._button-wrapper ._submit{
+    background-color: #005689;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 25px;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/button-errow.png);
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    padding-left: 60px;
+}
+.page-template-seo-conference .tab-03 .wpcf7-form-control.wpcf7-email {
+    border: 2px solid #e8e8e8;
+    border-radius: 3px !important;
+    color: #9ca3a8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.page-template-seo-conference .tab-03 .left {
+    float: left;
+    width: 495px;
+    padding: 40px;
+        padding-left: 40px;
+    background-color: white;
+    border-radius: 10px;
+    padding-left: 140px;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/right_03.png");
+    background-repeat: no-repeat;
+    background-position: 41px 41px;
+    margin-top: 100px;
+}
+.page-template-seo-conference .tab-03 .right {
+    float: right;
+    width: 495px;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-left: 140px;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/wrong_05.png");
+    background-repeat: no-repeat;
+    background-position: 41px 41px;
+    margin-top: 100px;
+}
+.page-template-seo-conference .tab-03 .right h3 {
+    margin-top: 0px !important;
+    color: #005689;
+    font-size: 42px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px !important;
+    line-height: 42px;
+}
+.page-template-seo-conference .tab-03 .left h3 {
+    margin-top: 0px !important;
+    color: #005689;
+    font-size: 42px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 600;
+    margin-bottom: 25px !important;
+    line-height: 42px;
+}
+.page-template-seo-conference .tab-03 .right p {
+    color: #858585;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 0;
+}
+.page-template-seo-conference .tab-03 .left p {
+    color: #858585;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 0;
+}
+.page-template-seo-conference .tab-04 {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/tab-4bg1.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100%;
+    background-color: #213443;
+    padding-top: 200px;
+    color: white;
+    float: left;
+    width: 100%;
+    padding-bottom: 60px;
+}
+.page-template-seo-conference .tab-04 h2 {
+    color: white !important;
+    font-family: 'Futura Std Condensed Light';
+    font-size: 53px !important;
+    text-align: center;
+    margin-bottom: 90px;
+}
+.page-template-seo-conference .tab-04-left {
+    float: left;
+    width: 50%;
+}
+.page-template-seo-conference .tab-04-right {
+    float: right;
+    width: 50%;
+}
+.page-template-seo-conference .list-number {
+    float: left;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    margin-right: 30px;
+    background-color: #1abc9c;
+    font-family: 'Futura Std Condensed Light';
+    font-size: 75px;
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.page-template-seo-conference .left-list {
+    list-style-type: none;
+    float: left;
+    margin-bottom: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.page-template-seo-conference .right-list {
+    list-style-type: none;
+    float: left;
+    margin-bottom: 28px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+.page-template-seo-conference .right-list .list-content p {
+    font-size: 20px !important;
+    margin-bottom: 0;
+    color: #fff !important;
+}
+.page-template-seo-conference .tab-05 .featured-content-image.square img {
+    width: 110px !important;
+    top: 15px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0px 2px 5px 0px #424242;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(66,66,66);
+    box-shadow: 0px 2px 5px 0px #424242;
+}
+.page-template-seo-conference .tab-05 h2 {
+    font-family: 'Futura Std Light';
+    font-size: 60px;
+    color: #a7adb1;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 70px;
+}
+.page-template-seo-conference .speakers-ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+}
+.page-template-seo-conference .speaker-list {
+    width: 33.33%;
+    float: left;
+    text-align: center;
+    list-style-type: none;
+    padding: 0px 15px;
+    margin-bottom: 50px;
+    min-height: 450px;
+}
+.page-template-seo-conference .speaker-image img {
+    width: 230px;
+    border-radius: 50%;
+}
+.page-template-seo-conference p {
+    margin: 0;
+}
+.page-template-seo-conference p.title {
+    color: #1ABC9C;
+}
+.page-template-seo-conference .speaker-list p {
+    font-size: 15px;
+    line-height: 17px;
+}
+.page-template-seo-conference h3.speaker-title {
+    display: block !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #000;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-top: 40px !important;
+    margin-bottom: 5px !important;
+}
+.page-template-seo-conference .featured-content-image.square {
+    height: 170px ;
+}
+.page-template-seo-conference .left-list .list-content p {
+    font-size: 20px !important;
+    color: #fff !important;
+}
+.page-template-seo-conference .tab-05 {
+    float: left;
+    width: 100%;
+    padding-top: 65px;
+}
+.page-template-seo-conference .tab-06 {
+    float: left;
+    width: 100%;
+    margin-top: 150px;
+}
+.page-template-seo-conference .tab-06 h2 {
+    color: #808a90;
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Futura Std Light';
+    line-height: 61px;
+    margin-bottom: 50px;
+}
+.page-template-seo-conference .tab-06 h2 strong {
+    color: #1abc9c;
+}
+.page-template-seo-conference .tab-06 p {
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #808a90;
+    font-size: 18px;
+}
+.page-template-seo-conference .tab-06 p strong {
+    color: #005689;
+}
+.page-template-seo-conference .tab-06 .bottom-05{
+}
+.page-template-seo-conference .tab-07 {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/footer-bootom-bg1.jpg");
+    background-position: top center;
+    background-size: 100%;
+    background-color: #213443;
+    padding-top: 80px;
+    margin-top: 0px;
+}
+.page-template-seo-conference .tab-07 .free-ticket {
+    box-shadow: 0px 0px 10px 0px #0003;
+    position: relative;
+    top: -30px;
+}
+.page-template-seo-conference .site-footer {
+    display: none;
+}
+.page-template-seo-conference .site-footer-two {
+    display: block;
+    background-color: #203442;
+    margin-bottom: 0;
+    color: white;
+    padding-top: 42px !important;
+    border-top: 0;
+}
+.page-template-seo-conference .site-footer-two .footer-two {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.page-template-seo-conference .footer-box {
+    float: left;
+    width: 25%;
+}
+.page-template-seo-conference .footer-box h5 {
+    color: #A5A8BB;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.page-template-seo-conference .foot-2.footer-box ul li a {
+    color: #7F829A;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.page-template-seo-conference .foot-3.footer-box ul {
+    margin: 0;
+}
+.page-template-seo-conference .foot-2.footer-box ul {
+    margin: 0;
+}
+.page-template-seo-conference .foot-2.footer-box ul li {
+    list-style-type: none;
+}
+.page-template-seo-conference .foot-2.footer-box ul li a {
+    color: #7F829A;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.page-template-seo-conference .foot-3.footer-box ul li {
+    list-style-type: none;
+}
+.page-template-seo-conference .foot-3.footer-box ul li .facebook {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/facebook_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.page-template-seo-conference .foot-3.footer-box ul li .youtube {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/youtube_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.page-template-seo-conference .foot-3.footer-box ul li a {
+    color: transparent;
+}
+.page-template-seo-conference .footer-box .wpcf7-form {
+    position: relative;
+}
+.page-template-seo-conference .footer-box input {
+    border-radius: 4px !important;
+    box-shadow: 0 2px 1px 0 #0000;
+    height: 48px;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    background-color: white;
+}
+.page-template-seo-conference .footer-box input.wpcf7-submit {
+    background-color: transparent;
+    color: transparent;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/button-input.jpg");
+    background-size: 100%;
+    width: 37px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.page-template-seo-conference .foot-1.footer-box a {
+    width: 160px;
+    float: left;
+}
+.page-template-seo-conference .footer-bottom {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #364855;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.page-template-seo-conference .footer-bottom p {
+    margin: 0;
+    color: #898EA2;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+}
+.page-template-seo-conference .footer-box .wpcf7-form p {
+    margin: 0;
+}
+
+
+.page-template-seo-conference ._form_22 {
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+.page-template-seo-conference ._form-content input {
+    border: 2px solid #e8e8e8;
+    border-radius: 3px !important;
+    color: #9ca3a8;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.page-template-seo-conference ._button-wrapper {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.page-template-seo-conference ._button-wrapper ._submit{
+    background-color: #1abc9c;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2017/12/button-errow.png);
+    background-repeat: no-repeat;
+    background-position: 13px center;
+    padding: 10px;
+    padding-left: 60px;
+    letter-spacing: 0;
+    line-height: 25px;
+}
+.page-template-seo-conference ._form-branding {
+    display: none;
+}
+.top-contain a {
+    color: #08314C;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-top: 20px;
+    display: inline-block;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                     
+                                                                     Responsive CSS
+                                                            
+---------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width : 1200px) {
+
+.page-template-linkio-manage-backlink .section-1 h2 {
+    font-size: 54px;
+}
+.page-template-linkio-manage-backlink .section-1 h3 {
+    font-size: 48px !important;
+}
+.page-template-linkio-manage-backlink .section-1 .left-title {
+    margin-top: 102px;
+    padding-left: 50px;
+    height: auto;
+} 
+.page-template-linkio-manage-backlink .content-1-2 {
+    width: 34.3%;
+    padding-left: 20px;
+}
+.page-template-linkio-manage-backlink .section-3-logo {
+    width: 30%;
+}
+.page-template-linkio-manage-backlink .section-4 .left-tab .left-tab-float-right {
+    width: 100%;
+    padding: 60px;
+}
+.page-template-linkio-manage-backlink .section-4 .right-tab .Right-tab-float-left {
+    width: 100%;
+    padding: 60px 15px;
+}
+.page-template-linkio-manage-backlink .section-2 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.page-template-linkio-manage-backlink .section-1 {
+    background-position: top center;
+    height: auto;
+}
+.page-template-linkio-manage-backlink .site-header-main {
+    width: 100%;
+}
+.page-template-linkio-manage-backlink .section-1 .left-title {
+    width: 100%;
+}
+.page-template-linkio-home .testimonials .featured-content-slider{
+    width: 100%;
+    margin: 0;
+} 
+.page-template-linkio-home .testimonials .slick-next.slick-arrow {
+    display: none !important;
+}
+.page-template-linkio-home .testimonials .slick-prev.slick-arrow {
+    display: none !important;
+}
+.page-template-linkio-home .site-header-main {
+    margin: 0 auto;
+    width: 100%;
+}
+.page-template-linkio-home .row {
+    width: 100%;
+}
+.page-template-linkio-home .header-section h2 {
+    text-align: center;
+    font-size: 45px;
+}
+.page-template-linkio-home .tab-2 {
+    padding-left: 20px;
+    padding-right: 20px;
+	background-size: 555px;
+}
+.page-template-linkio-home .tab-1 h2 {
+    font-size: 38px;
+    line-height: 50px;
+}
+.page-template-linkio-home .tab-1 {
+    padding-top: 75px;
+    padding-bottom: 110px;
+}
+.page-template-linkio-home .tab-3 {
+   padding-bottom: 75px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.page-template-linkio-home .tab-3 .right-tab {
+    padding-left: 20px;
+}
+
+.page-template-helloworld .site-header-main {
+    width: 100%;
+}
+.page-template-helloworld .row {
+    width: 100%;
+}
+.slick-track {
+    width: auto;
+}
+.page-template-helloworld .tab-2 .right-tab .button-2-l {
+    width: 100%;
+    font-size: 15px;
+}
+.page-template-helloworld .left-tab .link-lists {
+    width: 100%;
+}
+.page-template-helloworld .tab-2 .right-tab h3 {
+    margin-bottom: 25px !important;
+    font-size: 22px !important;
+}
+.page-template-helloworld .tab-2 .right-tab {
+    padding: 0px 12px;
+}
+.page-template-helloworld .tab-2 .right-tab .button-2-l {
+    margin-bottom: 17px;
+}
+.page-template-helloworld .tab-3-right {
+    padding-left: 65px;
+}
+.page-template-helloworld .tab-3-left {
+    padding-right: 55px;
+}
+.page-template-helloworld .header1 img {
+    width: 380px;
+}
+.page-template-seo-conference .tab-02-inner {
+    width: 100%;
+}
+.row {
+    width: 100%;
+    margin: 0 auto;
+}
+.page-template-seo-conference .tab-01 .left p {
+    padding-right: 70px;
+}
+.page-template-seo-conference .tab-01 .left {
+    width: 50%;
+    padding-left: 60px;
+}
+.page-template-seo-conference .tab-01 .right {
+    float: left;
+    width: 50%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+.page-template-seo-conference .tab-02-inner {
+    background-size: 100%;
+}
+.page-template-seo-conference .tab-02-inner p {
+    font-size: 24px;
+}
+.page-template-seo-conference .tab-03 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.page-template-seo-conference .tab-03 .right {
+    width: 48%;
+    margin-left: 25px;
+}
+.page-template-seo-conference .tab-03 .left {
+    width: 49%;
+}
+.page-template-seo-conference .tab-02-inner .left {
+    padding-right: 0px;
+}
+
+
+
+}
+
+ @media only screen and (max-width : 992px) {
+.page-template-linkio-manage-backlink .section-1 .left-title {
+    margin-top: 40px;
+    padding-left: 30px;
+}  
+.page-template-linkio-manage-backlink .section-1 h2 {
+    font-size: 50px;
+}
+.page-template-linkio-manage-backlink .section-1 h3 {
+    font-size: 38px !important;
+    line-height: 20px;
+}
+.page-template-linkio-manage-backlink .section-2 h4 {
+    font-size: 23px;
+    line-height: 30px;
+    
+}
+.page-template-linkio-manage-backlink .timeline-figure h5 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.page-template-linkio-manage-backlink .image-overlay h4 {
+    padding-top: 16px;
+    font-size: 17px;
+    line-height: 16px;
+    font-weight: 600;
+}
+.page-template-linkio-manage-backlink .content-5 .image-overlay h4 {
+    padding-top: 27px;
+    line-height: 20px;
+}
+.page-template-linkio-manage-backlink .section-4 h4 {
+    width: auto;
+}
+.page-template-linkio-manage-backlink .section-5 {
+    padding: 60px 15px;
+}
+.page-template-linkio-manage-backlink .section-3 h3 {
+    margin-top: 0 !important;
+    font-size: 40px !important;
+    line-height: 40px;
+}
+.page-template-linkio-manage-backlink .section5-content h3 {
+    font-size: 44px !important;
+    line-height: 44px;
+}
+.page-template-linkio-manage-backlink .section-4 .left-tab .left-tab-float-right {
+    padding: 60px 15px;
+}
+.page-template-linkio-manage-backlink .image-overlay {
+    margin-bottom: 20px;
+}
+.page-template-linkio-manage-backlink .timeline-figure {
+    padding: 0px 10px;
+}
+.page-template-linkio-manage-backlink .section-1 h4 {
+     font-size: 38px !important;
+}
+.header-bottom p {
+    font-size: 23px;
+}
+.page-template-linkio-home .tab-1 h2 {
+    font-size: 30px;
+    line-height: 35px;
+}
+.page-template-linkio-home .tab-1 h2 {
+    font-size: 26px;
+    line-height: 33px;
+}
+.page-template-linkio-home .tab-2 {
+    background-size: 400px;
+}
+.page-template-linkio-home .tab-1 p {
+    font-size: 17px;
+}
+.page-template-linkio-home .tab-6 h2 {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.page-template-linkio-home .tab-8 h2 {
+    font-size: 28px;
+}
+.foot-4 div.wpcf7 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.page-template-helloworld .tab-2 .left-tab {
+    width: 100%;
+}
+.page-template-helloworld .tab-2 .right-tab {
+    width: 100%;
+    background-color: #005689;
+    background-image: none;
+    text-align: center;
+}
+.page-template-helloworld .tab-2 .right-tab h3 {
+    font-size: 33px !important;
+}
+.page-template-helloworld .button-1-l {
+    width: 300px;
+    font-size: 22px;
+}
+.page-template-helloworld .button-2-l {
+    width: 300px;
+    font-size: 22px;
+}
+.page-template-helloworld .tab-3-left {
+    padding: 0px 30px;
+}
+.page-template-helloworld .tab-3-right {
+    padding: 0px 30px;
+}
+.page-template-helloworld .tab-3 h2 {
+    margin-bottom: 30px;
+    font-size: 43px;
+}
+.page-template-helloworld .tab-2 .right-tab .testimonials {
+    width: 60%;
+    margin: 0 auto;
+}
+.page-template-helloworld .tab-2 .right-tab .button-2-l {
+    width: 200px;
+    font-size: 15px;
+    display: inline-block;
+    float: none;
+}
+.page-template-helloworld .tab-2 .right-tab .featured_short_content img {
+    width: 210px;
+}
+.page-template-seo-conference .tab-01 .left {
+    padding-left: 20px;
+}
+.page-template-seo-conference .tab-01 .right {
+    padding-left: 30px;
+    padding-right: 20px;
+}
+.page-template-seo-conference .tab-01 .right h3 {
+    font-size: 36px !important;
+}
+.page-template-seo-conference .tab-01 .left h3 {
+    font-size: 36px !important;
+}
+.page-template-seo-conference .tab-01 .right .wpcf7 {
+    padding: 0 !important;
+}
+.page-template-seo-conference .tab-02-inner {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.page-template-seo-conference .tab-02-inner p {
+    font-size: 20px;
+}
+.page-template-seo-conference .tab-02-inner p strong {
+    font-size: 20px;
+}
+.page-template-seo-conference .tab-02-inner .left {
+    padding-right: 0;
+}
+.page-template-seo-conference .tab-02-inner .right {
+    width: 55%;
+    padding-left: 30px;
+}
+.page-template-seo-conference .tab-02-inner .left {
+    width: 45%;
+    padding-right: 0;
+}
+.page-template-seo-conference .tab-03 .left {
+    width: 50%;
+    padding: 15px;
+    background-position: 13px 32px;
+    background-size: 54px;
+    padding-left: 83px;
+    min-height: 244px;
+}
+.page-template-seo-conference .tab-03 .left h3 {
+    font-size: 35px !important;
+    margin-bottom: 10px !important;
+    line-height: 35px;
+}
+.page-template-seo-conference .tab-03 .right {
+    width: 48%;
+    margin-left: 13px;
+    padding: 15px;
+    background-position: 13px 32px;
+    background-size: 54px;
+    padding-left: 83px;
+}
+.page-template-seo-conference .tab-03 .right h3 {
+    font-size: 35px !important;
+    margin-bottom: 10px !important;
+    line-height: 35px;
+}
+.page-template-seo-conference .list-number {
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    font-size: 50px;
+    margin-right: 20px;
+}
+.page-template-seo-conference .left-list .list-content p {
+    font-size: 17px;
+}
+.page-template-seo-conference .right-list .list-content p {
+    font-size: 17px;
+}
+.page-template-seo-conference .tab-06 h2 {
+    color: #808a90;
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Futura Std Light';
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+.page-template-seo-conference .speaker-image img {
+    width: 200px;
+}
+.page-template-seo-conference .tab-03 {
+    padding-bottom: 34px;
+}
+.page-template-seo-conference .tab-06 p {
+    font-size: 17px;
+}
+.page-template-seo-conference .main-navigation .primary-menu {
+    border-bottom: none;
+    margin-top: 20px;
+}
+.page-template-seo-conference .menu-main-menu-container ul ul li:last-child a {
+    padding: 8px 20px;
+}
+.page-template-seo-conference .menu-main-menu-container ul li:last-child a {
+    border: none;
+    width: auto;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: normal !important;
+    padding-top: 10px;
+}
+.page-template-seo-conference .menu-main-menu-container ul ul li:last-child a:hover {
+    background-color: transparent !important;
+    color: #fff !important;
+}
+.page-template-seo-conference .menu-main-menu-container ul li:last-child a:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #005689 !important;
+     border: none;
+}
+.page-template-seo-conference .main-navigation a {
+    font-size: 17px !important;
+    line-height: 20px !important;
+}
+.page-template-linkio-home .main-navigation a {
+    font-size: 17px !important;
+    line-height: 20px !important;
+}
+.page-template-helloworld .main-navigation a {
+    font-size: 17px !important;
+    line-height: 20px !important;
+}
+.page-template-linkio-home .main-navigation .primary-menu {
+    border-bottom: none;
+    margin-top: 20px;
+}
+.main-navigation ul ul {
+    border: none !important;
+}
+.sub-menu li {
+    background-color: #9b9b9be6 !important;
+}
+.main-navigation .sub-menu li a {
+    border-bottom: 1px solid white;
+}
+.page-template-helloworld .main-navigation .primary-menu {
+    border-bottom: none;
+    margin-top: 20px;
+}
+.page-template-linkio-manage-backlink .main-navigation .primary-menu {
+    border-bottom: none;
+    margin-top: 20px;
+}
+.page-template-linkio-manage-backlink #menu-item-5603 a {
+    border: none;
+    width: auto;
+    text-align: left;
+    padding-left: 10px;
+    font-weight: bold !important;
+    padding-top: 10px;
+    background-color: transparent;color: #1ABC9C !important;
+}
+.page-template-linkio-manage-backlink #menu-item-5603 a:hover {
+    background-color: transparent !important;
+    box-shadow: none !important;
+    color: #1ABC9C !important;
+     border: none;
+}
+.page-template-linkio-manage-backlink .main-navigation a {
+    font-size: 17px !important;
+    line-height: 20px !important;
+}
+}
+
+@media only screen and (max-width : 767px) {
+.page-template-linkio-home .header-section h2 {
+    font-size: 34px !important;
+    line-height: 36px;
+}
+
+.page-template-linkio-home .bottom-button .blue-button {
+    height: 42px;
+    width: 200px;
+    line-height: 43px;
+}
+.page-template-linkio-home .bottom-button .blue-button {
+    line-height: 46px;
+    height: auto;
+    white-space: normal;
+}
+.bottom-button a {
+font-size: 14px;    
+}
+.page-template-linkio-home .tab-1 h2 {
+    font-size: 30px;
+    line-height: 33px;
+}
+.page-template-linkio-home .header-section { 
+    padding-bottom: 125px;
+}
+.page-template-linkio-home .header-bottom p {
+    font-size: 22px;
+}
+.page-template-linkio-home .tab-1 .right-tab {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-template-linkio-home .tab-1 .left-tab {
+    width: 100%;
+    float: left;
+    padding-bottom: 25px;
+}
+.page-template-linkio-home .tab-1 {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.page-template-linkio-home .tab-2 {
+    background-size: 100%;
+    background-position: center top;
+}
+.page-template-linkio-home .tab-1.tab-2 {
+    padding-top: 300px;
+}
+.page-template-linkio-home .tab-1.tab-2.tab-4 {
+    padding-top: 70px;
+}
+.page-template-linkio-home .tab-4 .right-tab img {
+    margin-top: 0px;
+}
+.page-template-linkio-home .testimonials {
+    padding-top: 70px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-template-linkio-home .tab-1.tab-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-template-linkio-home .tab-6 .f-width {
+    width: 100%;
+}
+.page-template-linkio-home .tab-6 h2 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.page-template-linkio-home .tab-6 a {
+    height: 44px;
+    width: 199px;
+    line-height: 40px;
+}
+.page-template-linkio-home .tab-7 ul li {
+    width: 100%;
+    padding-bottom: 50px;
+}
+.page-template-linkio-home .tab-8 a {
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    font-size: 15px;
+}
+.page-template-linkio-home .tab-1.tab-8 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.page-template-linkio-home .tab-8 h2 {
+    font-size: 25px;
+    padding-bottom: 0px;
+}
+.page-template-linkio-home .footer-box {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.page-template-helloworld .header1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.page-template-helloworld .header1 img {
+    width: 320px;
+}
+.page-template-helloworld h2 {
+    font-size: 46px;
+}
+.page-template-helloworld h3 {
+    font-size: 25px !important;
+}
+.page-template-helloworld .button-1-l {
+    width: auto;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 30px;
+}
+.page-template-helloworld .button-2-l {
+    width: auto;
+    font-size: 15px;
+    padding: 10px;
+    line-height: 30px;
+}
+.page-template-helloworld  .footer-box {
+    width: 100%;
+    padding-bottom: 20px;
+}
+.page-template-helloworld .tab-2 .left-tab {
+    padding: 0px 10px;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box p {
+    font-size: 14px !important;
+}
+
+.link-lists-500 li .list-box img {
+    width: 60px;
+}
+.link-lists-500 li .list-box3 {
+    font-size: 15px;
+}
+.link-lists-500 li .list-box4 {
+    font-size: 15px;
+}
+
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box {
+    width: 20%;
+}
+
+.link-lists-500 li .list-box {
+    width: 23%;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box1 {
+    width: 7%;
+}
+.link-lists-500 li .list-box1 {
+    width: 7%;
+    font-size: 30px;
+}
+.link-lists-500 li .list-box2 {
+    width: 20%;
+}
+.link-lists-500 li .list-box3 {
+    width: 20%;
+}
+.link-lists-500 li .list-box4 {
+    width: 20%;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box5 {
+    width: 33%;
+}
+.link-lists-500 li .list-box5 {
+    width: 33%;
+}
+.page-template-seo-conference .tab-01 .left {
+    width: 100%;
+    border-right: none;
+    margin-bottom: 0px;
+}
+.page-template-seo-conference .tab-01 .right {
+    width: 100%;
+    padding: 20px !important;
+        padding-top: 20px;
+    border-top: 1px solid #5a5a5d;
+    margin: 0;
+    padding-top: 35px !important;
+}
+.page-template-seo-conference .tab-01 {
+    background-size: cover;
+}
+.page-template-seo-conference .tab-01 h1 {
+    font-size: 36px;
+}
+.page-template-seo-conference .tab-02 {
+    margin-top: -150px;
+}
+.page-template-seo-conference .tab-02-inner {
+    padding-top: 65px;
+}
+.page-template-seo-conference .tab-02-inner h2 {
+    font-size: 50px;
+}
+.page-template-seo-conference .tab-02-inner .left {
+    width: 100%;
+}
+.page-template-seo-conference .tab-02-inner .right {
+    width: 100%;
+    padding-left: 0px;
+}
+.page-template-seo-conference .tab-02-inner .left p {
+    margin-bottom: 30px;
+}
+.page-template-seo-conference .tab-02-inner .right p {
+    margin-bottom: 0px;
+}
+.page-template-seo-conference .tab-03 .free-ticket {
+    width: 100%;
+}
+.page-template-seo-conference .tab-03 .wpcf7-submit {
+    padding-left: 50px;
+    font-size: 14px;
+    background-size: 23px;
+}
+.page-template-seo-conference .tab-03 .free-ticket .wpcf7{
+    padding: 0;
+}
+.page-template-seo-conference .tab-03 .left {
+    width: 100%;
+    margin-top: 30px;
+}
+.page-template-seo-conference .tab-03 .right {
+    width: 100%;
+    margin-left: 0;
+    margin-top: 30px;
+}
+.page-template-seo-conference .tab-04 {
+    padding-top: 100px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.page-template-seo-conference .tab-04 h2 {
+    font-size: 46px;
+    margin-bottom: 65px;
+}
+.page-template-seo-conference .tab-04-left {
+    width: 100%;
+}
+.page-template-seo-conference .tab-04-right {
+    width: 100%;
+}
+.page-template-seo-conference .tab-06 h2 {
+    font-size: 29px;
+}
+.page-template-seo-conference .tab-06 {
+    margin-top: 50px;
+    padding: 15px;
+}
+.page-template-seo-conference .tab-03 {
+    padding-bottom: 40px;
+    padding-top: 20px;
+}
+.page-template-seo-conference .footer-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+.page-template-seo-conference .speaker-list {
+    width: 50%;
+}
+.page-template-linkio-manage-backlink .section-1 h2 {
+    font-size: 34px;
+    line-height: 40px;
+}
+.page-template-linkio-manage-backlink .section-1 h3 {
+    font-size: 22px !important;
+}
+.page-template-linkio-manage-backlink .section-1 h4 {
+    font-size: 24px !important;
+    line-height: 30px;
+}
+.page-template-linkio-manage-backlink .section-1 .left-title {
+    margin-top: 25px;
+    padding-left: 25px;
+    margin-bottom: 58px;
+}
+.page-template-linkio-manage-backlink .section-2 {
+    padding: 60px 15px;
+}
+.page-template-linkio-manage-backlink .timeline-figure {
+    width: 300px !important;
+    margin: 0 auto !important;
+        margin-bottom: 0px;
+    margin-bottom: 30px;
+    padding: 30px !important;
+    border-radius: 10px;
+    float: none !important;
+    border: 1px solid #1ABC9C;
+    margin-bottom: 30px !important;
+}
+
+.page-template-linkio-manage-backlink .section-3-logo img {
+    max-width: 80%;
+}
+.page-template-linkio-manage-backlink .section-3-logo {
+    width: 24%;
+}
+.page-template-linkio-manage-backlink .content-1-2 {
+    width: 37%;
+    padding-left: 10px;
+}
+.page-template-linkio-manage-backlink .content-4-5 {
+    width: 37%;
+}
+.page-template-linkio-manage-backlink .image-overlay h4 {
+    padding-top: 19px;
+    font-size: 17px;
+    line-height: 17px;
+    font-weight: 400;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.page-template-linkio-manage-backlink .section-4 .left-tab .left-tab-float-right {
+    padding: 20px;
+}
+.page-template-linkio-manage-backlink .section-4 .right-tab .Right-tab-float-left {
+    padding: 20px;
+}
+.page-template-linkio-manage-backlink .section-4 h4 {
+    font-size: 27px;
+    line-height: 32px;
+}
+.page-template-linkio-manage-backlink .section5-content h3 {
+    font-size: 33px !important;
+    line-height: 40px;
+}
+
+.page-template-linkio-manage-backlink .footer-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
+@media only screen and (max-width : 479px) {
+.page-template-linkio-home .site-header {
+    padding: 20px 20px;
+    background: none;
+}
+.bottom-button .green-button {
+    height: auto;
+    width: 140px;
+    line-height: 20px;
+    margin-left: 3px;
+    padding: 4px;
+}
+.page-template-linkio-home .bottom-button .blue-button a{
+    line-height: 20px;
+    height: auto;
+    white-space: normal;
+    width: 140px;
+    padding: 4px;
+}
+.page-template-linkio-home .header-bottom p {
+    font-size: 19px;
+}
+.page-template-linkio-home .tab-1 h2 {
+    font-size: 20px;
+    line-height: 24px;
+}
+.page-template-linkio-home .tab-1 {
+    padding-top: 69px;
+    padding-bottom: 50px;
+}
+.page-template-linkio-home .tab-1.tab-2 {
+    padding-top: 220px;
+}
+.page-template-linkio-home .tab-1 .right-tab {
+    width: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.page-template-linkio-home .tab-1.tab-3 .right-tab{
+  padding-left: 0px;
+    padding-right: 0px;   
+    }
+.page-template-linkio-home .tab-1.tab-5 {
+    padding-top: 69px;
+    padding-bottom: 27px;
+}
+.page-template-linkio-home .tab-1.tab-6 h2 {
+    font-size: 18px;
+    line-height: 24px;
+}
+.page-template-linkio-home .tab-7 h2 {
+    margin-bottom: 50px;
+    font-size: 26px !important;
+    line-height: 31px !important;
+}
+.page-template-linkio-home .tab-1.tab-8 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.page-template-linkio-home .tab-1.tab-8 h2 {
+    font-size: 24px;
+}
+.page-template-helloworld .site-header {
+    padding: 20px 20px;
+    background: none;
+}
+.page-template-helloworld h2 {
+    font-size: 33px;
+    line-height: 37px;
+}
+.page-template-helloworld h3 {
+    font-size: 16px !important;
+    line-height: 28px;
+}
+.page-template-helloworld .tab-2 .left-tab h3 {
+    font-size: 33px !important;
+}
+.page-template-helloworld .social-icons {
+    right: 10px;
+    top: 10px;
+}
+
+.page-template-helloworld .tab-2 .right-tab .testimonials {
+    width: 90%;
+}
+.page-template-helloworld .tab-3-left {
+    padding: 0px 30px;
+    width: 100%;
+    border: none;
+}
+.page-template-helloworld .tab-3-right {
+    padding: 0px 30px;
+        padding-top: 0px;
+    width: 100%;
+    border-top: 1px solid #b9bec1;
+    padding-top: 30px;
+}
+.page-template-helloworld .button-2-l {
+
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+.page-template-helloworld .header1 img {
+    width: 220px;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top {
+    float: left;
+    width: 45%;
+    padding: 0;
+    background-color: #f2f2f280;
+    border-right: 1px solid #e1e0e0;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box {
+    width: 100%;
+    line-height: 45px;
+    border-bottom: 1px solid #e1e0e0;
+}
+
+.link-lists-500 li .list-box {
+    width: 100% !important;
+    line-height: 45px;
+    border-bottom: 1px solid #e1e0e0;
+}
+.link-lists-500 {
+    width: 55%;
+    margin: 0;
+    overflow: auto;
+    height: 225px;
+}
+.link-lists-500 li {
+    padding: 0px;
+}
+.link-lists-500 li .list-box1 {
+    line-height: 45px;
+}
+.page-template-helloworld .left-tab .link-lists .link-lists-li-top .list-box5 {
+    border-bottom: none;
+}
+.page-template-seo-conference .tab-01 h1 {
+    font-size: 34px;
+    line-height: 34px;
+}
+.page-template-seo-conference .tab-01 .left {
+    margin-top: 0px;
+}
+.page-template-seo-conference .tab-01 .left {
+    padding-left: 10px;
+}
+.page-template-seo-conference .tab-01 .left p {
+    padding-right: 10px;
+}
+.page-template-seo-conference .tab-01 .right {
+    padding: 10px !important;
+    padding-top: 35px !important;
+}
+.page-template-seo-conference .tab-03 .wpcf7-submit {
+    padding-left: 50px;
+    font-size: 14px;
+    background-size: 23px;
+}
+.page-template-seo-conference .tab-02-inner {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+.page-template-seo-conference .tab-01 {
+    background-size: cover;
+}
+.page-template-seo-conference .tab-02-inner h2 {
+    font-size: 38px;
+    margin-top: 50px;
+}
+.page-template-seo-conference .tab-02-inner p {
+    margin-bottom: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page-template-seo-conference .tab-02-inner .left {
+    padding-left: 10px;
+}
+.page-template-seo-conference .tab-02-inner .left p {
+    font-size: 26px;
+}
+.page-template-seo-conference .tab-02-inner .right {
+    padding-left: 10px;
+}
+.page-template-seo-conference .tab-03 {
+    margin-top: 60px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 40px;
+}
+.page-template-seo-conference .tab-03 .free-ticket {
+    padding: 15px;
+}
+.page-template-seo-conference .tab-03 .free-ticket h5 {
+    font-size: 12px;
+}
+.page-template-seo-conference .tab-03 .free-ticket h2 {
+    font-size: 29px;
+    margin-bottom: 15px;
+}
+.page-template-seo-conference .tab-03 .free-ticket p {
+    font-size: 15px;
+}
+.page-template-seo-conference .tab-03 .wpcf7-form {
+    position: unset;
+}
+.page-template-seo-conference ._button-wrapper {
+    position: unset;
+}
+.page-template-seo-conference ._form_22 {
+    position: unset;
+}
+.page-template-seo-conference .tab-03 ._button-wrapper ._submit {
+    width: 141px;
+    margin: 0 auto;
+        margin-top: 0px;
+    display: block;
+    margin-top: 10px;
+}
+.page-template-seo-conference ._button-wrapper ._submit {
+    margin-top: 10px;
+}
+.page-template-seo-conference .tab-03 .wpcf7-submit {
+    position: unset;
+    width: 118px;
+    display: block;
+    margin: 0 auto;
+        margin-top: 0px;
+    margin-top: 10px;
+}
+.page-template-seo-conference .tab-03 .left {
+    background-position: 13px 22px;
+    background-size: 39px;
+    padding-left: 65px;
+    min-height: auto;
+}
+.page-template-seo-conference .tab-03 .left h3 {
+    font-size: 29px !important;
+    line-height: 29px;
+}
+.page-template-seo-conference .tab-03 .left p {
+    line-height: 25px;
+}
+.page-template-seo-conference .tab-03 .right {
+    background-position: 13px 22px;
+    background-size: 39px;
+    padding-left: 65px;
+    min-height: auto;
+}
+.page-template-seo-conference .tab-03 .right h3 {
+    font-size: 29px !important;
+    line-height: 29px;
+}
+.page-template-seo-conference .tab-03 .right p {
+    line-height: 25px;
+}
+.page-template-seo-conference .tab-04 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page-template-seo-conference .tab-04 h2 {
+    font-size: 31px;
+}
+.page-template-seo-conference .left-list .list-content p {
+    font-size: 15px;
+}
+.page-template-seo-conference .tab-05 {
+    padding-top: 60px;
+}
+.page-template-seo-conference .tab-05 h2 {
+    font-size: 48px;
+}
+.page-template-seo-conference h3.speaker-title {
+    margin-top: 5px !important;
+    font-size: 15px !important;
+}
+.page-template-seo-conference .tab-05 h2 {
+    margin-bottom: 40px;
+}
+.page-template-seo-conference .tab-06 h2 {
+    font-size: 33px;
+    line-height: 37px;
+}
+.page-template-seo-conference .tab-06 {
+    margin-top: 30px;
+    padding: 15px;
+}
+.page-template-seo-conference .tab-06 p br{
+    display:none;   
+}
+.page-template-seo-conference .tab-07 .free-ticket {
+    top: -100px;
+}
+.page-template-seo-conference .tab-03 {
+   
+}
+.page-template-seo-conference .tab-01 h4 {
+    padding-left: 120px;
+    background-size: 98px;
+    background-position: left center;
+}
+.page-template-seo-conference .speaker-list {
+    width: 100%;
+    min-height: auto;
+}
+.page-template-linkio-manage-backlink .section-1 h2 {
+    font-size: 23px;
+    line-height: 25px;
+}
+.page-template-linkio-manage-backlink .section-1 h3 {
+    font-size: 15px !important;
+}
+.page-template-linkio-manage-backlink .section-1 h4 {
+    font-size: 23px !important;
+    line-height: 25px;
+}
+.page-template-linkio-manage-backlink .section-1 .left-title {
+    margin-top: 20px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+}
+.page-template-linkio-manage-backlink .section-2 {
+    padding: 50px 10px;
+}
+.page-template-linkio-manage-backlink .section-2 h4 {
+    font-size: 20px;
+    line-height: 25px;
+}
+.page-template-linkio-manage-backlink .section-3 .header-title-section-3 {
+    width: 100%;
+}
+.page-template-linkio-manage-backlink .section-3 h3 {
+    font-size: 25px !important;
+    line-height: 25px;
+}
+.page-template-linkio-manage-backlink .content-1-2 {
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.page-template-linkio-manage-backlink .section-3-logo {
+    width: 24%;
+    display: none;
+}
+.page-template-linkio-manage-backlink .content-4-5 {
+    width: 100%;
+    padding: 0px 10px;
+}
+.page-template-linkio-manage-backlink .content-5 {
+    width: 100%;
+    padding: 0px 10px;
+}
+.page-template-linkio-manage-backlink .image-overlay h4 {
+    padding-top: 25px;
+}
+.page-template-linkio-manage-backlink .section-4 .left-tab {
+    width: 100%;
+}
+.page-template-linkio-manage-backlink .section-4 .right-tab {
+    width: 100%;
+}
+.page-template-linkio-manage-backlink .section-4 h4 {
+    padding-top: 20px;
+}
+.page-template-linkio-manage-backlink .section-5 {
+    padding: 30px 15px;
+}
+.page-template-linkio-manage-backlink .section-1 {
+    background-position: top center;
+    height: 115px;
+}
+}
+/*--------------------------------------------------------------------Code For Footer----------------------------------------------------*/
+.site-footer-two {
+    display: block !important;
+    background-color: #203442;
+    margin-bottom: 0px !important;
+    color: white;
+    padding-top: 42px !important;
+}
+.site-footer-two .footer-two {
+    display: block;
+    float: left;
+    width: 100%;
+}
+.footer-box {
+    float: left;
+    width: 25%;
+}
+.foot-1.footer-box a {
+    width: 160px;
+    float: left;
+}
+.footer-box h5 {
+    color: #A5A8BB;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+}
+.foot-2.footer-box ul li {
+    list-style-type: none;
+}
+.foot-2.footer-box ul {
+    margin: 0;
+}
+.foot-2.footer-box ul li a {
+    color: #7F829A;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 30px;
+}
+.foot-3.footer-box ul {
+    margin: 0;
+}
+.foot-3.footer-box ul li {
+    list-style-type: none;
+}
+.foot-3.footer-box ul li .facebook {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/facebook_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.foot-3.footer-box ul li a {
+    color: transparent;
+}
+.foot-3.footer-box ul li .twitter {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/12/twitter.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-right: 10px;
+}
+.foot-3.footer-box ul li .youtube {
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/youtube_03.jpg");
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.site-footer-two .footer-box .wpcf7-form {
+    position: relative;
+}
+.site-footer-two .footer-box input {
+    border-radius: 4px !important;
+    box-shadow: 0 2px 1px 0 #0000;
+    height: 48px;
+    padding: 15px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 100;
+    background-color: white;
+}
+.site-footer-two .footer-box input.wpcf7-submit {
+    background-color: transparent;
+    color: transparent;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2017/11/button-input.jpg");
+    background-size: 100%;
+    width: 37px;
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+}
+.site-footer-two .footer-bottom {
+    float: left;
+    width: 100%;
+    border-top: 1px solid #364855;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+.site-footer-two .footer-bottom p {
+    margin: 0;
+    color: #898EA2 !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px !important;
+}
+.footer-box .wpcf7-form p {
+    margin: 0px !important;
+}
+.page-template-pricing-temp .inner-head {
+    position: relative;
+}
+.header-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    height: 105px;
+    vertical-align: middle;
+    margin: auto;
+    bottom: 0;
+}
+.header-inner h2 {
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 48px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.header-inner p {
+    color: #fff;
+    font-family: 'Futura Std Light';
+    font-size: 23px;
+    font-weight: normal;
+    margin-bottom: 0;
+}
+.tabs-section .nav.nav-tabs li {
+    text-align: center;
+    float: none;
+    display: inline-block;
+    width: 140px;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    position: relative;
+}
+.tabs-section .nav.nav-tabs li:hover:before, .tabs-section .nav.nav-tabs li:focus:before, .tabs-section .nav.nav-tabs li:active:before {
+    -webkit-animation-name: hvr-icon-up;
+    animation-name: hvr-icon-up;
+    -webkit-animation-duration: 0.75s;
+    animation-duration: 0.75s;
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+.tabs-section .nav.nav-tabs li.active a {
+    border: 1px solid transparent;
+    color: #000;
+    background-color: transparent;
+}
+.tabs-section .nav.nav-tabs li a:hover {
+    border-color: transparent;
+    background-color: transparent;
+}
+.tabs-section {
+    float: left;
+    width: 100%;
+    padding: 75px 0px;
+        padding-top: 75px;
+    padding-top: 75px;
+    background-color: #f8f8f8;
+}
+.tabs-section .nav.nav-tabs {
+    border: none;
+    position: relative;
+    margin: 25px 0px; 
+    text-align: center;
+    display: none;
+}
+.tabs-section .nav.nav-tabs::before {
+    content: "";
+    text-align: center;
+    border: none;
+    border: 3px solid #eceaea;
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+    text-align: center;
+    height: 34px;
+    width: 480px;
+    position: absolute;
+    top: -36px;
+    left: 0;
+    right: 0;
+}
+.tabs-section .nav.nav-tabs li a {
+    font-family: 'Calibri';
+    font-size: 18px;
+    color: #cfcfcf;
+}
+.tabs-section .nav.nav-tabs li a::before{
+    content: "";
+    height: 17px;
+    width: 17px;
+    background-color: #cfcfcf;
+    float: none;
+    border-radius: 25px;
+    top: -28px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.tabs-section .nav.nav-tabs li.active a::before {
+    content: "";
+    height: 17px;
+    width: 17px;
+    background-color: #1abc9c;
+    float: none;
+    border-radius: 25px;
+    top: -28px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.tabs-section .nav.nav-tabs li.active::before {
+    content: "";
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/02/tab-icon-1.jpg");
+    width: 28px;
+    height: 50px;
+    position: absolute;
+    top: -88px;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+.tab-content .right {
+    padding-top: 90px;
+}
+.tab-content .right h3 {
+    margin-top: 0 !important;
+    margin-bottom: 17px !important;
+    color: #3d3939;
+    font-size: 38px !important;
+    font-family: 'Calibri';
+}
+.tab-content .right ul li {
+    color: #676767;
+    font-family: 'Calibri';
+    font-size: 20px;
+    font-weight: 100;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/02/list-icon.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+    list-style-type: none;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+.tab-content .right ul {
+    margin: 0;
+}
+.tab-content .left{
+    
+}
+.faqs {
+    float: left;
+    width: 100%;
+    padding: 60px 0px;
+}
+.faqs h2 {
+    color: #3d3939;
+    font-size: 32px;
+    font-family: 'Calibri';
+    text-align: center;
+    margin-bottom: 35px;
+}
+.main-con {
+    overflow: hidden;
+    height: 115px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    padding: 19px 40px;
+}
+
+
+.main-con::before {
+    content: "";
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/02/faq-icon.png");
+    width: 28px;
+    height: 28px;
+    left: 0;
+    position: absolute;
+
+}
+.indus-content p {
+    color: #3d3939;
+    font-size: 18px;
+    font-family: 'Calibri';
+    line-height: 28px;
+}
+.hvr-sweep-to-bottom.btn.btn-primary.red-btn.readmore {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/02/button-bg.jpg");
+    background-repeat: no-repeat;
+    width: 40px;
+    position: absolute;
+    bottom: 0;
+    right: 25px;
+    box-shadow: none;
+}
+.hvr-sweep-to-bottom.btn.btn-primary.red-btn.readmore.readmore-close {
+    background-color: transparent;
+    border: none;
+    color: transparent;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/02/button-bg.jpg");
+    background-repeat: no-repeat;
+    width: 40px;
+    position: absolute;
+    bottom: 19px;
+    right: 10px;
+    -webkit-transform: rotate(-90deg);
+    transform: rotate(-90deg);
+    box-shadow: none;
+}
+.about-con.indus-box {
+    margin-bottom: 30px;
+}
+.orignal-price {
+    float: left;
+    width: 87%;
+    border: 1px solid #dfdfdf;
+        border-bottom-width: 1px;
+        border-bottom-style: solid;
+        border-bottom-color: rgb(223, 223, 223);
+    background-color: #f8f8f8;
+    border-radius: 6px 6px 0px 0px;
+    padding: 20px;
+        padding-bottom: 20px;
+    padding-bottom: 20px;
+    padding-bottom: 15px;
+    margin: 0px 30px;
+    border-bottom: 0;
+}
+.orignal-price h2 {
+    color: #cacaca;
+    font-size: 38px;
+    font-weight: bold;
+    font-family: 'Calibri';
+    margin: 0;
+    line-height: 30px;
+}
+.orignal-price h2 strong {
+    font-size: 25px;
+    top: -15px;
+    position: relative;
+}
+.orignal-price p {
+    color: #cacaca;
+    font-size: 23px;
+    font-weight: bold;
+    font-family: 'Calibri';
+    margin: 0;
+    line-height: 25px;
+}
+.orignal-price .left {
+    float: left;
+    width: 50%;
+    text-align: center;
+    border-right: 1px solid #dfdfdf;
+    padding-right: 30px;
+    position: relative;
+}
+.orignal-price .right {
+    float: left;
+    width: 50%;
+    padding-top: 0;
+    text-align: center;
+    padding-left: 29px;
+    position: relative;
+}
+.discount-circle {
+    position: absolute;
+    background-color: #1dd0ac;
+    width: 130px;
+    height: 130px;
+    border-radius: 80px;
+    text-align: center;
+    color: #fff;
+    left: 10px;
+    right: 0;
+    margin: 0 auto;
+    top: 57px;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/02/pricing-Recovered.png");
+    background-repeat: no-repeat;
+    background-position: bottom 12px center;
+    padding-top: 18px;
+    z-index: 99;
+}
+.discount-circle h3 {
+    margin: 0px !important;
+    font-size: 18px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Calibri';
+}
+.discount-circle h4 {
+    margin: 0px !important;
+    font-size: 21px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Calibri';
+    line-height: 17px;
+}
+.discount-circle h5 {
+    margin: 0px !important;
+    font-size: 25px !important;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'Calibri';
+    line-height: 25px;
+}
+.sale-price {
+    float: left;
+    width: 100%;
+    border: 1px solid #c2c2c2;
+    background-color: #fff;
+    padding-bottom: 10px;
+    border-radius: 6px;
+    padding-top: 70px;
+    position: relative;
+    box-shadow: 20px 20px #f5f5f5;
+}
+.sale-price h2 {
+    color: #1dd0ac;
+    font-size: 96px;
+    margin: 0;
+    font-family: 'Calibri';
+    font-weight: bold;
+}
+.sale-price h2 strong {
+    font-size: 40px;
+    position: relative;
+    top: -43px;
+}
+.sale-price p em {
+    color: #7b8583;
+    font-size: 18px;
+    position: relative;
+    left: 30px;
+}
+.sale-price p {
+    margin: 0;
+    color: #5b6563;
+    font-size: 26px;
+    font-weight: bold;
+    font-family: 'Calibri';
+    line-height: 20px;
+    padding-bottom: 25px;
+}
+.sale-price .left{
+    float:left;
+    width:50%;
+    text-align: center;
+     border-right: 1px solid #dfdfdf;
+}
+.sale-price .right {
+    float: left;
+    width: 50%;
+    padding-top: 33px;
+    text-align: center;
+}
+.button-section {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 36px;
+}
+.sale-price .right h2 {
+    font-size: 66px;
+    color: #686868;
+    font-weight: normal;
+}
+.button-section input.pay-button{
+    background-color: #1dd0ac;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 28px;
+    font-weight: bold;
+    padding: 10px;
+    width: 440px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 6px;
+    text-align: center;
+}
+.button-section a{
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.discount-inner {
+    width: 470px;
+    float: left;
+    margin-left: 30px;
+}
+.percent-offer {
+    float: left;
+    width: 100%;
+    position: absolute;
+    bottom: 225px;
+}
+.percent-offer .left {
+    width: 63px;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/03/offer-bg-left.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    height: 45px;
+    position: absolute;
+    left: -8px;
+    border: none;
+    color: #fff;
+    font-family: 'Calibri';
+    font-size: 28px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 14px;
+    padding-top: 3px;
+}
+.percent-offer .right {
+    width: 63px;
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/03/offer-bg.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    height: 45px;
+    position: absolute;
+    right: -8px;
+    border: none;
+    padding-top: 0;
+    color: #fff;
+    font-family: 'Calibri';
+    font-weight: bold;
+    font-size: 22px;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 4px;
+}
+.orignal-price .left::before {
+    content: "";
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/03/offer-slash.png");
+    width: 87px;
+    position: absolute;
+    height: 72px;
+    left: -44px;
+    right: 0;
+    margin: 0 auto;
+    top: -7px;
+}
+.orignal-price .right::before{
+    content:"";
+    background-image: url("https://www.linkio.com/wp-content/uploads/2018/03/offer-slash.png");
+    width: 87px;
+    position: absolute;
+    height: 72px;
+    left: 20px;
+    right: 0;
+    margin: 0 auto;
+    top: -7px;
+}
+.sale-price .timmer {
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    color: #bababa;
+    padding-bottom: 0;
+    padding-top: 10px;
+}
+#countup {
+    text-align: center;
+    width: 100%;
+    float: left;
+}
+#countup p {
+    display: inline-block;
+    padding: 0;
+    color: #bababa;
+    margin: 0 0 20px;
+        margin-bottom: 20px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+}
+.tabs-section .tab-content #menu1 h3{
+    text-align: center;
+}
+.tabs-section .tab-content  #menu2 h3{
+    text-align: center;
+}
+.tabs-section .tab-content  #menu3 h3{
+    text-align: center;
+}
+.paypal-logo {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.paypal-logo a {
+    display: inline-block;
+}
+.paypal-logo img {
+    width: 60%;
+}
+.checkbox-sub {
+    font-size: 12px;
+    margin-bottom: 0;
+}
+.checkbox-sub #termsChkbx {
+    height: auto;
+    margin-right: 4px;
+    position: relative;
+    top: 2px;
+
+}

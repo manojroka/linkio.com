@@ -1,0 +1,8 @@
+[21-Jul-2018 15:29:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'linkio07'@'localhost' (using password: NO) in /home/linkio07/public_html/wp-content/themes/outreachmama/seo-tools/phpminiadmin.php on line 564
+[21-Jul-2018 15:29:39 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'linkio07'@'localhost' (using password: NO) in /home/linkio07/public_html/wp-content/themes/outreachmama/seo-tools/phpminiadmin.php on line 564
+[21-Jul-2018 15:29:39 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/linkio07/public_html/wp-content/themes/outreachmama/seo-tools/phpminiadmin.php on line 607
+[21-Jul-2018 15:29:44 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'outreachadmin'@'localhost' (using password: YES) in /home/linkio07/public_html/wp-content/themes/outreachmama/seo-tools/phpminiadmin.php on line 564
+[26-Jan-2019 19:06:36 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_template_directory_uri() in /home/linkio07/public_html/wp-content/themes/outreachmama/seo-tools/index.php:86
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/themes/outreachmama/seo-tools/index.php on line 86

@@ -1,0 +1,89 @@
+/* Gotham Font Faces */
+@font-face {
+    font-family: 'GothamSSm-Book';
+		src: url('GothamSSm-Book.eot');
+        src: url('GothamSSm-Book.eot?#iefix') format('embedded-opentype'),
+             url('GothamSSm-Book.woff') format('woff'),
+             url('GothamSSm-Book.ttf') format('truetype');
+    
+	font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+	
+@font-face {
+    font-family: 'GothamSSm-Light';
+		src: url('GothamSSm-Light.eot');
+        src: url('GothamSSm-Light.eot?#iefix') format('embedded-opentype'),
+             url('GothamSSm-Light.woff') format('woff'),
+             url('GothamSSm-Light.ttf') format('truetype');
+    
+	font-weight: 300;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+0020-00FE;
+}
+
+
+@font-face {
+    font-family: 'GothamSSm-Medium';
+		src: url('GothamSSm-Medium.eot');
+        src: url('GothamSSm-Medium.eot?#iefix') format('embedded-opentype'),
+             url('GothamSSm-Medium.woff') format('woff'),
+             url('GothamSSm-Medium.ttf') format('truetype');
+    
+	font-weight: 500;
+    font-style: normal;
+    font-stretch: condensed;
+    unicode-range: U+002-00FE;
+}
+
+/* Futura Condensed Light */
+@font-face {
+  font-family: 'Futura-CondensedLight';
+  src: 	url('Futura-CondensedLight.eot?#iefix') format('embedded-opentype'),
+		url('Futura-CondensedLight.otf')  format('opentype'),
+	    url('Futura-CondensedLight.woff') format('woff'),
+		url('Futura-CondensedLight.ttf')  format('truetype'),
+		url('Futura-CondensedLight.svg#Futura-CondensedLight') format('svg');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Futura BT Fonts */
+@font-face {
+	font-family: 'FuturaBT-Light';
+	src: 	url('FuturaBT-Light.eot?#iefix') format('embedded-opentype'),
+			url('FuturaBT-Light.woff') format('woff'),
+			url('FuturaBT-Light.ttf')  format('truetype'),
+			url('FuturaBT-Light.svg#FuturaBT-Light') format('svg');
+	
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'FuturaBT-Book';
+	src: 	url('FuturaBT-Book.eot?#iefix') format('embedded-opentype'),
+			url('FuturaBT-Book.woff') format('woff'),
+			url('FuturaBT-Book.ttf')  format('truetype'),
+			url('FuturaBT-Book.svg#FuturaBT-Book') format('svg');
+
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Calibri */
+@font-face {
+	font-family: 'Calibri';
+	src: url('Calibri.eot');
+	src: url('Calibri.eot?#iefix') format('embedded-opentype'),
+		url('Calibri.woff2') format('woff2'),
+		url('Calibri.woff') format('woff'),
+		url('Calibri.ttf') format('truetype'),
+		url('Calibri.svg#Calibri') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Source Sans Pro */
