@@ -108,20 +108,18 @@ function _lcmf_item_form_hidden_fields($module_detail) {
 function _lcmf_item_form_heading($module_detail) {
     
     $heading_html = '<div>
-                        <div class="lcm_title_top_fix">
-                            <div>
-                                <h3>Add new '.$module_detail->template_name.' 
-                                    <span class="lcm-i-x"><i class="fa fa-times"></i></span> 
-                                </h3>
-                            </div>
+                        <div class="lcm-i-top-bar">
+                            <h3>Add new '.$module_detail->template_name.' 
+                                <span class="lcm-i-x"><i class="fa fa-times"></i></span> 
+                            </h3>
                         </div>
-                        <div class="lcm_title_top">
+                        <!--<div class="lcm_title_top">
                             <h4>Want to recommend a '.ucfirst($module_detail->module).' not on the list ?</h4>
                             <p>
                                 Make sure to fill in all the fields and be thorough and informational (not promotional!)<br>
                                 Your entry will be reviewed before going live.
                             </p>
-                        </div>
+                        </div>-->
                     </div>';
     echo $heading_html;
 }
