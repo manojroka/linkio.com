@@ -1,13 +1,25 @@
-<div class="">
-    <div class="">
+<div class="lcm_ContentPlugin">
+    <div class="lcm_container">
         <input type="hidden" id="lcm_home_url" value="<?= HOME_URL ?>">
         
         <div class="" id="lcm_list">
             <?php foreach ($data as $value) { ?>
                 <div>
-                    <div>
-                        <h2><?= $value->title ?></h2>
-                        <?php lcm_vote_update($value); ?>
+                    <div class="lcm_row lcm_border_around">
+                            <div class="lcm_col-md-7">
+
+                            </div>
+                            <div class="lcm_col-md-2">
+
+                            </div>
+                            <div class="lcm_col-md-1">
+                                <P>OR</p>
+                            </div>
+                            <div class="lcm_col-md-2">
+                                <div class="">
+                                    <?php include '_filter_form.php'; ?>
+                                </div>
+                            </div>
                     </div>
                     <div>
                         <div>
