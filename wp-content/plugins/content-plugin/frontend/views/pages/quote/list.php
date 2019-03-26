@@ -1,6 +1,11 @@
 <div class="">
     <div class="">
         <input type="hidden" id="lcm_home_url" value="<?= HOME_URL ?>">
+        
+        <div class="">
+            <?php include '_filter_form.php'; ?>
+        </div>
+        
         <div class="" id="lcm_list">
             <?php foreach ($data as $value) { ?>
                 <div>
@@ -29,7 +34,7 @@
                             <div>
                                 <div>
                                     <!--<i class="fas fa-pencil-alt"></i><h6>Quote:</h6>-->
-                                    <p><?php // echo $value->quote_description ?></p>
+                                    <p><?php echo $value->quote_description ?></p>
                                 </div>
                             </div>
 
@@ -38,8 +43,6 @@
                 </div>
             <?php } ?>
         </div>
-        <div class="">
-            <?php include '_filter_form.php'; ?>
-        </div>
+        
     </div>
 </div>
