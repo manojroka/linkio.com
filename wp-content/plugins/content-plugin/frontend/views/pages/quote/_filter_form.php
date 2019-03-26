@@ -1,21 +1,24 @@
-<div class="lcm_row lcm_border_around">
+<div class="lcm_row lcm_box_shadow lcm_padding_tb15">
 <?php if (isset($filter)) { ?>
-    <div class="lcm_col-md-7">
-        <input type="text" placeholder="Search">
+    <div class="lcm_row">
+        <div class="lcm_col-md-7">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="lcm_col-md-2">
+            <input type="button" placeholder="Search" value="search icon">
+        </div>
+        <div class="lcm_col-md-1">
+            <P>OR</p>
+        </div>
+
+        <div class="lcm_col-md-2" onclick="open_popup_form('quote')">
+            <input type="button" placeholder="Add New Item" value="Add New Item">
+        </div>
     </div>
-    <div class="lcm_col-md-2">
-        <input type="button" placeholder="Search" value="search icon">
-    </div>
-    <div class="lcm_col-md-1">
-        <P>OR</p>
-    </div>
-    
-    <div class="" onclick="open_popup_form('quote')">
-        <input type="button" placeholder="Add New Item" value="Add New Item">
-    </div>
-    
-    <div>
-        Sort By: Value
+    <div class="lcm_row">
+        <div class="lcm_clear_both lcm_padding_lr15">
+            Sort By: Value
+        </div>
     </div>
 <?php } ?>
 

@@ -1,12 +1,12 @@
 <div class="lcm_ContentPlugin">
-    <div class="lcm_container lcm_col-md-9 lcm_margin_auto">
+    <div class="lcm_container lcm_col-md-10 lcm_margin_auto">
         <input type="hidden" id="lcm_home_url" value="<?= HOME_URL ?>">
 
         <?php include '_filter_form.php'; ?>
 
-        <div class="lcm_list_all" id="lcm_list">
+        <div class="lcm_box_shadow lcm_padding30" id="lcm_list">
             <?php foreach ($data as $value) { ?>
-                <div>
+            <div class="lcm_border_bottom">
                     <div>
                         <div>
                             <i class="fas fa-external-link-alt"></i><h6>Company:</h6>
