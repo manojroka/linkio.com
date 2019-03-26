@@ -1,7 +1,21 @@
+<div class="lcm_row lcm_border_around">
+    <?php if(isset($filter)){ ?>
+        <div class="lcm_col-md-7">
+                </div>
+                <div class="lcm_col-md-2">
 
+                </div>
+                <div class="lcm_col-md-1">
+                    <P>OR</p>
+                </div>
+    <?php } ?>
+    <div class="lcm_col-md-2">
     <?php if(isset($submit_form)){ 
         lcmf_popup_form_open($module_detail); 
     ?>
+    </div>
+</div>
+
         <label>Title*</label>
         <input class="form-control limit_word" type="text" name="title" id="title" required>
         <label>Quote*</label>
