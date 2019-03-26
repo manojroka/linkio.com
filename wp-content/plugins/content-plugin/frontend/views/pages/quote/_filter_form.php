@@ -1,4 +1,4 @@
-<div id="lcm_filter">
+
     <?php if(isset($submit_form)){ 
         lcmf_popup_form_open($module_detail); 
     ?>
@@ -13,4 +13,4 @@
         <label>Company Website</label>
         <input class="form-control" type="url" name="company_website">
     <?php lcmf_popup_form_closed($module_detail); } ?>
-</div>
+

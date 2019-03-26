@@ -2,10 +2,6 @@
     <div class="">
         <input type="hidden" id="lcm_home_url" value="<?= HOME_URL ?>">
         
-        <div class="">
-            <?php include '_filter_form.php'; ?>
-        </div>
-        
         <div class="" id="lcm_list">
             <?php foreach ($data as $value) { ?>
                 <div>
@@ -42,6 +38,10 @@
                     </div>
                 </div>
             <?php } ?>
+        </div>
+        
+        <div class="">
+            <?php include '_filter_form.php'; ?>
         </div>
         
     </div>
