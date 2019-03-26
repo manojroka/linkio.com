@@ -17,7 +17,11 @@
     </div>
     <div class="lcm_row">
         <div class="lcm_clear_both lcm_padding_lr15">
-            Sort By: Value
+            Sort By: 
+            <select>
+                <option>value</option>
+                <option>value1</option>
+            </select>
         </div>
     </div>
 <?php } ?>
