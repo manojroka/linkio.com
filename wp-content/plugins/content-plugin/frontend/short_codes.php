@@ -1,11 +1,6 @@
 <?php 
 require_once LCM_PLUGIN_FRONT_DIR . '/controllers/frontend.php';
 require_once LCM_PLUGIN_FRONT_DIR . '/models/LCMF_model.php';
-    
-//error_reporting(E_ALL); ini_set('display_errors', 1); 
-require_once(ABSPATH . 'wp-admin/includes/template.php');
-//require_once ABSPATH . 'wp-admin/wp-includes/media.php';
-//die('dddd');
 
 function lcm_content_scode_function($atts) {
     ob_start();
@@ -45,7 +40,7 @@ function lcm_content_scode_function($atts) {
         }
     } else {
         return 'wrong short code formate.';
-    }
+    }                 
     $controllerName = 'LCMF' . ucfirst($module);
     $expectedController = LCM_PLUGIN_FRONT_DIR . '/controllers/' . $controllerName . '.php';
     if (file_exists($expectedController)) {

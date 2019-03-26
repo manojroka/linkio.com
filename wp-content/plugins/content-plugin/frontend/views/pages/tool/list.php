@@ -1,9 +1,9 @@
 <div class="lcm_plugin">
     <div class="lcm_tool_page">
         <input type="hidden" id="lcm_home_url" value="<?= HOME_URL ?>">
-        <div class="lcm_left_column">
-            <?php include '_filter_form.php'; ?>
-        </div>
+        
+        <?php include '_filter_form.php'; ?>
+        
         <div class="lcm_right_column" id="lcm_list">
             <?php foreach ($data as $value) { ?>
             <div class="list_lcm_right_background tool_lists" data-id="<?= $value->id ?>" data-tool_name="<?= $value->tool_name ?>" data-vote="<?= $value->vote_count ?>">

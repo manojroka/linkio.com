@@ -14,14 +14,15 @@ class LCMFHome extends LCMfrontend{
                 //------ get all template list ---------------
                 $list_templates = $this->lcmf_model->get_all_templates_by_id($module, $this->id, $this->limit, NULL);
                 if($list_templates['status'] == TRUE){
+                    if($this->filter != NULL){
+                        $this->data['filter'] = TRUE;
+                    }
+                    if($this->submit_form != NULL){
+                        $this->data['submit_form'] = TRUE;
+                    }
                     if($list_templates['num_rows'] > 0){
                         $data_list = $list_templates['result'];
-                        if($this->filter != NULL){
-                            $this->data['filter'] = TRUE;
-                        }
-                        if($this->submit_form != NULL){
-                            $this->data['submit_form'] = TRUE;
-                        }
+                        
                         if($module == 'tactic'){
                             $this->data['categories'] = $list_templates['categories'];
                         }

@@ -23,6 +23,8 @@ define( 'HOME_URL', get_home_url());
 /**
  * MAIN
  */
+//error_reporting(-1); ini_set('error_reporting', E_ALL); 
+
 require_once LCM_PLUGIN_DIR. '/system/control.php';
 require_once LCM_PLUGIN_DIR. '/settings.php';
 require_once LCM_PLUGIN_DIR. '/frontend/short_codes.php';
