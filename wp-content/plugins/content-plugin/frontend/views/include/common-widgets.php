@@ -87,8 +87,8 @@ function _lcmf_term_and_conditions_chkbox($module_detail) {
 }
 
 function _lcm_item_submit_btn() {
-    $submit_button_and_validation_error_html = '<div class="lcm-btn-submit-popup-item">
-                                                    <div class="lcm_js_item_submit_error"></div>
+    $submit_button_and_validation_error_html = '<div>
+                                                    <div class="lcm-i-submit-error"></div>
                                                     <div class="lcm_text_center">
                                                         <button type="submit" id="lcm_item_submit_btn">Submit</button>
                                                     </div>
@@ -111,7 +111,7 @@ function _lcmf_item_form_heading($module_detail) {
                         <div class="lcm_title_top_fix">
                             <div>
                                 <h3>Add new '.$module_detail->template_name.' 
-                                    <span class="lcm_popup_close"><i class="fa fa-times"></i></span> 
+                                    <span class="lcm-i-x"><i class="fa fa-times"></i></span> 
                                 </h3>
                             </div>
                         </div>
@@ -138,22 +138,18 @@ function _lcmf_name_email_company_input() {
 }
 
 function _lcmf_add_new_popup_btn($module) {
-    echo '<div>
-                <div class="lcm_filter_form">
-                    <div>
-                        <div class="add-btn">
-                            <button id="lcm_btn_add-new" type="button" class="lcm_btn-default lcm_btn" onclick="open_popup_form('.$module.')"><i class="fa fa-plus-circle"></i>Add New Item</button>
-                        </div>
-                    </div>
-                </div>
-            </div>';
+    echo '<div class="lcm-i-add-btn">
+            <button type="button" class="" onclick="open_popup_form('.$module.')">
+                <i class="fa fa-plus-circle"></i>Add New Item
+            </button>
+        </div>';
 }
 
 function lcmf_popup_form_open($module_detail) {
     _lcmf_add_new_popup_btn("'".$module_detail->module."'");
-    echo '<div class="lcm-item-popup-background">
-            <div class="lcm-item-popup-form-content lcm-item-popup" id="popup_form_'.$module_detail->module.'">
-                <form id="lcm_ajax_item_form" method="post" enctype="multipart/form-data">';
+    echo '<div class="lcm-i-popup">
+            <div class="lcm-i-form" id="popup_form_'.$module_detail->module.'">
+                <form id="lcm-i-ajax-data" method="post" enctype="multipart/form-data">';
     _lcmf_item_form_heading($module_detail);
     _lcmf_item_form_hidden_fields($module_detail);
 }
