@@ -1,4 +1,4 @@
-<div class="lcm_row lcm_box_shadow lcm_padding_tb15">
+<div class="lcm_row lcm_box_shadow lcm_padding15">
 <?php if (isset($filter)) { ?>
     <div class="lcm_row">
         <div class="lcm_col-md-7">
