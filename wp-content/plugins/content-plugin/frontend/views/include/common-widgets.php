@@ -146,7 +146,7 @@ function _lcmf_add_new_popup_btn($module) {
 }
 
 function lcmf_popup_form_open($module_detail) {
-    _lcmf_add_new_popup_btn("'".$module_detail->module."'");
+    // _lcmf_add_new_popup_btn("'".$module_detail->module."'");
     echo '<div class="lcm-i-popup">
             <div class="lcm-i-form" id="popup_form_'.$module_detail->module.'">
                 <form id="lcm-i-ajax-data" method="post" enctype="multipart/form-data">';

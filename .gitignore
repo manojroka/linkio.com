@@ -9,3 +9,7 @@ wp-config.php
 
 #upload file
 wp-content/uploads/*
+
+#wflogs file
+wp-content/wflogs/*
+

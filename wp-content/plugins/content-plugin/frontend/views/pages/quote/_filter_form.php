@@ -1,21 +1,26 @@
-<!--<div class="lcm_row lcm_border_around">-->
-    <?php if (isset($filter)) { ?>
-        <div class="lcm_col-md-7">
-        </div>
-        <div class="lcm_col-md-2">
-
-        </div>
-        <div class="lcm_col-md-1">
-            <P>OR</p>
-        </div>
-    <?php } ?>
+<div class="lcm_row lcm_border_around">
+<?php if (isset($filter)) { ?>
+    <div class="lcm_col-md-7">
+        <input type="text" placeholder="Search">
+    </div>
     <div class="lcm_col-md-2">
-        <?php
-        if (isset($submit_form)) {
-            lcmf_popup_form_open($module_detail);
-            ?>
-        </div>
-<!--    </div>-->
+        <input type="button" placeholder="Search" value="search icon">
+    </div>
+    <div class="lcm_col-md-1">
+        <P>OR</p>
+    </div>
+    
+    <div class="" onclick="open_popup_form('quote')">
+        <input type="button" placeholder="Add New Item" value="Add New Item">
+    </div>
+    
+    <div>
+        Sort By: Value
+    </div>
+<?php } ?>
+
+<?php
+if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
     <label>Title*</label>
     <input class="form-control limit_word" type="text" name="title" id="title" required>
     <label>Quote*</label>
@@ -27,6 +32,6 @@
     <label>Company Website</label>
     <input class="form-control" type="url" name="company_website">
     <?php lcmf_popup_form_closed($module_detail);
-}
-?>
+} ?>
 
+</div>
