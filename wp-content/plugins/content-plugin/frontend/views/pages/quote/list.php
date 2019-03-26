@@ -1,10 +1,10 @@
 <div class="lcm_ContentPlugin">
-    <div class="lcm_container">
+    <div class="lcm_container lcm_col-md-9 lcm_margin_auto">
         <input type="hidden" id="lcm_home_url" value="<?= HOME_URL ?>">
 
         <?php include '_filter_form.php'; ?>
 
-        <div class="" id="lcm_list">
+        <div class="lcm_list_all" id="lcm_list">
             <?php foreach ($data as $value) { ?>
                 <div>
                     <div>
