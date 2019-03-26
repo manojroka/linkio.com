@@ -9,30 +9,31 @@
             <div class="lcm_border_bottom">
                     <div>
                         <div>
-                            <i class="fas fa-external-link-alt"></i><h6>Company:</h6>
-                                <?php if ($value->company_website == '') { ?>
-                                    <?= $value->company ?>
-                                <?php } else { ?>
-                                <a href="<?= $value->company_website ?>" target="_blank" rel="<?= $value->is_weburl_df ?>" ><u><?= $value->company ?></u></a>
-                            <?php } ?>
+                            <strong><?= $value->title ?></strong>
+                            
+                            <a href="javascript:void(0)" class="update_vote" data-vote_count= "'<?=$value->vote_count?>'" data-id="'<?=$value->id?>'" data-template_id="'<?=$value->template_id?>'" data-module="quote" data-module_id="'<?=$value->module_id?>'">
+                                <i class="fa fa-caret-up"></i>
+                                <span class="num-vote">Vote: <?=$value->vote_count?></span>
+                            </a>
+                            
                         </div>
+                        
                         <div>
                             <?php if ($value->headshot != '') { ?>
                                 <img src='<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $value->headshot ?>' alt='headshot image'>                
                             <?php } ?>
+                                
+                            <?php echo $value->quote_description ?>
+                                
                         </div>
-                    </div>
-
-                    <div>
+                        
                         <div>
-                            <!--<i class="fas fa-pencil-alt"></i><h6>Quote:</h6>-->
-                            <p><?php echo $value->quote_description ?></p>
+                            by <strong><?=$value->name?></strong>, CTO at 
+                            <a href="<?= $value->company_website ?>" target="_blank" rel="<?= $value->is_weburl_df ?>" ><u><?= $value->company ?></u></a>
                         </div>
                     </div>
-
                 </div>
             <?php } ?>
         </div>
-
     </div>
 </div>
