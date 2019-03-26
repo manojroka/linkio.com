@@ -1,2 +1,11 @@
 #netbeans folder
 nbproject
+
+#htaccess file
+.htaccess
+
+#config file
+wp-config.php
+
+#upload file
+wp-content/uploads/*

@@ -1,1 +1,0 @@
-{"version":"0.0.4","name":"Ribbon multi-step set 065","states":{"1":{"tpl":"ribbon|65_set_vms_step1","state":"default"},"2":{"tpl":"lightbox|65_set_vms_step2","state":"lightbox"}}}
