@@ -1,28 +1,34 @@
 <div class="lcm_row lcm_box_shadow lcm_padding15">
 <?php if (isset($filter)) { ?>
+    <div class="lcm_search_box">
     <div class="lcm_row">
         <div class="lcm_col-md-7">
-            <input type="text" placeholder="Search">
+            <input class="lcm_search" type="text" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
         </div>
-        <div class="lcm_col-md-2">
-            <input type="button" placeholder="Search" value="search icon">
-        </div>
-        <div class="lcm_col-md-1">
-            <P>OR</p>
-        </div>
+                <div class="lcm_col-md-2">
+                    <div class="lcm_padding_lr18_22">
+                    <input type="button" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
+                    </div>
+                </div>
+                <div class="lcm_col-md-1">
+                    <P>OR</p>
+                </div>
 
-        <div class="lcm_col-md-2" onclick="open_popup_form('quote')">
-            <input type="button" placeholder="Add New Item" value="Add New Item">
-        </div>
+                <div class="lcm_col-md-2 lcm_padding_l18 lcm_float_right" onclick="open_popup_form('quote')">
+                    <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
+                </div>
     </div>
     <div class="lcm_row">
-        <div class="lcm_clear_both lcm_padding_lr15">
-            Sort By: 
+        <div class="lcm_clear_both lcm_padding_t8 lcm_flex">
+            <span class="lcm_search_text">Sort by:</span>
+            <div class="lcm_select-wrapper">
             <select>
-                <option>value</option>
-                <option>value1</option>
+                <option>Value</option>
+                <option>Value1</option>
             </select>
+            </div>
         </div>
+    </div>
     </div>
 <?php } ?>
 

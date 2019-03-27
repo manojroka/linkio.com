@@ -80,8 +80,14 @@
 .lcm-i-form select {
     font-size: 14px;
 }
+.lcm_col-md-1 {
+    width: 3%;
+}
 .lcm_col-md-2 {
-    width: 16.66666667%;
+    width: 19.33332%;
+}
+.lcm_col-md-5 {
+    width: 41.777777776%;
 }
 .lcm_col-md-7 {
     width: 58.33333333%;
@@ -125,11 +131,20 @@
 .lcm_padding_tb15 {
    padding: 15px 0; 
 }
+.lcm_padding_t8 {
+   padding-top: 8px; 
+}
 .lcm_padding_lr15 {
    padding: 0px 15px;  
 }
+.lcm_padding_lr18_22 {
+   padding: 0px 18px 0 22px;  
+}
+.lcm_padding_l18 {
+    padding-left: 18px;
+}
 .lcm_padding15 {
-   padding: 15px; 
+   padding: 15px 15px 5px 15px; 
 }
 .lcm_padding30 {
    padding: 30px; 
@@ -167,6 +182,87 @@
     width: 135px;
     height: auto;
     float: left;
+}
+.lcm_search_box .lcm_search {
+    width: 100%;
+    padding: 12px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    border: 1px solid #DFE2E4;
+    border-radius: 4px !important;
+    background-color: #fff;
+    color: #B5B8BF;
+    margin-left:1px;
+}
+.lcm_search_box .lcm_search:focus {
+    border-color: #007acc;
+}
+.lcm_search_box input[type="button"] {
+    height: 45px;
+    width: 100%;
+    border: 1px solid #DFE2E4;
+    border-radius: 4px;
+    display: inline-block;
+    line-height: 23px;
+    color: #474A4D;
+    font-family: "Source Sans Pro";
+    font-size: 12px;
+    font-weight: 600;
+/*    letter-spacing: 1.09px;*/
+    text-align: center;
+    transition: all 0.3s;
+    background-color: #fff;
+    text-transform: none;
+}
+.lcm_search_box input[type="button"]:hover, .lcm_search_box input[type="button"]:focus {
+    color: #fff;
+    background-color: #DFE2E4;
+}
+.lcm_search_box p {
+    margin: 0px;
+    font-size: 14px !important;
+    line-height: 45px !important;
+    font-weight:bold;
+    text-align:center;
+    
+}
+.lcm_search_text {
+    color: #B5B8BF;
+    font-size: 14px;
+    font-weight: 500;
+}
+.lcm_search_box select, .lcm_search_box select:focus{
+    border: none;
+    outline: none;
+    padding-left: 15px;
+    width: 70px;
+    
+    /* Here's the code we need */
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	 -o-appearance: none;
+		appearance: none;
+}
+.lcm_select-wrapper {
+	position: relative;
+            top: -4px;
+}
+
+.lcm_select-wrapper:after {
+	font-family: FontAwesome;
+  	content: '\f107';
+  	vertical-align: middle;
+  	color: #434B67;
+  	pointer-events: none;
+        font-size: 12px;
+        position: absolute;
+  	top: 10px;
+  	right: 0px;
+}
+
+select::-ms-expand {
+  display: none;
 }
 /* media query for most mobile devices */
 @media only screen and (min-width: 0px) and (max-width: 480px){
