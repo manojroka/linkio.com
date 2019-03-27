@@ -6,7 +6,7 @@
 
         <div class="lcm_box_shadow lcm_padding30" id="lcm_list">
             <?php foreach ($data as $value) { ?>
-            <div class="">
+            <div class="tool_lists">
                     <div>
                         <div class="lcm_flex lcm_row">
                             <div class="lcm_col-md-10">
