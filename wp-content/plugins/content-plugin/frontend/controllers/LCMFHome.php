@@ -108,12 +108,17 @@ class LCMFHome extends LCMfrontend{
     function _filter_by($tool_list_f) {
         $f_arr = [];
         foreach ($tool_list_f as $key => $tool_d) {
-            $tool_r[$key]->id = $tool_d->id;
-            $tool_r[$key]->tool_name = $tool_d->tool_name;
-            $tool_r[$key]->type = $tool_d->type;
-            $tool_r[$key]->price = $tool_d->price;
-            $tool_r[$key]->vote_count = $tool_d->vote_count;
-            $f_arr[] = $tool_r[$key];
+            if($tool_d->id != NULL){      
+                if(!isset($tool_r)){
+                    $tool_r[$key] = (object)array();
+                    $tool_r[$key]->id = $tool_d->id;
+                    $tool_r[$key]->tool_name = $tool_d->tool_name;
+                    $tool_r[$key]->type = $tool_d->type;
+                    $tool_r[$key]->price = $tool_d->price;
+                    $tool_r[$key]->vote_count = $tool_d->vote_count;
+                    $f_arr[] = $tool_r[$key];
+                }
+            }
         }
         $f_arr = json_encode($f_arr);
         return $f_arr;
