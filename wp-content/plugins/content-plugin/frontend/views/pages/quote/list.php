@@ -4,11 +4,11 @@
 
         <?php include '_filter_form.php'; ?>
 
-        <div class="lcm_box_shadow lcm_padding30" id="lcm_list">
+        <div class="lcm_box_shadow lcm_paddinglr1030" id="lcm_list">
             <?php foreach ($data as $value) { ?>
             <div class="tool_lists">
                     <div>
-                        <div class="lcm_flex lcm_row">
+                        <div class="lcm_flex lcm_row lcm_paddingbuttom_25">
                             <div class="lcm_col-md-10">
                                 <div class="lcm_h2"><?= $value->title ?></div>
                             </div>
@@ -23,7 +23,7 @@
                             
                         </div>
                         
-                        <div class="lcm_desc">
+                        <div class="lcm_desc lcm_paddingbuttom_25">
                             <?php if ($value->headshot != '') { ?>
                                 <img src='<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $value->headshot ?>' alt='headshot image'>                
                             <?php } ?>

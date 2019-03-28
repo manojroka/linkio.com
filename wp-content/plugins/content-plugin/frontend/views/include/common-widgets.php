@@ -107,11 +107,18 @@ function _lcmf_item_form_hidden_fields($module_detail) {
 
 function _lcmf_item_form_heading($module_detail) {
     
-    $heading_html = '<div>
-                        <div class="lcm-i-top-bar">
-                            <h3>Add new '.$module_detail->template_name.' 
-                                <span class="lcm-i-x"><i class="fa fa-times"></i></span> 
-                            </h3>
+    $heading_html = '<div class="lcm_popup_top">
+                        <div class="lcm_padding_lr25">
+                        <div class="lcm_flex lcm_row">
+                            <div class="lcm_col-md-10">
+                                <div class="lcm_h4">Add New '.ucfirst($module_detail->module).' </div>
+                            </div>
+                            <div class="lcm_col-md-2">
+                                <div class="lcm_float_right">
+                                  <span class="lcm-i-x"><i style="font-family:Arial, FontAwesome" class="ficon-remove-circle"></i></span>   
+                                </div>
+                            </div>
+                        </div>
                         </div>
                         <!--<div class="lcm_title_top">
                             <h4>Want to recommend a '.ucfirst($module_detail->module).' not on the list ?</h4>

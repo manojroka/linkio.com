@@ -12,14 +12,14 @@
 .lcm-i-form {
     display: none;
     top:0.5em;
-    background: #f1f1f1;
-    padding: 1%;
-    width: 54%;
+    background: #fff;
+/*    padding: 1%;*/
+    width: 53.5%;
     position: fixed;
     left: 23%;
     cursor: default;
     z-index: 999;
-    border-radius: 2px;
+    border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.9);
     overflow: auto;
     height: 95%;
@@ -137,6 +137,9 @@
 .lcm_padding_lr15 {
    padding: 0px 15px;  
 }
+.lcm_padding_lr25 {
+   padding: 10px 10px 16px 25px;  
+}
 .lcm_padding_lr18_22 {
    padding: 0px 18px 0 22px;  
 }
@@ -149,6 +152,18 @@
 .lcm_padding30 {
    padding: 30px; 
 }
+.lcm_paddinglr1030 {
+   padding: 10px 30px; 
+}
+.lcm_paddinglr30 {
+   padding: 0px 30px; 
+}
+.lcm_paddingbuttom_30 {
+    padding-bottom: 30px;
+}
+.lcm_paddingbuttom_25 {
+    padding-bottom: 25px;
+}
 .lcm_clear_both {
     clear: both;
 }
@@ -157,6 +172,12 @@
   font-size: 24px !important;
   font-weight: 800;
 }
+.lcm_h4 {
+  color: #0D0E0E; 
+  font-size: 14px !important;
+  font-weight: 800;
+}
+
 .lcm_vote .fa, .lcm_vote .num-vote {
     color: #79849A;
     font-size: 18px;
@@ -182,6 +203,14 @@
     width: 135px;
     height: auto;
     float: left;
+    margin: 5px 20px 5px 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 4px #E4E4E4;
+    -moz-box-shadow: 0px 2px 4px #E4E4E4;
+    box-shadow: 0px 2px 4px #E4E4E4;
+    }
+.lcm_desc {
+    font-weight: 300;
 }
 .lcm_search_box .lcm_search {
     width: 100%;
@@ -241,12 +270,12 @@
 	-webkit-appearance: none;
 	-moz-appearance: none;
 	-ms-appearance: none;
-	 -o-appearance: none;
-		appearance: none;
+	-o-appearance: none;
+	appearance: none;
 }
 .lcm_select-wrapper {
 	position: relative;
-            top: -4px;
+/*            top: -6px;*/
 }
 
 .lcm_select-wrapper:after {
@@ -257,12 +286,21 @@
   	pointer-events: none;
         font-size: 12px;
         position: absolute;
-  	top: 10px;
+  	top: 0px;
   	right: 0px;
+}
+.lcm_ContentPlugin {
+    color: #929292;
+    font-size: 16px;
+    line-height: 26px;
+    /*font-weight: 300;*/
 }
 
 select::-ms-expand {
   display: none;
+}
+.lcm_popup_top {
+    background-color: #EFEFEF;
 }
 /* media query for most mobile devices */
 @media only screen and (min-width: 0px) and (max-width: 480px){
