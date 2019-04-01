@@ -6,41 +6,37 @@
 
         <div class="lcm_box_shadow lcm_paddinglr1030" id="lcm_list">
             <?php foreach ($data as $value) { ?>
-            <div class="tool_lists">
-                    <div>
-                        <div class="lcm_flex lcm_row lcm_paddingbuttom_25">
-                            <div class="lcm_col-md-10">
-                                <div class="lcm_h2"><?= $value->title ?></div>
-                            </div>
-                            <div class="lcm_col-md-2">
-                                <div class="lcm_vote lcm_border_around lcm_float_right">
-                                    <a href="javascript:void(0)" class="update_vote" data-vote_count= "'<?=$value->vote_count?>'" data-id="'<?=$value->id?>'" data-template_id="'<?=$value->template_id?>'" data-module="quote" data-module_id="'<?=$value->module_id?>'">
-                                    <i class="fa fa-caret-up"></i>
-                                    <span class="num-vote">Votes: <?=$value->vote_count?></span>
-                                    </a>
-                                </div>
-                            </div>
-                            
+                <div class="">
+                    
+                    <div class="lcm_flex lcm_row lcm_paddingbuttom_25">
+                        <div class="lcm_col-md-10">
+                            <div class="lcm_h2"><?= $value->title ?></div>
                         </div>
-                        
-                        <div class="lcm_desc lcm_paddingbuttom_25">
-                            <?php if ($value->headshot != '') { ?>
-                                <img src='<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $value->headshot ?>' alt='headshot image'>                
-                            <?php } ?>
-                                
-                            <?php echo $value->quote_description ?>
-                                
+                        <div class="lcm_col-md-2">
+                            <div class="lcm_vote lcm_border_around lcm_float_right">
+                                <a href="javascript:void(0)" class="update_vote" data-vote_count= "'<?=$value->vote_count?>'" data-id="'<?=$value->id?>'" data-template_id="'<?=$value->template_id?>'" data-module="quote" data-module_id="'<?=$value->module_id?>'">
+                                <i class="fa fa-caret-up"></i>
+                                <span class="num-vote">Votes: <?=$value->vote_count?></span>
+                                </a>
+                            </div>
                         </div>
-                        <div class="lcm_row">
+                    </div>
+
+                    <div class="lcm_desc lcm_paddingbuttom_25">
+                        <?php if ($value->headshot != '') { ?>
+                            <img src='<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $value->headshot ?>' alt='headshot image'>                
+                        <?php } ?>
+                        <?php echo $value->quote_description ?>
+                    </div>
+                    
+                    <div class="lcm_row">
                         <div class="lcm_clear_both lcm_float_right">
                             by <strong><?=$value->name?></strong>, CTO at 
                             <a href="<?= $value->company_website ?>" target="_blank" rel="<?= $value->is_weburl_df ?>" ><u><?= $value->company ?></u></a>
-                            
                         </div>
-                            <div class="lcm_clear_both lcm_border_bottom">&nbsp;</div>
-                        </div>
+                        <div class="lcm_clear_both lcm_border_bottom">&nbsp;</div>
                     </div>
-                
+
                 </div>
             
             <?php } ?>
