@@ -87,10 +87,15 @@ function _lcmf_term_and_conditions_chkbox($module_detail) {
 }
 
 function _lcm_item_submit_btn() {
-    $submit_button_and_validation_error_html = '<div>
+    $submit_button_and_validation_error_html = '<div class="lcm_paddingbuttom_tr1510 lcm_float_right">
                                                     <div class="lcm-i-submit-error"></div>
-                                                    <div class="lcm_text_center">
-                                                        <button type="submit" id="lcm_item_submit_btn">Submit</button>
+                                                    <div class="lcm_flex lcm_row">
+                                                    <div class="lcm_text_center lcm_margin_r12 lcm_btn_cancel lcm-i-x">
+                                                        <button type="submit" id="lcm_item_cancel_btn">Cancel</button>
+                                                    </div>
+                                                    <div class="lcm_text_center lcm_btn_save">
+                                                        <button type="submit" id="lcm_item_submit_btn">Save Item</button>
+                                                    </div>
                                                     </div>
                                                 </div>';
     echo $submit_button_and_validation_error_html;
@@ -115,7 +120,7 @@ function _lcmf_item_form_heading($module_detail) {
                             </div>
                             <div class="lcm_col-md-2">
                                 <div class="lcm_float_right">
-                                  <span class="lcm-i-x"><i style="font-family:Arial, FontAwesome" class="ficon-remove-circle"></i></span>   
+                                  <span class="lcm-i-x lcm-i-close"><i class="far fa-times-circle"></i></span>   
                                 </div>
                             </div>
                         </div>
