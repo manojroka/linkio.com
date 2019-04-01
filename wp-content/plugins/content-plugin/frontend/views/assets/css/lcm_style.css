@@ -14,9 +14,9 @@
     top:0.5em;
     background: #fff;
 /*    padding: 1%;*/
-    width: 53.5%;
+    width: 60%;
     position: fixed;
-    left: 23%;
+    left: 20%;
     z-index: 999;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.9);
@@ -349,3 +349,57 @@ color:#6F8692;
     }
 }
 /*--------------- item form popup end -------------*/
+
+.lcm-i-type-file::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.lcm-i-type-file::before {
+    content: 'Upload file';
+    border-radius: 4px;
+    padding: 3px 8px;
+    cursor: pointer;
+    font-size: 15px;
+    background-color: #0057a7;
+    color: white;
+    margin: -3px -10px;
+    display: inline-block;
+    float: right;
+}
+.lcm-i-type-file:hover::before {
+  border-color: black;
+}
+.lcm-i-type-file:active::before {
+  background: -webkit-linear-gradient(top, #0057a7, #f9f9f9);
+}
+.lcm-i-type-file{
+    background: #efefef !important;
+}
+
+.lcm-i-type-radio input[type="radio"] {
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    padding: 0.2em;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 1px solid #e2e2e2;
+    border-radius: 50%;
+    outline: none;
+    margin-right: 1px;
+}
+/* appearance for checked radiobutton */
+.lcm-i-type-radio input[type="radio"]:checked {
+    padding: 0px !important;
+    border: 0.34em solid #8ac7a3;
+    background: white;
+}
+.lcm-i-type-radio span{
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 15px;
+}

@@ -35,44 +35,75 @@
     
     <?php if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
     
-    <div>
-        <label>Tool name</label>
-        <input class="form-control limit_word" type="text" name="tool_name" required>
-    </div>
     
-    <div>
-        <label>Tool URL</label>
-        <input class="form-control" type="url" name="home_page_url" value="" required>
-    </div>
+    <div class="lcm_popup_content lcm_padding_lr25">
         
-    <div>
-        <label>Website Logo</label>
+        <div class="lcm_flex lcm_row">
+            <div class="lcm_col-md-3">
+                <label>Tool name</label>
+            </div>
+            <div class="lcm_col-md-6">
+                <div class="">
+                  <input class="form-control limit_word" type="text" name="tool_name" required>
+                </div>
+            </div>
+        </div>
+        
+        <div class="lcm_flex lcm_row">
+            <div class="lcm_col-md-3">
+                <label>Tool URL</label>
+            </div>
+            <div class="lcm_col-md-6">
+                <div class="">
+                  <input class="form-control" type="url" name="home_page_url" value="" required>
+                </div>
+            </div>
+        </div>
+        
+        <div class="lcm_flex lcm_row">
+            <div class="lcm_col-md-3">
+                <label>Website Logo</label>
+            </div>
+            <div class="lcm_col-md-6">
+                <div class="">
+                  <input class="lcm-i-type-file form-control" type="file" name="img_path[]" accept="image/*" value="Upload">
+                  <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>For best preview the logo images should be 180px x 90px</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="lcm_flex lcm_row">
+            <div class="lcm_col-md-3">
+                <label>Add Video</label>
+            </div>
+            <div class="lcm_col-md-6">
+                <div class="">
+                  <input class="lcm-i-type-file form-control" type="file">
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="lcm_flex lcm_row">
+            <div class="lcm_col-md-3">
+                <label>Pricing</label> 
+            </div>
+            <div class="lcm_col-md-6">
+                <div class="lcm-i-type-radio">
+                    <input type="radio" checked="" value="Free"> <span>Free</span>
+                    <input type="radio" value="Premium"> <span>Premium</span>
+                    <input type="radio" value="Paid"> <span>Paid</span>
+                </div>
+            </div>
+        </div>
+
+        
         <div>
-            <input class="form-control" type="file" name="img_path[]" accept="image/*" value="Upload">
+            <label>Content</label>
+            <?php lcm_editor('','summary', array('textarea_rows' => 12)); ?>
+            <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html</span>
         </div>
     </div>
-    
-    <div>
-        <label>Add Video</label> 
-        <div>
-            <input class="form-control" type="file">
-        </div>
-    </div>
-    
-    <div>
-        <label>Pricing</label> 
-        <div>
-            <input type="radio" value="Free">
-            <input type="radio" value="Premium">
-            <input type="radio" value="Paid">
-        </div>
-    </div>
-    
-    <div>
-        <label>Content</label>
-        <?php lcm_editor('','summary', array('textarea_rows' => 4)); ?>
-    </div>
-    
     <?php
         //_lcm_dropdown_selector('price', NULL, array('Free', 'Paid', 'Premium'), 'Price');
         lcmf_popup_form_closed($module_detail);

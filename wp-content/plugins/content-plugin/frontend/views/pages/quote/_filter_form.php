@@ -61,7 +61,7 @@ if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
-                  <input class="form-control" type="file" name="headshot" accept="image/*" required>
+                  <input class="lcm-i-type-file form-control" type="file" name="headshot" accept="image/*" required>
                   <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>For best preview the logo images should be 132px x 132px</span>
                 </div>
             </div>
@@ -110,12 +110,8 @@ if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
         
     </div>
     <div class="lcm_border_bottom lcm_paddingbuttom_15">&nbsp;</div>
-    <div class="lcm_popup_bottom_bottons">
+    
         <?php // _lcm_dropdown_selector('status', NULL, array('Suggested', 'New', 'Published', 'Hidden', 'Spam'), 'Status*') ?>
     <?php // _lcmf_name_email_company_input() ?>
-    
-    <?php lcmf_popup_form_closed($module_detail);
-    
-} ?>
-</div>
+    <?php lcmf_popup_form_closed($module_detail); } ?>
 </div>

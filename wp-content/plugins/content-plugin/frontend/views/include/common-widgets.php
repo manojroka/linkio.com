@@ -22,7 +22,7 @@ function lcm_editor($content, $editor_id, $setings = NULL ) {
         'textarea_name' => $editor_id,
         'media_buttons' => TRUE,
         'textarea_rows' => 4,
-        'quicktags'     => true,
+        'quicktags'     => false,
         'drag_drop_upload' => true,
         'tinymce'       => array(
             'paste_as_text'                 => true,
@@ -165,9 +165,11 @@ function lcmf_popup_form_open($module_detail) {
 }
 
 function lcmf_popup_form_closed($module_detail) {
-    _lcmf_term_and_conditions_chkbox($module_detail);
-    _lcm_item_submit_btn();
-    echo '</form>
+    echo '<div class="lcm_popup_bottom_bottons">';
+        _lcmf_term_and_conditions_chkbox($module_detail);
+        _lcm_item_submit_btn();
+        echo '</form>
+            </div>
         </div>
     </div>';
 }
