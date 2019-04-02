@@ -36,9 +36,7 @@
                         </div>
                         <div class="lcm_clear_both lcm_border_bottom">&nbsp;</div>
                     </div>
-
                 </div>
-            
             <?php } ?>
         </div>
     </div>

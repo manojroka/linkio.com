@@ -179,11 +179,14 @@
 .lcm_paddingbuttom_tr1510 {
    padding: 5px 10px 15px;
 }
+.lcm_margin_t10{
+    margin-top: 10px;
+}
 .lcm_clear_both {
     clear: both;
 }
 .lcm_h2 {
-  color: #0057a7; 
+  color: #0057a7 !important;
   font-size: 24px !important;
   font-weight: 800;
 }
@@ -213,6 +216,9 @@
 }
 .lcm_float_right {
     float: right;
+}
+.lcm_float_left {
+    float: left;
 }
 .lcm_desc img{
     width: 135px;
@@ -402,4 +408,15 @@ color:#6F8692;
     font-size: 14px;
     font-weight: 700;
     margin-right: 15px;
+}
+.lcm_web img{
+    height: auto;
+    float: left;
+    margin: 5px 20px 5px 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 4px #E4E4E4;
+    -moz-box-shadow: 0px 2px 4px #E4E4E4;
+    box-shadow: 0px 2px 4px #E4E4E4;
+    max-width: 180px;
+    max-height: 100px;
 }
