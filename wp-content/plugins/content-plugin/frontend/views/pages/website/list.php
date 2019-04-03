@@ -19,7 +19,7 @@
                         </div>
                         
                         <div class="lcm_col-md-10">
-                            <div class="lcm_web lcm_float_right" style="">
+                            <div class="lcm_i_logo lcm_float_right">
                                 <?php if ($value->website_logo != '') { ?>
                                     <img src='<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $value->website_logo ?>' alt='web logo'>                
                                 <?php } ?>

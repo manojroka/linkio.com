@@ -233,6 +233,10 @@
 .lcm_desc {
     font-weight: 300;
 }
+.lcm_desc iframe{
+    width: 68%;
+    margin-left: 7.5em;
+}
 .lcm_search_box{
     min-height: 4em;
 }
@@ -309,6 +313,10 @@
 .lcm_select-wrapper {
 	position: relative;
 /*            top: -6px;*/
+}
+.lcm_search_box select{
+    background: white;
+    color: #656565 !important;
 }
 .lcm_search_box .i-btn-center{
     width: 100% !important;
@@ -416,7 +424,7 @@ color:#6F8692;
     font-weight: 700;
     margin-right: 15px;
 }
-.lcm_web img{
+.lcm_i_logo img{
     height: auto;
     float: left;
     margin: 5px 20px 5px 0;
