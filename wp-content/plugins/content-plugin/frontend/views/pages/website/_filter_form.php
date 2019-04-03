@@ -1,7 +1,4 @@
-
 <div class="lcm_row lcm_box_shadow lcm_padding15">
-    
-    
     <?php if (isset($filter)) { ?>
         <div class="lcm_search_box">
             <div class="lcm_row">
@@ -13,16 +10,10 @@
             </div>
         </div>
     <?php } ?>
-    
-    
-    
-    
-    
-    
-    
-    
+
     <?php if (isset($submit_form)) {
-        lcmf_popup_form_open($module_detail); ?>
+        lcmf_popup_form_open($module_detail);
+        ?>
         <div class="lcm_popup_content lcm_padding_lr25">
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
@@ -44,7 +35,6 @@
                     </div>
                 </div>
             </div>
-            
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
                     <label>Website Name</label>
@@ -55,7 +45,7 @@
                     </div>
                 </div>
             </div>
-            
+
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
                     <label>Website Url</label>
@@ -66,8 +56,6 @@
                     </div>
                 </div>
             </div>
-            
-            
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
                     <label>Website Logo</label>
@@ -79,49 +67,15 @@
                     </div>
                 </div>
             </div>
-            
-            
             <div>
                 <label>Website Description</label>
                 <?php lcm_editor("", "website_description", array('textarea_rows' => '12')); ?>
                 <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html</span>
             </div>
-            
-            
         </div>
         <div class="lcm_border_bottom lcm_paddingbuttom_15">&nbsp;</div>
         <?php // _lcm_dropdown_selector('status', NULL, array('Suggested', 'New', 'Published', 'Hidden', 'Spam'), 'Status*') ?>
         <?php // _lcmf_name_email_company_input() ?>
-    <?php lcmf_popup_form_closed($module_detail);
-} ?>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+        <?php lcmf_popup_form_closed($module_detail);
+    } ?>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
