@@ -1,6 +1,6 @@
 <div class="lcm_row lcm_box_shadow lcm_padding15">
     <?php if (isset($filter)) { ?>
-        <div class="lcm_search_box">
+    <div class="lcm_search_box">
             <div class="lcm_row">
                 <div class="lcm_col-md-7">
                     <input class="lcm_search" type="text" style="font-family:Arial, FontAwesome" value="&#xf002 Search">

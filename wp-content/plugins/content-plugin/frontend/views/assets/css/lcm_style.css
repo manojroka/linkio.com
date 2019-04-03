@@ -229,9 +229,12 @@
     -webkit-box-shadow: 0px 2px 4px #E4E4E4;
     -moz-box-shadow: 0px 2px 4px #E4E4E4;
     box-shadow: 0px 2px 4px #E4E4E4;
-    }
+}
 .lcm_desc {
     font-weight: 300;
+}
+.lcm_search_box{
+    min-height: 4em;
 }
 .lcm_search_box .lcm_search {
     width: 100%;
@@ -306,6 +309,10 @@
 .lcm_select-wrapper {
 	position: relative;
 /*            top: -6px;*/
+}
+.lcm_search_box .i-btn-center{
+    width: 100% !important;
+    margin-left: 20em;
 }
 
 .lcm_select-wrapper:after {

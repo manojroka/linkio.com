@@ -14,7 +14,7 @@
                     <P>OR</p>
                 </div>
 
-                <div class="lcm_col-md-2 lcm_padding_l18 lcm_float_right" onclick="open_popup_form('tool')">
+                <div class="lcm_col-md-2 lcm_padding_l18" onclick="open_popup_form('tool')">
                     <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
                 </div>
             </div>
