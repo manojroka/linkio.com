@@ -32,7 +32,7 @@
                         </div>
                     </div>
                     <div class="lcm_desc lcm_paddingbuttom_25">
-                        <?= $value->summary; ?>
+                        <?= $value->description; ?>
                         <!---------- videos section------------>
                         <?php if (lcm_video_iframes($value->videos) != NULL) { ?>
                         

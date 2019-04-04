@@ -95,7 +95,7 @@
             <div>
                 <label>Content</label>
                 <?php lcm_editor("", "tactic_description", array('textarea_rows' => '12')); ?>
-                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html</span>
+                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
             </div>
             <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
         </div>

@@ -69,11 +69,11 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Add Video</label>
+                    <label>Add Video Url</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
-                        <input class="lcm-i-type-file form-control" type="file">
+                        <input class="form-control" name="videos[]" type="url" placeholder="Give vimeo or youtube links">
                     </div>
                 </div>
             </div>
@@ -91,8 +91,8 @@
             </div>
             <div>
                 <label>Content</label>
-                <?php lcm_editor('', 'summary', array('textarea_rows' => 12)); ?>
-                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html</span>
+                <?php lcm_editor('', 'description', array('textarea_rows' => 12)); ?>
+                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
             </div>
             <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
         </div>
