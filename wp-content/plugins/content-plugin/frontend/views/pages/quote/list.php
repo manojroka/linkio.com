@@ -26,7 +26,7 @@
                     </div>
                     <div class="lcm_row">
                         <div class="lcm_clear_both lcm_float_right">
-                            by <strong><?=$value->name?></strong>, CTO at 
+                            by <strong><?=$value->name?></strong>, <?=$value->job_position?> at 
                             <a href="<?= $value->company_website ?>" target="_blank" rel="<?= $value->is_weburl_df ?>" ><u><?= $value->company ?></u></a>
                         </div>
                         <div class="lcm_clear_both lcm_border_bottom">&nbsp;</div>

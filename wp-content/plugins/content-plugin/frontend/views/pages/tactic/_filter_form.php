@@ -74,7 +74,7 @@
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
-                        <input class="form-control" type="url">
+                        <input class="form-control" name="company_url" type="url">
                     </div>
                 </div>
             </div>
@@ -84,7 +84,7 @@
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
-                        <input class="form-control limit_word" type="text" required>
+                        <input class="form-control" name="job_position" type="text" required>
                     </div>
                 </div>
             </div>

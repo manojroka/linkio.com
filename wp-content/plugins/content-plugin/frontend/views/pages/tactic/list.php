@@ -31,8 +31,8 @@
                 
                     <div class="lcm_row">
                         <div class="lcm_clear_both lcm_float_right">
-                            by <strong><?=$value->name?></strong>, CTO at 
-                            <a href="javascript:void(0)"><u><?= $value->company ?></u></a>
+                            by <strong><?=$value->name?></strong>, <?=$value->job_position?> at 
+                            <a href="<?= $value->company_url ?>" target="_blank"><u><?= $value->company ?></u></a>
                         </div>
                         <div class="lcm_clear_both lcm_border_bottom">&nbsp;</div>
                     </div>

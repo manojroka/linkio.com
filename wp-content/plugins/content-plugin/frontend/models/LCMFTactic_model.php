@@ -71,6 +71,8 @@ class LCMFTactic_model extends LCMF_model{
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);
         $data['company'] = sanitize_text_field($data['company']);
+        $data['company_url'] = sanitize_text_field($data['company_url']);
+        $data['job_position'] = sanitize_text_field($data['job_position']);
         $data['status'] = sanitize_text_field($data['status']);
         $data['tool_types'] = sanitize_text_field($data['tool_types']);
         $data['is_cooke'] = sanitize_text_field($data['is_cooke']);

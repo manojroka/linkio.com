@@ -92,7 +92,7 @@
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
-                        <input class="form-control limit_word" type="text" required>
+                        <input class="form-control limit_word" type="text" name="job_position" required>
                     </div>
                 </div>
             </div>
