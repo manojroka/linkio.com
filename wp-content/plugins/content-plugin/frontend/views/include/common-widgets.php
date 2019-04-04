@@ -63,12 +63,10 @@ function lcm_vote_update($detail){
                 $module ='';
         }
         if($module != ''){
-            $lcm_vote_html = '<div class="lcm_voting">
-                                <a href="javascript:void(0)" class="update_vote" data-vote_count= "'.$detail->vote_count.'" data-id="'.$detail->id.'" data-template_id="'.$detail->template_id.'" data-module="'.$module.'" data-module_id="'.$detail->module_id.'">
-                                    <i class="fa fa-caret-up"></i>
-                                    <span class="num-vote">Vote: '.$detail->vote_count.'</span>
-                                </a>
-                            </div>';   
+            $lcm_vote_html = '<a href="javascript:void(0)" class="update_vote" data-vote_count= "'.$detail->vote_count.'" data-id="'.$detail->id.'" data-template_id="'.$detail->template_id.'" data-module="'.$module.'" data-module_id="'.$detail->module_id.'">
+                                <i class="fa fa-caret-up"></i>
+                                <span class="num-vote">Votes: '.$detail->vote_count.'</span>
+                            </a>'; 
         }   
     }
     echo $lcm_vote_html;

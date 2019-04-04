@@ -11,10 +11,7 @@
                         </div>
                         <div class="lcm_col-md-2">
                             <div class="lcm_vote lcm_border_around lcm_float_right">
-                                <a href="javascript:void(0)" class="update_vote" data-vote_count= "'<?=$value->vote_count?>'" data-id="'<?=$value->id?>'" data-template_id="'<?=$value->template_id?>'" data-module="quote" data-module_id="'<?=$value->module_id?>'">
-                                <i class="fa fa-caret-up"></i>
-                                <span class="num-vote">Votes: <?=$value->vote_count?></span>
-                                </a>
+                                <?php lcm_vote_update($value); ?>
                             </div>
                         </div>
                     </div>

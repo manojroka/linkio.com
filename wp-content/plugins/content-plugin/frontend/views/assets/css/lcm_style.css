@@ -477,3 +477,9 @@ color:#6F8692;
     text-align: right;
     line-height: 16px !important;
 }
+/*.vote-loading-icon:before{
+    content: url(lcm_loading_icon.gif);
+    position: relative;
+    padding-right: 23px;
+    bottom: -6px !important;
+}*/

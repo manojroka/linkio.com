@@ -256,8 +256,9 @@ jQuery(document).ready(function () {
     
     jQuery(document).on('click', '.update_vote', function () {
         var self = this;
-        jQuery(self).addClass('vote-loading-icon');
+        //jQuery(self).addClass('vote-loading-icon');
         jQuery(self).children('.num-vote').empty();
+        jQuery(self).children('.num-vote').append('Voting..');
         jQuery.ajax({
             url: document.getElementById('lcm_home_url').value + '/wp-admin/admin-ajax.php',
             type: 'post',
@@ -271,12 +272,12 @@ jQuery(document).ready(function () {
             },
             success: function (data) {
                 if (data.success == true) {
-                    jQuery(self).removeClass('vote-loading-icon');
+                    //jQuery(self).removeClass('vote-loading-icon');
                     jQuery(self).children('.num-vote').empty();
                     jQuery(self).children('.num-vote').text('Vote: ' + data.data.vote_count);
                 } else {
                     alert(data.data.msg);
-                    jQuery(self).removeClass('vote-loading-icon');
+                    //jQuery(self).removeClass('vote-loading-icon');
                     jQuery(self).children('.num-vote').empty();
                     jQuery(self).children('.num-vote').text('Vote: ' + data.data.vote_count);
                 }

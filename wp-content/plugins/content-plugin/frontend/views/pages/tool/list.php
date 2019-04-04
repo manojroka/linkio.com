@@ -10,10 +10,7 @@
                             <a class="lcm_h2" href="<?=$value->home_page_url?>" target="blank_"><u><?= $value->tool_name ?></u></a>
                             <br>
                             <div class="lcm_vote lcm_margin_t10 lcm_border_around lcm_float_left">
-                                <a href="javascript:void(0)" class="update_vote" data-vote_count= "'<?=$value->vote_count?>'" data-id="'<?=$value->id?>'" data-template_id="'<?=$value->template_id?>'" data-module="tool" data-module_id="'<?=$value->module_id?>'">
-                                    <i class="fa fa-caret-up"></i>
-                                    <span class="num-vote">Votes: <?=$value->vote_count?></span>
-                                </a>
+                                <?php lcm_vote_update($value); ?>
                             </div>
                             <div class="lcm_margin_t10 lcm_border_around lcm_float_left lcm_margin_l06em">
                                 <p><?= $value->price ?></p>
