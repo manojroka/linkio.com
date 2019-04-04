@@ -14,6 +14,7 @@ function _subpage_popup_table($id, $ideal_percent) {
     
     $html_code = '<div id="tip-table-hover-'.$id.'" class="tip-hoverd-tbl">
                     <p>ANCHOR TEXT PERCENTAGES</p>
+                    <div><a href="https://app.linkio.com/users/sign_up"><u>Calculate customized percentage from competitor data with Linkio</u></a></div>
                     <table class="tip-hoverd-tbl-element">
                         <thead>
                             <tr>

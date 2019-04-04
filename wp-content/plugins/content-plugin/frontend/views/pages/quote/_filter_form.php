@@ -13,7 +13,6 @@
                 <div class="lcm_col-md-1">
                     <P>OR</p>
                 </div>
-
                 <div class="lcm_col-md-2 lcm_padding_l18 lcm_float_right" onclick="open_popup_form('quote')">
                     <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
                 </div>
@@ -23,8 +22,10 @@
                     <span class="lcm_search_text">Sort by:</span>
                     <div class="lcm_select-wrapper">
                         <select>
-                            <option>Value</option>
-                            <option>Value1</option>
+                            <option>Name Asc</option>
+                            <option>Name Desc</option>
+                            <option>Rating Asc</option>
+                            <option>Rating Desc</option>
                         </select>
                     </div>
                 </div>
@@ -32,8 +33,7 @@
         </div>
     <?php } ?>
 
-    <?php if (isset($submit_form)) {
-        lcmf_popup_form_open($module_detail); ?>
+    <?php if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
         <div class="lcm_popup_content lcm_padding_lr25">
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
@@ -105,10 +105,10 @@
                 <?php lcm_editor("", "quote_description", array('textarea_rows' => '12')); ?>
                 <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html</span>
             </div>
+            <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
         </div>
-        <div class="lcm_border_bottom lcm_paddingbuttom_15">&nbsp;</div>
+        <div class="lcm_border_bottom">&nbsp;</div>
         <?php // _lcm_dropdown_selector('status', NULL, array('Suggested', 'New', 'Published', 'Hidden', 'Spam'), 'Status*') ?>
         <?php // _lcmf_name_email_company_input() ?>
-    <?php lcmf_popup_form_closed($module_detail);
-} ?>
+    <?php lcmf_popup_form_closed($module_detail); } ?>
 </div>

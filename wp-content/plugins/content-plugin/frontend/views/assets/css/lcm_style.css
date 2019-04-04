@@ -179,8 +179,18 @@
 .lcm_paddingbuttom_tr1510 {
    padding: 5px 10px 15px;
 }
+.lcm_paddinglr10300030{
+    padding: 10px 30px 0px 30px;
+}
+.lcm_padding_lr25_10{
+    padding-left: 25px;
+    padding-right: 10px;
+}
 .lcm_margin_t10{
     margin-top: 10px;
+}
+.lcm_margin_l06em{
+    margin-left: 0.6em;
 }
 .lcm_clear_both {
     clear: both;
@@ -191,9 +201,9 @@
   font-weight: 800;
 }
 .lcm_h4 {
-  color: #0D0E0E; 
-  font-size: 14px !important;
-  font-weight: 800;
+    color: #373737;
+    font-size: 14px !important;
+    font-weight: 700;
 }
 
 .lcm_vote .fa, .lcm_vote .num-vote {
@@ -238,7 +248,7 @@
     margin-left: 7.5em;
 }
 .lcm_search_box{
-    min-height: 4em;
+    min-height: 3.5em;
 }
 .lcm_search_box .lcm_search {
     width: 100%;
@@ -284,6 +294,24 @@
 .lcm_btn_save button:hover, .lcm_btn_save button:focus {
      background-color: #1ABC9C;
 }
+.lcm_i_footer_btns button{
+    font-size: 14px;
+    height: 36px;
+    padding-top: 6px;
+    font-weight: 500;
+}
+
+.lcm_i_footer_btns button[type=submit] {
+    background: #55bd9c !important;
+    width: 14em;
+    color: white;
+    border: 1px solid #55bd9c;
+}
+.lcm_i_footer_btns button[type=submit]:hover {
+    background: #79dcbd !important;
+    color: black;
+    border: 1px solid #55bd9c;
+}
 .lcm_search_box p {
     margin: 0px;
     font-size: 14px !important;
@@ -301,7 +329,7 @@
     border: none;
     outline: none;
     padding-left: 15px;
-    width: 70px;
+    width: 105px;
     
     /* Here's the code we need */
 	-webkit-appearance: none;
@@ -346,6 +374,7 @@ select::-ms-expand {
 }
 .lcm_popup_top {
     background-color: #EFEFEF;
+    height: 3.7em;
 }
 .lcm_popup_content {
 color:#6F8692;

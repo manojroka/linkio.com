@@ -80,7 +80,7 @@ jQuery(document).ready(function () {
             })
         }
     })(jQuery, window, document);
-    jQuery('.lcm_filter_form').checkBo();
+//    jQuery('.lcm_filter_form').checkBo();
     jQuery('.lcm_term_and_condtion').checkBo();
 })
 //----------- limit word start-----------------

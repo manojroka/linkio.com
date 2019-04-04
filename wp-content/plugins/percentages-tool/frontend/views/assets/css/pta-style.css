@@ -134,7 +134,7 @@ and open the template in the editor.
 
 .tip-hoverd-tbl{
     background: white;
-    width: 25em;
+    width: 30em;
     display: none; 
     position: absolute;
     border-radius: 5px;
@@ -155,6 +155,9 @@ and open the template in the editor.
     margin-top: 1px !important;
     font-size: 0.9em !important;
 }
+.tip-hoverd-tbl a{
+    color: #0d00ff !important;
+}
 .tip-hoverd-tbl-element{
     margin-bottom: 1px;
     background: white;
@@ -165,7 +168,7 @@ and open the template in the editor.
 .tip-hoverd-tbl-element thead tr{
     background: #8eb0cd;
     color: white;
-    font-size: 0.8em !important;
+    font-size: 1em !important;
 }
 .tip-hoverd-tbl-element thead tr:hover{
     background: #8eb0cd;
@@ -173,7 +176,7 @@ and open the template in the editor.
 }
 .tip-hoverd-tbl-element tbody tr{
     height: 1.5em !important;
-    font-size: 1em;
+    font-size: 1.4em;
 }
 .tip-hoverd-tbl-element tbody tr td{
     padding: 0.05em;

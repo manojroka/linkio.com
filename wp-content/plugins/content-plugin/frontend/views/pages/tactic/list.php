@@ -4,7 +4,7 @@
         
         <?php include '_filter_form.php'; ?>
         
-        <div class="lcm_box_shadow lcm_paddinglr1030" id="lcm_list">
+        <div class="lcm_box_shadow lcm_paddinglr10300030" id="lcm_list">
             <?php foreach ($data as $value) { ?>
             
             <?php // echo '<pre>'; print_r($value); ?>

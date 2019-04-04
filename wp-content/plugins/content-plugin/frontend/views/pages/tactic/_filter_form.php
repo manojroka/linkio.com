@@ -23,8 +23,10 @@
                     <span class="lcm_search_text">Sort by:</span>
                     <div class="lcm_select-wrapper">
                         <select>
-                            <option>Value</option>
-                            <option>Value1</option>
+                            <option>Name Asc</option>
+                            <option>Name Desc</option>
+                            <option>Rating Asc</option>
+                            <option>Rating Desc</option>
                         </select>
                     </div>
                 </div>
@@ -95,8 +97,9 @@
                 <?php lcm_editor("", "tactic_description", array('textarea_rows' => '12')); ?>
                 <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html</span>
             </div>
+            <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
         </div>
-    <div class="lcm_border_bottom lcm_paddingbuttom_15">&nbsp;</div>
+        <div class="lcm_border_bottom">&nbsp;</div>
     <?php lcmf_popup_form_closed($module_detail); } ?>
 </div>
 

@@ -75,11 +75,15 @@ function lcm_vote_update($detail){
 }
 
 function _lcmf_term_and_conditions_chkbox($module_detail) {
-    $term_condition_html = '<div class="lcm_term_and_condtion">
-                                <label class="cb-checkbox">
-                                    <input type="hidden" name="is_cooke" value="off">
-                                    <input type="checkbox" name="is_cooke" id="is_cooke">I agree to the Terms and Conditions
-                                </label>
+    $term_condition_html = '<div class="lcm_flex lcm_row">
+                                <div class="lcm_col-md-6">
+                                    <div class="lcm_term_and_condtion">
+                                        <label class="cb-checkbox">
+                                            <input type="hidden" name="is_cooke" value="off">
+                                            <input type="checkbox" name="is_cooke" id="is_cooke">I agree to the Terms and Conditions
+                                        </label>
+                                    </div>    
+                                </div>
                             </div>';
     if($module_detail->saved_cookie == 0){
         echo $term_condition_html;
@@ -89,13 +93,13 @@ function _lcmf_term_and_conditions_chkbox($module_detail) {
 function _lcm_item_submit_btn() {
     $submit_button_and_validation_error_html = '<div class="lcm_paddingbuttom_tr1510 lcm_float_right">
                                                     <div class="lcm-i-submit-error"></div>
-                                                    <div class="lcm_flex lcm_row">
-                                                    <div class="lcm_text_center lcm_margin_r12 lcm_btn_cancel lcm-i-x">
-                                                        <button type="submit" id="lcm_item_cancel_btn">Cancel</button>
-                                                    </div>
-                                                    <div class="lcm_text_center lcm_btn_save">
-                                                        <button type="submit" id="lcm_item_submit_btn">Save Item</button>
-                                                    </div>
+                                                    <div class="lcm_flex lcm_row lcm_i_footer_btns">
+                                                        <div class="lcm_margin_r12 lcm-i-x">
+                                                            <button type="button">Cancel</button>
+                                                        </div>
+                                                        <div class="">
+                                                            <button type="submit" class="lcm-i-submit" id="lcm_item_submit_btn">Save Item</button>
+                                                        </div>
                                                     </div>
                                                 </div>';
     echo $submit_button_and_validation_error_html;
@@ -113,7 +117,7 @@ function _lcmf_item_form_hidden_fields($module_detail) {
 function _lcmf_item_form_heading($module_detail) {
     
     $heading_html = '<div class="lcm_popup_top">
-                        <div class="lcm_padding_lr25">
+                        <div class="lcm_padding_lr25_10">
                         <div class="lcm_flex lcm_row">
                             <div class="lcm_col-md-10">
                                 <div class="lcm_h4">Add New '.ucfirst($module_detail->module).' </div>
@@ -166,7 +170,7 @@ function lcmf_popup_form_open($module_detail) {
 
 function lcmf_popup_form_closed($module_detail) {
     echo '<div class="lcm_popup_bottom_bottons">';
-        _lcmf_term_and_conditions_chkbox($module_detail);
+        //_lcmf_term_and_conditions_chkbox($module_detail);
         _lcm_item_submit_btn();
         echo '</form>
             </div>
