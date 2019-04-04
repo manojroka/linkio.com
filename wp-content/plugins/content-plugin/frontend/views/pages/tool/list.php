@@ -16,10 +16,10 @@
                                 </a>
                             </div>
                             <div class="lcm_margin_t10 lcm_border_around lcm_float_left lcm_margin_l06em">
-                                <?= $value->price ?>
+                                <p><?= $value->price ?></p>
                             </div>
                             <div class="lcm_margin_t10 lcm_border_around lcm_float_left lcm_margin_l06em">
-                                some blog name(new field)
+                                <p>some blog name(new field)</p>
                             </div>
                         </div>
                         <div class="lcm_col-md-10">
