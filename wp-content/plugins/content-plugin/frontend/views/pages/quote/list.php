@@ -5,12 +5,12 @@
         <div class="lcm_box_shadow lcm_paddinglr10300030" id="lcm_list">
             <?php foreach ($data as $value) { ?>
                 <div class="">
-                    <div class="lcm_flex lcm_row lcm_paddingbuttom_25">
+                    <div class="lcm_flex lcm_row lcm_paddingbuttom_25 lcm_mobile_inline_block">
                         <div class="lcm_col-md-10">
-                            <div class="lcm_h2"><?= $value->title ?></div>
+                            <div class="lcm_h2 lcm_mobile_padding_top"><?= $value->title ?></div>
                         </div>
-                        <div class="lcm_col-md-2">
-                            <div class="lcm_vote lcm_border_around lcm_float_right">
+                        <div class="lcm_col-md-2 lcm_mobile_padding_top">
+                            <div class="lcm_vote lcm_border_around lcm_float_right lcm_mobile_clear_both_float_left">
                                 <?php lcm_vote_update($value); ?>
                             </div>
                         </div>

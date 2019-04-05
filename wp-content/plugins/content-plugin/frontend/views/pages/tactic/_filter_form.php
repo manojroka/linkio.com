@@ -10,15 +10,15 @@
                         <input type="button" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
                     </div>
                 </div>
-                <div class="lcm_col-md-1">
+                <div class="lcm_col-md-1 lcm_display_none">
                     <P>OR</p>
                 </div>
 
-                <div class="lcm_col-md-2 lcm_padding_l18" onclick="open_popup_form('tactic')">
+                <div class="lcm_col-md-2 lcm_padding_l18 lcm_mobile_clear_both_float_left" onclick="open_popup_form('tactic')">
                     <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
                 </div>
             </div>
-            <div class="lcm_row">
+            <div class="lcm_row lcm_mobile_clear_both">
                 <div class="lcm_clear_both lcm_padding_t8 lcm_flex">
                     <span class="lcm_search_text">Sort by:</span>
                     <div class="lcm_select-wrapper">

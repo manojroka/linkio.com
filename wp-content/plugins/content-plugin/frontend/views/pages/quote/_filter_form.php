@@ -5,19 +5,19 @@
                 <div class="lcm_col-md-7">
                     <input class="lcm_search" type="text" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
                 </div>
-                <div class="lcm_col-md-2">
-                    <div class="lcm_padding_lr18_22">
-                        <input type="button" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
+                    <div class="lcm_col-md-2">
+                        <div class="lcm_padding_lr18_22">
+                            <input type="button" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
+                        </div>
                     </div>
-                </div>
-                <div class="lcm_col-md-1">
-                    <P>OR</p>
-                </div>
-                <div class="lcm_col-md-2 lcm_padding_l18 lcm_float_right" onclick="open_popup_form('quote')">
-                    <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
-                </div>
+                    <div class="lcm_col-md-1 lcm_display_none">
+                        <P>OR</p>
+                    </div>
+                    <div class="lcm_col-md-2 lcm_padding_l18 lcm_float_right lcm_mobile_clear_both_float_left" onclick="open_popup_form('quote')">
+                        <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
+                    </div>
             </div>
-            <div class="lcm_row">
+            <div class="lcm_row lcm_mobile_clear_both">
                 <div class="lcm_clear_both lcm_padding_t8 lcm_flex">
                     <span class="lcm_search_text">Sort by:</span>
                     <div class="lcm_select-wrapper">
@@ -57,7 +57,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Author Picture</label>
+                    <label class="lcm_mobile_line_height">Author Picture</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -68,7 +68,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Author's Company</label>
+                    <label class="">Author's Company</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -88,7 +88,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Author Job Positoin</label>
+                    <label class="lcm_mobile_line_height">Author Job Position</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -101,7 +101,7 @@
             <input class="form-control" type="hidden" name="email" value="test@test.com" required>
             <!--</div>-->
             <div>
-                <label>Content</label>
+                <label class="lcm_mobile_padding_top">Content</label>
                 <?php lcm_editor("", "quote_description", array('textarea_rows' => '12')); ?>
                 <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
             </div>

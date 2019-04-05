@@ -5,7 +5,7 @@
         <div class="lcm_box_shadow lcm_paddinglr10300030" id="lcm_list">
             <?php foreach ($data as $value) { ?>
                 <div class="tool_lists" data-id="<?= $value->id ?>" data-tool_name="<?= $value->tool_name ?>" data-vote="<?= $value->vote_count ?>"> 
-                    <div class="lcm_flex lcm_row lcm_paddingbuttom_25">
+                    <div class="lcm_flex lcm_row lcm_paddingbuttom_25 lcm_mobile_inline_block">
                         <div class="lcm_col-md-10">
                             <a class="lcm_h2" href="<?=$value->home_page_url?>" target="blank_"><u><?= $value->tool_name ?></u></a>
                             <br>
@@ -19,7 +19,7 @@
                                 <p>some blog name(new field)</p>
                             </div>
                         </div>
-                        <div class="lcm_col-md-10">
+                        <div class="lcm_col-md-2 lcm_mobile_clear_both_float_left">
                             <div class="lcm_i_logo lcm_float_right">
                                 <?php $images = (array) json_decode($value->images); ?>
                                 <a href="<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $image->img_path ?>" target="blank_">
