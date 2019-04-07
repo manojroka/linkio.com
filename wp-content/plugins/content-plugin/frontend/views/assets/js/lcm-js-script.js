@@ -274,12 +274,12 @@ jQuery(document).ready(function () {
                 if (data.success == true) {
                     //jQuery(self).removeClass('vote-loading-icon');
                     jQuery(self).children('.num-vote').empty();
-                    jQuery(self).children('.num-vote').text('Vote: ' + data.data.vote_count);
+                    jQuery(self).children('.num-vote').text('Votes: ' + data.data.vote_count);
                 } else {
                     alert(data.data.msg);
                     //jQuery(self).removeClass('vote-loading-icon');
                     jQuery(self).children('.num-vote').empty();
-                    jQuery(self).children('.num-vote').text('Vote: ' + data.data.vote_count);
+                    jQuery(self).children('.num-vote').text('Votes: ' + data.data.vote_count);
                 }
             }
         });
