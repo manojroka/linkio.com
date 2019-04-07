@@ -68,7 +68,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label class="">Author's Company</label>
+                    <label class="lcm_mobile_line_height">Author's Company</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -81,7 +81,7 @@
                     <label>Company Url</label>
                 </div>
                 <div class="lcm_col-md-6">
-                    <div class="">
+                    <div class="lcm_mobile_line_height">
                         <input class="form-control" type="url" name="company_website">
                     </div>
                 </div>
