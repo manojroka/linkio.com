@@ -176,6 +176,9 @@
 .lcm_paddingbuttom_15 {
     padding-bottom: 15px;
 }
+.lcm_paddingbuttom_5 {
+    padding-bottom: 5px;
+}
 .lcm_paddingbuttom_tr1510 {
    padding: 5px 10px 15px;
 }
@@ -246,13 +249,18 @@
     -moz-box-shadow: 0px 2px 4px #E4E4E4;
     box-shadow: 0px 2px 4px #E4E4E4;
 }
+.lcm_desc iframe {
+    border-radius: 4px;
+    -webkit-box-shadow: 0px 2px 4px #E4E4E4;
+    -moz-box-shadow: 0px 2px 4px #E4E4E4;
+    box-shadow: 0px 2px 4px #E4E4E4;
+}
 .lcm_desc {
     font-weight: 300;
     font-size: large;
 }
 .lcm_desc iframe{
-    width: 68%;
-    margin-left: 7.5em;
+    width: 63%;
 }
 .lcm_search_box{
     min-height: 3.5em;
@@ -396,6 +404,15 @@ color:#6F8692;
     color:#8F9295;
     padding-right:10px;
 }
+.lcm_text_center {
+    text-align: center;
+}
+.lcm_popup_content .lcm-i-type-radio input{
+    vertical-align: middle; 
+}
+.lcm_popup_content .lcm-i-type-radio {
+    line-height: 0;
+}
 
 /* media query for most mobile devices */
 /*@media only screen and (min-width: 0px) and (max-width: 480px){
@@ -460,7 +477,7 @@ color:#6F8692;
     font-weight: 700;
     margin-right: 15px;
 }
-.lcm_i_logo img{
+.lcm_i_logo img {
     height: auto;
     float: left;
     margin: 5px 20px 5px 0;
@@ -468,8 +485,8 @@ color:#6F8692;
     -webkit-box-shadow: 0px 2px 4px #E4E4E4;
     -moz-box-shadow: 0px 2px 4px #E4E4E4;
     box-shadow: 0px 2px 4px #E4E4E4;
-    max-width: 180px;
-    max-height: 100px;
+   min-width: 180px;
+    max-height: 90px;
 }
 .lcm-i-submit-error p{
     margin-bottom: 1px;
@@ -507,6 +524,9 @@ color:#6F8692;
         clear: both;
         float: left;
     }
+    .lcm_mobile_float_left{
+        float: left;
+    }
     .lcm_mobile_inline_block{
         display: inline-block;
     }
@@ -523,6 +543,18 @@ color:#6F8692;
         width: 96%;
         left: 2%;
     }
+    .lcm_desc iframe{
+        width: 80%;
+    }
+    .lcm_i_logo img {
+        height: auto;
+        float: left;
+        margin: 15px 0px 0px 0;
+    }
+    .lcm_popup_info {
+        display: inline-flex;
+        line-height: 16px;
+    }
         
 }
 
@@ -536,5 +568,8 @@ color:#6F8692;
     }
     .lcm-i-form .lcm_mobile_line_height {
         line-height: 19px;
+    }
+    .lcm-i-type-radio span{
+        margin-right: 0px; 
     }
 }

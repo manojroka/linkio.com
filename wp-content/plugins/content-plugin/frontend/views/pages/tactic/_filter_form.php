@@ -36,11 +36,11 @@
 
     <?php
     if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
-        <div class="lcm_popup_content lcm_padding_lr25">
+        <div class="lcm_popup_content lcm_padding_lr25 lcm_container ">
             
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Strategy Title</label>
+                    <label class="lcm_mobile_line_height">Strategy Title</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -60,7 +60,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Author's Company</label>
+                    <label class="lcm_mobile_line_height">Author's Company</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -70,7 +70,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Company Url</label>
+                    <label class="lcm_mobile_line_height">Company Url</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -80,7 +80,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Author Job Positoin</label>
+                    <label class="lcm_mobile_line_height">Author Job Position</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -93,7 +93,7 @@
             <input class="form-control" type="hidden" name="email" value="test@test.com" required>
             <!--</div>-->
             <div>
-                <label>Content</label>
+                <label class="lcm_mobile_padding_top">Content</label>
                 <?php lcm_editor("", "tactic_description", array('textarea_rows' => '12')); ?>
                 <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
             </div>

@@ -62,7 +62,7 @@
                 <div class="lcm_col-md-6">
                     <div class="">
                         <input class="lcm-i-type-file form-control" type="file" name="headshot" accept="image/*" required>
-                        <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>For best preview the logo images should be 132px x 132px</span>
+                        <span class="lcm_popup_info"><i class="fas fa-info-circle"></i><span>For best preview the logo images should be 132px x 132px</span></span>
                     </div>
                 </div>
             </div>

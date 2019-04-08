@@ -20,7 +20,7 @@
                             </div>
                         </div>
                         <div class="lcm_col-md-2 lcm_mobile_clear_both_float_left">
-                            <div class="lcm_i_logo lcm_float_right">
+                            <div class="lcm_i_logo lcm_float_right lcm_mobile_float_left">
                                 <?php $images = (array) json_decode($value->images); ?>
                                 <a href="<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $image->img_path ?>" target="blank_">
                                     <img src="<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $images[0]->img_path ?>">
@@ -30,11 +30,14 @@
                     </div>
                     <div class="lcm_desc lcm_paddingbuttom_25">
                         <?= $value->description; ?>
+                        <div class="lcm_clear_both">&nbsp;</div>
                         <!---------- videos section------------>
+                        <div class="lcm_margin_auto">
                         <?php if (lcm_video_iframes($value->videos) != NULL) { ?>
                         
                             <?php echo lcm_video_iframes($value->videos); ?>
                         <?php } ?>
+                        </div>
                     </div>
                     <div class="lcm_row">
                         <div class="lcm_clear_both lcm_border_bottom">&nbsp;</div>

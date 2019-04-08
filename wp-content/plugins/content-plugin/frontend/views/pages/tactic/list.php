@@ -11,12 +11,12 @@
             
             <div class="tactic_lists" data-id="<?= $value->id ?>" data-tool_name="<?= $value->tool_name ?>" data-vote="<?= $value->vote_count ?>">
                 
-                <div class="lcm_flex lcm_row lcm_paddingbuttom_25">
+                <div class="lcm_flex lcm_row lcm_paddingbuttom_25 lcm_mobile_inline_block">
                     <div class="lcm_col-md-10">
-                        <div class="lcm_h2"><?= $value->tactic_name ?></div>
+                        <div class="lcm_h2 lcm_mobile_padding_top"><?= $value->tactic_name ?></div>
                     </div>
-                    <div class="lcm_col-md-2">
-                        <div class="lcm_vote lcm_border_around lcm_float_right">
+                    <div class="lcm_col-md-2 lcm_mobile_padding_top">
+                        <div class="lcm_vote lcm_border_around lcm_float_right lcm_mobile_clear_both_float_left">
                             <?php lcm_vote_update($value); ?>
                         </div>
                     </div>

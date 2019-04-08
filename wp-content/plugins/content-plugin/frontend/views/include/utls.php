@@ -61,7 +61,7 @@ function lcm_video_iframes($json_data) {
         foreach ($json_in_array as $key => $value_url) {
             if (strpos($value_url, 'youtube.com') !== false) {
                 $y_vid_src = str_replace("watch?v=", "embed/", preg_replace('/&list.*/', '', $value_url));
-                $video_html .= '<div><iframe width="70%" src="'.$y_vid_src.'" height="320px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
+                $video_html .= '<div class="lcm_text_center"><iframe src="'.$y_vid_src.'" height="320px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
             } elseif (strpos($value_url, 'vimeo.com') !== false) {   
                 $my_url = 'http://www.example.com/5478631';
                 $v_id = substr($value_url, strrpos($value_url, '/' )+1);

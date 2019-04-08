@@ -4,7 +4,7 @@
         <div class="lcm_box_shadow lcm_paddinglr10300030" id="lcm_list">
             <?php foreach ($data as $value) { ?>
                 <div class="">
-                    <div class="lcm_flex lcm_row lcm_paddingbuttom_25">
+                    <div class="lcm_flex lcm_row lcm_paddingbuttom_25 lcm_mobile_inline_block">
                         <div class="lcm_col-md-10">
                             <a class="lcm_h2" href="<?= $value->website_url ?>" target="_blank"><u><?= $value->website_name ?></u></a>
                             <br>
@@ -12,8 +12,8 @@
                                 <?php lcm_vote_update($value); ?>
                             </div>
                         </div>
-                        <div class="lcm_col-md-10">
-                            <div class="lcm_i_logo lcm_float_right">
+                        <div class="lcm_col-md-2">
+                            <div class="lcm_i_logo lcm_float_right lcm_mobile_clear_both_float_left">
                                 <?php if ($value->website_logo != '') { ?>
                                     <img src='<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $value->website_logo ?>' alt='web logo'>                
                                 <?php } ?>

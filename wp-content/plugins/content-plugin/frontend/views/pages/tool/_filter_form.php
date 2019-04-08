@@ -58,7 +58,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Website Logo</label>
+                    <label class="lcm_mobile_line_height">Website Logo</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -69,7 +69,7 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label>Add Video Url</label>
+                    <label class="lcm_mobile_line_height">Add Video Url</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -81,17 +81,17 @@
                 <div class="lcm_col-md-3">
                     <label>Pricing</label> 
                 </div>
-                <div class="lcm_col-md-6">
+                <div class="lcm_col-md-6 lcm_padding_t8">
                     <div class="lcm-i-type-radio">
                         <input type="radio" name="price" checked="" value="Free"> <span>Free</span>
-                        <input type="radio" name="price" value="Premium"> <span>Premium</span>
+                        <input type="radio" name="price" value="Freemium"> <span>Freemium</span>
                         <input type="radio" name="price" value="Paid"> <span>Paid</span>
                     </div>
                 </div>
             </div>
             <div>
                 <label>Content</label>
-                <?php lcm_editor('', 'description', array('textarea_rows' => 12)); ?>
+                <?php lcm_editor('', 'description', array('textarea_rows' => 15)); ?>
                 <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
             </div>
             <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>

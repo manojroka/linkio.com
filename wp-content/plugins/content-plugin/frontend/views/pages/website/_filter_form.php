@@ -2,11 +2,9 @@
     <?php if (isset($filter)) { ?>
         <div class="lcm_search_box">
             <div class="lcm_row">
-                <div class="i-btn-center">
-                    <div class="lcm_col-md-2 lcm_padding_l18" onclick="open_popup_form('website')">
+                    <div class="lcm_col-md-2 lcm_margin_auto" onclick="open_popup_form('website')">
                         <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
-                    </div>    
-                </div>                
+                    </div>               
             </div>
         </div>
     <?php } ?>
