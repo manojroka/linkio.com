@@ -15,9 +15,7 @@
                             <div class="lcm_margin_t10 lcm_border_around lcm_float_left lcm_margin_l06em">
                                 <p><?= $value->price ?></p>
                             </div>
-                            <div class="lcm_margin_t10 lcm_border_around lcm_float_left lcm_margin_l06em">
-                                <p>some blog name(new field)</p>
-                            </div>
+                            <?php lcm_tool_additional_links($value->additional_links); ?>
                         </div>
                         <div class="lcm_col-md-2 lcm_mobile_clear_both_float_left">
                             <div class="lcm_i_logo lcm_float_right lcm_mobile_float_left">

@@ -16,6 +16,33 @@ function _lcm_dropdown_selector($name, $select = NULL, $select_option, $label) {
     echo '<select name="'.$name.'" id="'.$name.'" class="postform form-control">'.$option_li.'</select>';
 }
 
+function lcm_tool_additional_links($json_data){
+    if($json_data == '' || $json_data == NULL){
+        return NULL;
+    }
+    $item_res = NULL;
+    $json_in_array = (array)json_decode($json_data);
+    if(count($json_in_array) > 0){
+        foreach ($json_in_array as $key => $value) {
+            $value = (array)$value;
+            foreach ($value as $key_id => $value2) {    
+                foreach ($json_in_array as $key_r => $value_r) {
+                    $value_r = (array)$value_r;
+                    $json_in_array_key = (array)$json_in_array[$key_r];
+                    $item_res[$key_id][$key_r] = $json_in_array_key[$key_id];         
+                }
+            }
+        }
+    }
+    if($item_res != NULL){
+        foreach ($item_res as $k => $link) {
+            echo    '<div class="lcm_margin_t10 lcm_border_around lcm_float_left lcm_margin_l06em">
+                        <a href="'.$link['link_url'].'" target="blank_">'.$link['link_name'].'</a>
+                    </div>';
+        }   
+    }
+}
+
 function lcm_editor($content, $editor_id, $setings = NULL ) {
     
     $editor = array(
