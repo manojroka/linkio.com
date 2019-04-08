@@ -54,7 +54,7 @@ function lcm_get_search_item_ids_function() {
         );
         wp_send_json_error($custom_data);
     }else{        
-        $controllerName = 'LCMF' . ucfirst($module);
+        $controllerName = 'LCMF' . ucfirst('home');
         $expectedController = LCM_PLUGIN_FRONT_DIR . '/controllers/' . $controllerName . '.php';
         if (file_exists($expectedController)) {
             require_once $expectedController;
