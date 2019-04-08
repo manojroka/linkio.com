@@ -3,7 +3,7 @@
         <div class="lcm_search_box">
             <div class="lcm_row">
                 <div class="lcm_col-md-7">
-                    <input type="text" id="lcm-search-query" data-template_id="<?=$module_detail->id?>" data-module="<?=$module_detail->module?>" placeholder="&#xf002 Search">
+                    <input type="text" id="lcm-search-query" class="fas fa-search" data-template_id="<?=$module_detail->id?>" data-module="<?=$module_detail->module?>" placeholder="&#xf002; Search">
                 </div>
                     <div class="lcm_col-md-2">
                         <div class="lcm_padding_lr18_22">

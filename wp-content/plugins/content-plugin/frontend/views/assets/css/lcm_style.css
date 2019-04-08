@@ -273,8 +273,7 @@
     border: 1px solid #DFE2E4;
     border-radius: 4px !important;
     background-color: #fff;
-    color: #B5B8BF;
-    margin-left:1px;
+    color: #474A4D;
     font-family:"Arial, FontAwesome";
 }
 .lcm_search_box #lcm-search-query:focus {
@@ -495,6 +494,18 @@ color:#6F8692;
     font-size: 13px !important;
     text-align: right;
     line-height: 16px !important;
+}
+.fa-search::placeholder {
+    font-family: "Font Awesome 5 Free";
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    display: inline-block; 
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    line-height: 1;
+    font-weight: 600;
+    margin:5px;
 }
 /*.vote-loading-icon:before{
     content: url(lcm_loading_icon.gif);
