@@ -42,3 +42,28 @@ function lcm_item_submit_function() {
 }
 add_action('wp_ajax_lcm_item_submit', 'lcm_item_submit_function');
 add_action('wp_ajax_nopriv_lcm_item_submit', 'lcm_item_submit_function');
+
+function lcm_get_search_item_ids_function() {
+    $module = $_POST['module'];
+    $action = $_POST['action']; //lcm_get_search_item_ids
+    unset($_POST['action']);
+    $missing_required_attrs = !isset($_POST['template_id']) || !isset($_POST['module']);
+    if ($missing_required_attrs) {
+        $custom_data = array(
+            'msg'=>'Something is missing.',
+        );
+        wp_send_json_error($custom_data);
+    }else{        
+        $controllerName = 'LCMF' . ucfirst($module);
+        $expectedController = LCM_PLUGIN_FRONT_DIR . '/controllers/' . $controllerName . '.php';
+        if (file_exists($expectedController)) {
+            require_once $expectedController;
+            $fcontroller = new $controllerName();
+            $fcontroller->ajaxPerform($action, $module);
+        }
+    }
+    exit;
+}
+add_action('wp_ajax_lcm_get_search_item_ids', 'lcm_get_search_item_ids_function');
+add_action('wp_ajax_nopriv_lcm_get_search_item_ids', 'lcm_get_search_item_ids_function');
+

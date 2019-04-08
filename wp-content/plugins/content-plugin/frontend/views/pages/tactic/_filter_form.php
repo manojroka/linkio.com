@@ -3,20 +3,19 @@
         <div class="lcm_search_box">
             <div class="lcm_row">
                 <div class="lcm_col-md-7">
-                    <input class="lcm_search" type="text" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
+                    <input type="text" id="lcm-search-query" data-template_id="<?=$module_detail->id?>" data-module="<?=$module_detail->module?>" placeholder="&#xf002 Search">
                 </div>
-                <div class="lcm_col-md-2">
-                    <div class="lcm_padding_lr18_22">
-                        <input type="button" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
+                    <div class="lcm_col-md-2">
+                        <div class="lcm_padding_lr18_22">
+                            <input type="submit" class="lcm-s-a-btn" id="lcm-do-search" style="font-family:Arial, FontAwesome" value="&#xf002 Search">
+                        </div>
                     </div>
-                </div>
-                <div class="lcm_col-md-1 lcm_display_none">
-                    <P>OR</p>
-                </div>
-
-                <div class="lcm_col-md-2 lcm_padding_l18 lcm_mobile_clear_both_float_left" onclick="open_popup_form('tactic')">
-                    <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
-                </div>
+                    <div class="lcm_col-md-1 lcm_display_none">
+                        <P>OR</p>
+                    </div>
+                    <div class="lcm_col-md-2 lcm_padding_l18 lcm_float_right lcm_mobile_clear_both_float_left" onclick="open_popup_form('tactic')">
+                        <input type="button" class="lcm-s-a-btn" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
+                    </div>
             </div>
             <div class="lcm_row lcm_mobile_clear_both">
                 <div class="lcm_clear_both lcm_padding_t8 lcm_flex">

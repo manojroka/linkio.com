@@ -37,4 +37,10 @@ class LCMFQuote extends LCMfrontend{
         }
         exit;
     }
+    
+    function lcm_get_search_item_ids() {
+        $query_condition = "AND (title LIKE '%{$_POST['qry_string']}%') OR (quote_description LIKE '%{$_POST['qry_string']}%')";
+        $this->lcmf_model->get_search_item_ids($query_condition);
+    }
+    
 }

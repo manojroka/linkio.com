@@ -9,7 +9,7 @@
             
             <?php // echo '<pre>'; print_r($value); ?>
             
-            <div class="tactic_lists" data-id="<?= $value->id ?>" data-tool_name="<?= $value->tool_name ?>" data-vote="<?= $value->vote_count ?>">
+            <div class="lcm-i-lists" data-id="<?=$value->id?>">
                 
                 <div class="lcm_flex lcm_row lcm_paddingbuttom_25 lcm_mobile_inline_block">
                     <div class="lcm_col-md-10">

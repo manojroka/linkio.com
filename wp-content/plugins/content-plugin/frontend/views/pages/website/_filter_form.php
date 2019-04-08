@@ -3,7 +3,7 @@
         <div class="lcm_search_box">
             <div class="lcm_row">
                     <div class="lcm_col-md-2 lcm_margin_auto" onclick="open_popup_form('website')">
-                        <input type="button" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
+                        <input type="button" class="lcm-s-a-btn" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
                     </div>               
             </div>
         </div>
@@ -74,3 +74,4 @@
         <?php // _lcmf_name_email_company_input() ?>
         <?php lcmf_popup_form_closed($module_detail); } ?>
 </div>
+

@@ -591,3 +591,52 @@ jQuery(document).on('click keyup','.lcm-tool-filter', function () {
     });
 });
 
+jQuery(document).on('click','#lcm-do-search', function () {
+    var qry_self = jQuery('#lcm-search-query');
+    var qry_string = document.getElementById('lcm-search-query').value;
+    if(qry_string == ''){
+        alert('Please Enter Keywords For Search...');
+        jQuery('.lcm-i-lists').each(function () {
+            jQuery(this).show();
+        });
+        return false;
+    }else{
+        jQuery.ajax({
+            url: document.getElementById('lcm_home_url').value + '/wp-admin/admin-ajax.php',
+            type: 'post',
+            data: {
+                action: 'lcm_get_search_item_ids',
+                template_id: qry_self.attr('data-template_id'),
+                module: qry_self.attr('data-module'),
+                qry_string: qry_string,
+            },
+            success: function (data) {
+                
+                if (data.success == true) {
+                    var ids = [];
+                    data.data.msg.forEach(function(detail) {
+                        ids.push(detail.id);
+                    });
+                    ids = JSON.stringify(ids);
+                    jQuery('.lcm-i-lists').hide();
+                    jQuery('.lcm-i-lists').each(function () {
+                        
+                        var this_div = jQuery(this);
+                        
+                        
+                        
+                        console.log(ids);
+                        
+                        console.log(ids.includes(this_div.data('id')));
+                        
+                        if( ids.includes(this_div.data('id') ) == true ) {
+                            this_div.show();
+                        }
+                    });
+                }else{
+                    alert(data.data.msg);
+                }
+            }
+        });
+    }
+});

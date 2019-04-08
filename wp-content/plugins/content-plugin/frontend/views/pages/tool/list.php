@@ -4,7 +4,7 @@
         <?php include '_filter_form.php'; ?>
         <div class="lcm_box_shadow lcm_paddinglr10300030" id="lcm_list">
             <?php foreach ($data as $value) { ?>
-                <div class="tool_lists" data-id="<?= $value->id ?>" data-tool_name="<?= $value->tool_name ?>" data-vote="<?= $value->vote_count ?>"> 
+                <div class="lcm-i-lists" data-id="<?=$value->id?>">
                     <div class="lcm_flex lcm_row lcm_paddingbuttom_25 lcm_mobile_inline_block">
                         <div class="lcm_col-md-10">
                             <a class="lcm_h2" href="<?=$value->home_page_url?>" target="blank_"><u><?= $value->tool_name ?></u></a>
