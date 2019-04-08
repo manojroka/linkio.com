@@ -603,7 +603,6 @@ jQuery(document).on('click','#lcm-do-search', function () {
     var qry_self = jQuery('#lcm-search-query');
     var qry_string = document.getElementById('lcm-search-query').value;
     if(qry_string == ''){
-        alert('Please Enter Keywords For Search...');
         jQuery('.lcm-i-lists').each(function () {
             jQuery(this).show();
         });

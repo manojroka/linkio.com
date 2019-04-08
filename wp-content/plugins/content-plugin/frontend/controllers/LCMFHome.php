@@ -128,17 +128,10 @@ class LCMFHome extends LCMfrontend{
         
         $id_s = $this->lcmf_model->get_search_item_ids();
         if($id_s['status'] == TRUE){
-            if($id_s['num_rows'] > 0){                
-                $custom_data = array(
-                    'msg'=>$id_s['result'],
-                );
-                return wp_send_json_success($custom_data);
-            }else{
-                $custom_data = array(
-                    'msg'=>'Your entered does not matched any data.',
-                );
-                return wp_send_json_error($custom_data);
-            }
+            $custom_data = array(
+                'msg'=>$id_s['result'],
+            );
+            return wp_send_json_success($custom_data);
         }else{
             $custom_data = array(
                 'msg'=>'Error:Something is wrong.',
