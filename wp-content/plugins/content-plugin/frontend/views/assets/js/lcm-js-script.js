@@ -106,9 +106,16 @@ function showPopup(whichpopup) {
     jQuery('#' + whichpopup).show();
 }
 
-function open_popup_form(formname) {
-    showPopup('popup_form_' + formname);
-}
+//function open_popup_form(formname) {
+//    showPopup('popup_form_' + formname);
+//}
+
+jQuery(document).on('click', '#lcm-open-i-form', function () {
+    var module_name = jQuery('#lcm-open-i-form').attr('data-module');
+    showPopup('popup_form_' + module_name);
+});
+
+
 //------- item popup form open end ---------
 //function onclick_lcm_btn_expand(id) {
 //    jQuery('.lcm_btn_expand' + id).hide();
