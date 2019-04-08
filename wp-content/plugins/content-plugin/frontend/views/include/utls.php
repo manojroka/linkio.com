@@ -62,8 +62,7 @@ function lcm_video_iframes($json_data) {
             if (strpos($value_url, 'youtube.com') !== false) {
                 $y_vid_src = str_replace("watch?v=", "embed/", preg_replace('/&list.*/', '', $value_url));
                 $video_html .= '<div class="lcm_text_center"><iframe src="'.$y_vid_src.'" height="320px" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>';
-            } elseif (strpos($value_url, 'vimeo.com') !== false) {   
-                $my_url = 'http://www.example.com/5478631';
+            } elseif (strpos($value_url, 'vimeo.com') !== false) {
                 $v_id = substr($value_url, strrpos($value_url, '/' )+1);
                 $video_html .= '<div class="lcm_text_center"><iframe src="https://player.vimeo.com/video/'.$v_id.'" width="70%" height="320px" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
             };

@@ -21,11 +21,11 @@
                 <div class="lcm_clear_both lcm_padding_t8 lcm_flex">
                     <span class="lcm_search_text">Sort by:</span>
                     <div class="lcm_select-wrapper">
-                        <select>
-                            <option>Name Asc</option>
-                            <option>Name Desc</option>
-                            <option>Rating Asc</option>
-                            <option>Rating Desc</option>
+                        <select id="lcm-i-sort">
+                            <option value="name_asc">Name Asc</option>
+                            <option value="name_desc">Name Desc</option>
+                            <option value="rating_asc">Rating Asc</option>
+                            <option value="rating_desc">Rating Desc</option>
                         </select>
                     </div>
                 </div>
