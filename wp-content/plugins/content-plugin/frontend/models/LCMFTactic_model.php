@@ -111,4 +111,13 @@ class LCMFTactic_model extends LCMF_model{
         }
         return FALSE;
     }
+    
+    function get_search_item_ids() {
+        
+        $s_query = "SELECT id 
+                    FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
+                    WHERE template_id = {$_POST['template_id']} AND (tactic_name LIKE '%{$_POST['qry_string']}%') OR (tactic_description LIKE '%{$_POST['qry_string']}%')";
+                    
+        return $this->db->lcm_db_result($s_query, 'object');
+    }
 }

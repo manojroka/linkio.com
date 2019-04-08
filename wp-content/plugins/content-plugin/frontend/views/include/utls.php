@@ -65,7 +65,7 @@ function lcm_video_iframes($json_data) {
             } elseif (strpos($value_url, 'vimeo.com') !== false) {   
                 $my_url = 'http://www.example.com/5478631';
                 $v_id = substr($value_url, strrpos($value_url, '/' )+1);
-                $video_html .= '<div><iframe src="https://player.vimeo.com/video/'.$v_id.'" width="70%" height="320px" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
+                $video_html .= '<div class="lcm_text_center"><iframe src="https://player.vimeo.com/video/'.$v_id.'" width="70%" height="320px" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>';
             };
         }
     }

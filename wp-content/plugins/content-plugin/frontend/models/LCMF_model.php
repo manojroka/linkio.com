@@ -65,31 +65,4 @@ class LCMF_model {
         );
         return $this->db->insert($this->table_prefix . 'lcm_clients_ip_records', $data);
     }
-    
-    function get_search_item_ids($query_condition) {
-        
-        $s_query = "SELECT id 
-                    FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
-                    WHERE template_id = {$_POST['template_id']} {$query_condition}";
-        
-        $id_s = $this->db->lcm_db_result($s_query, 'object');
-        if($id_s['status'] == TRUE){
-            if($id_s['num_rows'] > 0){                
-                $custom_data = array(
-                    'msg'=>$id_s['result'],
-                );
-                return wp_send_json_success($custom_data);
-            }else{
-                $custom_data = array(
-                    'msg'=>'Your entered does not matched any data.',
-                );
-                return wp_send_json_error($custom_data);
-            }
-        }else{
-            $custom_data = array(
-                'msg'=>'Error:Something is wrong.',
-            );
-            return wp_send_json_error($custom_data);
-        }
-    }
 }
