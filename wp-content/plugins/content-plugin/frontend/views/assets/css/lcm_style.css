@@ -224,11 +224,15 @@
     border-radius: 5px;
     padding: 0px 8px 2px;
 }
-.lcm_border_around p{
+.lcm_border_around p, a{
     color: #79849A !important;
     font-size: 14px !important;
     font-weight: bold;
     margin: 0px !important;
+}
+.lcm_border_around i{
+    color: #adadad !important;
+    font-size: 10px !important;
 }
 .lcm_flex {
     display: inline-flex;
@@ -269,12 +273,12 @@
     width: 100%;
     padding: 12px 10px;
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 600;
     border: 1px solid #DFE2E4;
     border-radius: 4px !important;
     background-color: #fff;
-    color: #474A4D;
-    font-family:"Arial, FontAwesome";
+    color: #525252;
+    font-family:"Arial, FontAwesome" !important;
 }
 .lcm_search_box #lcm-search-query:focus {
     border-color: #007acc;
@@ -286,19 +290,25 @@
     border-radius: 4px;
     display: inline-block;
     line-height: 23px;
-    color: #474A4D;
+    color: #6f6f6f;
     font-family: "Source Sans Pro";
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 600;
 /*    letter-spacing: 1.09px;*/
     text-align: center;
-    transition: all 0.3s;
+    /*transition: all 0.3s;*/
     background-color: #fff;
     text-transform: none;
 }
 .lcm_search_box .lcm-s-a-btn:hover, .lcm_search_box .lcm-s-a-btn:focus, .lcm_popup_bottom_bottons button:hover, .lcm_popup_bottom_bottons button:focus {
     color: #fff;
     background-color: #DFE2E4;
+}
+#lcm-search-query::placeholder{
+    letter-spacing: 1.09px;
+    color: #9fa9a6 !important;
+    font-size: 15px !important;
+    font-weight: 600;
 }
 .lcm_btn_cancel button, .lcm_btn_save button {
     font-size:14px !important;
@@ -328,6 +338,7 @@
     border: 1px solid #55bd9c;
 }
 .lcm_search_box p {
+    color: #6f6f6f !important;
     margin: 0px;
     font-size: 14px !important;
     line-height: 45px !important;

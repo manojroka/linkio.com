@@ -37,7 +37,7 @@ function lcm_tool_additional_links($json_data){
     if($item_res != NULL){
         foreach ($item_res as $k => $link) {
             echo    '<div class="lcm_margin_t10 lcm_border_around lcm_float_left lcm_margin_l06em">
-                        <a href="'.$link['link_url'].'" target="blank_">'.$link['link_name'].'</a>
+                        <a href="'.$link['link_url'].'" target="blank_">'.$link['link_name'].'&nbsp;&nbsp;<i class="fas fa-external-link-alt"></i></a>
                     </div>';
         }   
     }
@@ -75,7 +75,7 @@ function _lcm_top_search_box($detail) {
     $srch_box_html = '<div class="lcm_search_box">
                         <div class="lcm_row">
                             <div class="lcm_col-md-7">
-                                <input type="text" id="lcm-search-query" class="fas fa-search" data-template_id="'.$detail->id.'" data-module="'.$detail->module.'" placeholder="&#xf002; Search">
+                                <input type="text" id="lcm-search-query" class="fas fa-search" data-template_id="'.$detail->id.'" data-module="'.$detail->module.'" placeholder="&#xf002;  Search">
                             </div>
                             <div class="lcm_col-md-2">
                                 <div class="lcm_padding_lr18_22">

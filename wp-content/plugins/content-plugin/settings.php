@@ -53,7 +53,8 @@ function lcms_dashboard() {
 
 function lcm_register_css_and_js(){
     //----frontend-----
-    wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.8.1/css/all.css'); 
+    //wp_enqueue_style('font-awesome', 'https://use.fontawesome.com/releases/v5.8.1/css/all.css'); 
+    wp_enqueue_style('lcm-font-awesome', '//use.fontawesome.com/releases/v5.8.1/css/all.css'); 
     wp_enqueue_style( 'lcm_style', LCM_PLUGIN_FRONT_DIR_URL . '/views/assets/css/lcm_style.css' );
     wp_register_script( 'jQuery', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js', null, null, true );
     wp_enqueue_script( 'lcm-js-script', LCM_PLUGIN_FRONT_DIR_URL . '/views/assets/js/lcm-js-script.js', null, null, true  );

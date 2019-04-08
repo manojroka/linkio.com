@@ -20,7 +20,7 @@ class LCMHome_model extends LCM_model {
                 LEFT JOIN {$this->table_prefix}lcm_modules ON stl.module_id = {$this->table_prefix}lcm_modules.id ORDER BY id DESC";
         $list_templates = $this->db->query_as_object($sqll);
         
-        $modules_lists = $this->db->query_as_object("SELECT * FROM `{$this->table_prefix}lcm_modules`");
+        $modules_lists = $this->db->query_as_object("SELECT * FROM `{$this->table_prefix}lcm_modules` LIMIT 4");
         
         $data = array(
             'templates'=>$list_templates,

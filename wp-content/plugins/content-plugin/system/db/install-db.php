@@ -88,7 +88,7 @@
                                     `videos` text,
                                     `collapse_expand` text,
                                     `type` text,
-                                    `price` enum('Free','Paid','Premium') DEFAULT NULL,
+                                    `price` enum('Free','Paid','Freemium') DEFAULT NULL,
                                     `is_cooke` enum('on') DEFAULT NULL,
                                     `vote_count` int(11) NOT NULL DEFAULT '0',
                                     `template_id` int(11) NOT NULL,
