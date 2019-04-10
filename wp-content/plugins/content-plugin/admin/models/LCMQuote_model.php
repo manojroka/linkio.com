@@ -122,6 +122,7 @@ class LCMQuote_model extends LCM_model {
         $data['company'] = sanitize_text_field($data['company']);
         $data['status'] = sanitize_text_field($data['status']);
         $data['company_website'] = sanitize_text_field($data['company_website']);
+        $data['job_position'] = sanitize_text_field($data['job_position']);
         $data['headshot'] = sanitize_text_field($data['headshot']);
         
         $data['quote_description'] = stripslashes( $data['quote_description'] );

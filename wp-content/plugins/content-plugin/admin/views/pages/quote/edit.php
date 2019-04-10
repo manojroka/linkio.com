@@ -67,6 +67,14 @@
     </tr>
     <tr>
         <th>
+            <label>Job Position </label>
+        </th>
+        <td>
+            <input class="regular-text" type="text" name="job_position" value="<?= $data->job_position ?>" >
+        </td>
+    </tr>
+    <tr>
+        <th>
             <label>Company website: </label>
         </th>
         <td>
