@@ -5,12 +5,24 @@
  * @author linkio.com
  */
 class PTAFHome extends PTAfrontend {
-
+    
+    function __construct() {
+        parent::__construct();
+        $model_file = 'PTAFHome_model';
+        $expected_model_file = PTA_PLUGIN_FRONT_DIR . '/models/' . $model_file . '.php';
+        if (file_exists($expected_model_file)) {
+            require_once $expected_model_file;
+            $this->home_model = new $model_file();
+        }
+    }
+    
     function index() {
         $this->page = 'index';
     }
 
     function pta_generate_url_list() {
+        
+        error_reporting(E_ALL); ini_set('display_errors', 1);
         
         $homepage_url = $_POST['home_page_url'];
         if ($homepage_url == '' || $homepage_url == NULL) {
@@ -19,20 +31,19 @@ class PTAFHome extends PTAfrontend {
             );
             wp_send_json_error($custom_data);
         }
+        
         if (substr($homepage_url, -1) != '/') {
             $homepage_url .= '/';
         }
-        $url = $homepage_url . 'page-sitemap.xml';
-        //$result_array = simpleXML_load_file($url,"SimpleXMLElement",LIBXML_NOCDATA);
-        $xml = @simplexml_load_file($url);
-        if ($xml == FALSE) {
+        
+        $result_array = $this->home_model->read_all_url($homepage_url);
+        if($result_array == FALSE){
             $custom_data = array(
                 'msg' => 'Sorry, no xml file found.',
             );
             wp_send_json_error($custom_data);
         }
-        $json_string = json_encode($xml);
-        $result_array = json_decode($json_string, TRUE);
+        
         $url_list = NULL;
         foreach ($result_array['url'] as $key => $url) {
             
