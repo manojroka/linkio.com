@@ -50,6 +50,22 @@
     </tr>
     <tr>
         <th>
+            <label>Company Url </label>
+        </th>
+        <td>
+            <input class="regular-text" type="url" name="company_url">
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <label>Job Position </label>
+        </th>
+        <td>
+            <input class="regular-text" type="text" name="job_position">
+        </td>
+    </tr>
+    <tr>
+        <th>
             <label>Expand/Collapse Button Label</label>
         </th>
         <td>

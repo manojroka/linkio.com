@@ -18,7 +18,7 @@
                     <div class="lcm_desc lcm_paddingbuttom_25">
                         <?php echo $value->tactic_description ?>
                     </div>
-                    <div class="lcm_row">
+                    <div class="lcm_row lcm-list-i-foter">
                         <div class="lcm_clear_both lcm_float_right">
                             by <strong><?= $value->name ?></strong>, <?= $value->job_position ?> at 
                             <a href="<?= $value->company_url ?>" target="_blank"><u><?= $value->company ?></u></a>

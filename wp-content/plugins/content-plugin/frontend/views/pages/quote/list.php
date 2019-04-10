@@ -21,10 +21,10 @@
                         <?php } ?>
                         <?php echo $value->quote_description ?>
                     </div>
-                    <div class="lcm_row">
+                    <div class="lcm_row lcm-list-i-foter">
                         <div class="lcm_clear_both lcm_float_right">
-                            by <strong><?= $value->name ?></strong>, <?= $value->job_position ?> at 
-                            <a href="<?= $value->company_website ?>" target="_blank" rel="<?= $value->is_weburl_df ?>" ><u><?= $value->company ?></u></a>
+                            <p>by <strong><?= $value->name ?></strong>, <?= $value->job_position ?> at 
+                            <a href="<?= $value->company_website ?>" target="_blank" rel="<?= $value->is_weburl_df ?>" ><u><?= $value->company ?></u></a></p>
                         </div>
                         <div class="lcm_clear_both lcm_border_bottom">&nbsp;</div>
                     </div>

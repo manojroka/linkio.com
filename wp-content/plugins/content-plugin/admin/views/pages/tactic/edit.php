@@ -51,6 +51,22 @@
     </tr>
     <tr>
         <th>
+            <label>Company Url </label>
+        </th>
+        <td>
+            <input class="regular-text" type="url" name="company_url" value="<?= $data->company_url ?>">
+        </td>
+    </tr>
+    <tr>
+        <th>
+            <label>Job Position </label>
+        </th>
+        <td>
+            <input class="regular-text" type="text" name="job_position" value="<?= $data->job_position ?>">
+        </td>
+    </tr>
+    <tr>
+        <th>
             <label>Expand/Collapse Button Label</label>
         </th>
         <td>
@@ -108,7 +124,7 @@
     </tr>
     <tr>
         <th>
-            <label>Category* </label> 
+            <label>Category </label> 
         </th>
         <td>
             <div id="categories_list">

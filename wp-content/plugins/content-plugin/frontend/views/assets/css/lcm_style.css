@@ -596,3 +596,13 @@ color:#6F8692;
         margin-right: 0px; 
     }
 }
+.lcm-list-i-foter p{
+    color: #9c98a7 !important;
+    font-size: 17px !important;
+    line-height: 28px !important;
+}
+.lcm-list-i-foter u{
+    color: #265c8e;
+    font-size: 17px !important;
+    font-weight: 400;
+}

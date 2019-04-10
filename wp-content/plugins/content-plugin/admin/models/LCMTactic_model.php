@@ -122,6 +122,9 @@ class LCMTactic_model extends LCM_model {
         $data['status'] = sanitize_text_field($data['status']);
         $data['tool_types'] = sanitize_text_field($data['tool_types']);
         
+        $data['company_url'] = sanitize_text_field( $data['company_url'] );
+        $data['job_position'] = sanitize_text_field($data['job_position']);
+        
         $data['tool_included'] = sanitize_text_field($data['tool_included']);
         $data['collapse_expand'] = sanitize_text_field($data['collapse_expand']);
         $data['tactic_name'] = sanitize_text_field($data['tactic_name']);
