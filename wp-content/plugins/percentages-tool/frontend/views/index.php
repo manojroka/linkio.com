@@ -27,11 +27,15 @@
             <div>
                 <label class="title">Domain Name:</label>
                 <div class="domain-type-btn">
-                    <label><input type="radio" name="domain_type" value="emd" checked> Exact Match Domain</label>
-                    <!--<br>-->
-                    <label><input type="radio" name="domain_type" value="nmd"> No Match Domain</label>
-                    <!--<br>-->
-                    <label><input type="radio" name="domain_type" value="pmd"> Partial Match Domain</label>
+                    <div>
+                        <label><input type="radio" name="domain_type" value="emd" checked> Exact Match Domain</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="domain_type" value="nmd"> No Match Domain</label>
+                    </div>
+                    <div>
+                        <label><input type="radio" name="domain_type" value="pmd"> Partial Match Domain</label>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,7 +46,5 @@
             </div>
         </div>
     </form>
-    
     <div class="add_table"></div>
-    
 </div>

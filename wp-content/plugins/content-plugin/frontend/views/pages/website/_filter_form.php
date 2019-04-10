@@ -2,14 +2,14 @@
     <?php if (isset($filter)) { ?>
         <div class="lcm_search_box">
             <div class="lcm_row">
-                    <div class="lcm_col-md-2 lcm_margin_auto" onclick="open_popup_form('website')">
-                        <input type="button" class="lcm-s-a-btn" style="font-family:Arial, FontAwesome" placeholder="Add New Item" value="&#xf055 Add New Item">
-                    </div>               
+                <div class="lcm_col-md-2 lcm_margin_auto">
+                    <input type="button" class="lcm-s-a-btn" style="font-family:Arial, FontAwesome" placeholder="Add New Item" id="lcm-open-i-form" data-module="<?= $module_detail->module ?>" value="&#xf055; Add New Item">
+                </div>               
             </div>
         </div>
     <?php } ?>
-
-    <?php if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
+    <?php if (isset($submit_form)) {
+        lcmf_popup_form_open($module_detail); ?>
         <div class="lcm_popup_content lcm_padding_lr25">
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
@@ -64,14 +64,14 @@
             </div>
             <div>
                 <label>Website Description</label>
-                <?php lcm_editor("", "website_description", array('textarea_rows' => '12')); ?>
+    <?php lcm_editor("", "website_description", array('textarea_rows' => '12')); ?>
                 <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
             </div>
-            <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
+    <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
         </div>
         <div class="lcm_border_bottom">&nbsp;</div>
         <?php // _lcm_dropdown_selector('status', NULL, array('Suggested', 'New', 'Published', 'Hidden', 'Spam'), 'Status*') ?>
         <?php // _lcmf_name_email_company_input() ?>
-        <?php lcmf_popup_form_closed($module_detail); } ?>
+    <?php lcmf_popup_form_closed($module_detail); } ?>
 </div>
 
