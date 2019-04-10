@@ -47,8 +47,8 @@
                                 <div class="pta_btn_icon"><i class="far fa-chart-bar"></i></div>                        
                                 <?= _subpage_popup_table($c, $url_value['page_subtype']['detail']) ?>
                             </td>
-                            <td><a href="#">Calculate with Linkio</a></td>
-                            <td><a href="#">Calculate with Linkio</a></td>
+                            <td><a href="https://app.linkio.com/" target="_blank">Calculate with Linkio</a></td>
+                            <td><a href="https://app.linkio.com/" target="_blank">Calculate with Linkio</a></td>
                         </tr>
                     <?php } ?>
                 </tbody>

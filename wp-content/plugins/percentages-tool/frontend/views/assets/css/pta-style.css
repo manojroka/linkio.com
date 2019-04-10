@@ -74,10 +74,20 @@ and open the template in the editor.
 .domain-type-btn label{
     padding-left: 1.5em;
 }
-.domain-type-btn div{
+.domain-type-btn .pta-r-btn-i{
     height: 2em;
+    display: inline-flex; 
+    width: 100%;
 }
-
+.domain-type-btn .pta-dtb-col1{
+    width: 25%;
+}
+.domain-type-btn .pta-dtb-col2{
+    /*width: 70%;*/
+}
+.pta-generate-btn{
+    text-align: center;
+}
 .pta-content{
     margin-top: 2%; 
     width: 100%; 
@@ -255,4 +265,12 @@ and open the template in the editor.
     text-align: left;
 }
 
-
+.pta_popup_info {
+    font-size: 13px;
+    color: #4f4f4f;
+}
+.pta_popup_info i{
+    font-size: 18px;
+    color: #4d586d;
+    padding-right: 0.5em;
+}

@@ -14,7 +14,7 @@
             <div>
                 <label class="title">Website Type:</label>
                 <div class="web-type-btn">
-                    <label><input type="radio" checked="" name="website_type" value="national"> National</label>
+                    <label><input type="radio" checked name="website_type" value="national"> National</label>
                     <label><input type="radio" name="website_type" value="local"> Local Business</label>
                     <label><input type="radio" name="website_type" value="ecommerce"> E-Commerce</label>
                     <label><input type="radio" name="website_type" value="software"> Software</label>
@@ -27,21 +27,38 @@
             <div>
                 <label class="title">Domain Name:</label>
                 <div class="domain-type-btn">
-                    <div>
-                        <label><input type="radio" name="domain_type" value="emd" checked> Exact Match Domain</label>
+                    
+                    <div class="pta-r-btn-i">
+                        <div class="pta-dtb-col1">
+                            <label><input type="radio" name="domain_type" value="emd" checked> Exact Match Domain</label>
+                        </div>
+                        <div class="pta-dtb-col2">
+                            <span class="pta_popup_info"><i class="fas fa-info-circle"></i><span>You domain name matches your keyword</span></span>
+                        </div>
                     </div>
-                    <div>
-                        <label><input type="radio" name="domain_type" value="nmd"> No Match Domain</label>
+                    <div class="pta-r-btn-i">
+                        <div class="pta-dtb-col1">
+                            <label><input type="radio" name="domain_type" value="nmd"> No Match Domain</label>
+                        </div>
+                        <div class="pta-dtb-col2">
+                            <span class="pta_popup_info"><i class="fas fa-info-circle"></i><span>You domain name does not matches your keyword</span></span>
+                        </div>
                     </div>
-                    <div>
-                        <label><input type="radio" name="domain_type" value="pmd"> Partial Match Domain</label>
+                    
+                    <div class="pta-r-btn-i">
+                        <div class="pta-dtb-col1">
+                            <label><input type="radio" name="domain_type" value="pmd"> Partial Match Domain</label>
+                        </div>
+                        <div class="pta-dtb-col2">
+                            <span class="pta_popup_info"><i class="fas fa-info-circle"></i><span>You domain name partially matches your keyword</span></span>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <br>
         <div> 
-            <div>
+            <div class="pta-generate-btn">
                 <button type="submit" id="pta_item_submit_btn" class="btn">Generate</button>
             </div>
         </div>
