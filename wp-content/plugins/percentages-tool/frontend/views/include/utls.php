@@ -13,8 +13,10 @@ function _subpage_popup_table($id, $ideal_percent) {
     $natural_total = (float)$ideal_percent->just_natural+(float)$ideal_percent->no_text+(float)$ideal_percent->totally_random;
     
     $html_code = '<div id="tip-table-hover-'.$id.'" class="tip-hoverd-tbl">
-                    <p>ANCHOR TEXT PERCENTAGES</p>
-                    <div><a href="https://app.linkio.com/users/sign_up"><u>Calculate customized percentage from competitor data with Linkio</u></a></div>
+                    <div class="tip-table-hover-header">
+                        <p>ANCHOR TEXT PERCENTAGES</p>
+                        <div><a href="https://app.linkio.com/users/sign_up" target="_blank"><u>Calculate customized percentage from competitor data with Linkio</u></a></div>
+                    </div>
                     <table class="tip-hoverd-tbl-element">
                         <thead>
                             <tr>

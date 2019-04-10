@@ -274,3 +274,13 @@ and open the template in the editor.
     color: #4d586d;
     padding-right: 0.5em;
 }
+.tip-table-hover-header a{
+    font-size: 12px !important;
+}
+.tip-table-hover-header div{
+    height: 2em;
+    padding-top: 3px;
+}
+.pta-ext-lnk a{
+    color: #007acc !important;
+}

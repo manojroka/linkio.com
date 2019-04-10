@@ -20,7 +20,7 @@
                         <div class="lcm_col-md-2 lcm_mobile_clear_both_float_left">
                             <div class="lcm_i_logo lcm_float_right lcm_mobile_float_left">
                                 <?php $images = (array) json_decode($value->images); ?>
-                                <a href="<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $image->img_path ?>" target="blank_">
+                                <a href="<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $images[0]->img_path ?>" target="blank_">
                                     <img src="<?= LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $images[0]->img_path ?>">
                                 </a>
                             </div>

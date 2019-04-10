@@ -33,7 +33,7 @@
                                         (4, 'Local Homepage - Exact Match Domain where Brand Name is a Keyword', 0, 5.7, 24.76, 17.04, 7.81, 1.35, 0, 14.28, 7.32, 0, 16.84, 4.92, 0, 'home_page', 'emd', 'local'),
                                         (5, 'National Homepage - Exact Match Domain', 0, 39.04, 11.8, 5.62, 4.59, 1.32, 0, 8.81, 9.1, 0, 14.98, 4.75, 0, 'home_page', 'emd', 'all'),
                                         (6, 'National Homepage - Partial Match Domain', 43.28, 15.74, 1.25, 2.82, 2.64, 1.05, 1.32, 11.54, 8.01, 0, 7.97, 4.39, 0, 'home_page', 'pmd', 'all'),
-                                        (7, 'National Homepage - No Keyword in Domain', 51.81, 17.5, 0.53, 0.53, 0, 6.05, 0, 8.68, 1.58, 0, 8.58, 2.11, 0, 'home_page', 'nmd', 'all'),
+                                        (7, 'National Homepage - No Keyword in Domain', 51.81, 17.5, 0.53, 0.53, 0, 6.05, 2.63, 8.68, 1.58, 0, 8.58, 2.11, 0, 'home_page', 'nmd', 'all'),
                                         (8, 'Local Business Service Page', 16.68, 0, 0, 8.33, 0, 0, 8.33, 8.33, 16.67, 8.33, 25, 0, 0, 'commercial_page', 'any', 'local'),
                                         (9, 'Ecommerce Product Page', 47.54, 0.61, 2.73, 5.52, 5.66, 0, 11.67, 5.29, 0, 0, 19.26, 1.72, 0, 'commercial_page', 'any', 'ecommerce'),
                                         (10, 'Service Page', 28.29, 0, 9.21, 16.24, 15.3, 5.38, 1.65, 0, 0, 1.65, 12.51, 1.11, 0, 'commercial_page', 'any', 'national'),
