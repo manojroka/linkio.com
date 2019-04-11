@@ -57,14 +57,30 @@ class PTAFHome_model {
         return $sorted_url;
     }
     
+    function is_xml_file_contain($homepage_url) {
+        $xml = FALSE;
+        $homepage_url = $this->fully_parse_url($homepage_url);
+        $url_sitemap = 'http://'.$homepage_url . 'sitemap.xml';
+        $url_sitemaps = 'https://'.$homepage_url . 'sitemap.xml';
+        $url_sitemapw = 'http://www.'.$homepage_url . 'sitemap.xml';
+        $url_sitemapsw = 'https://www.'.$homepage_url . 'sitemap.xml';
+        
+        if(@simplexml_load_file($url_sitemap) != NULL){
+            $xml = @simplexml_load_file($url_sitemap);
+        }elseif(@simplexml_load_file($url_sitemaps) != NULL){
+            $xml = @simplexml_load_file($url_sitemaps);
+        }elseif(@simplexml_load_file($url_sitemapw) != NULL){
+            $xml = @simplexml_load_file($url_sitemapw);
+        }elseif(@simplexml_load_file($url_sitemapsw) != NULL){
+            $xml = @simplexml_load_file($url_sitemapsw);
+        }
+        return $xml;
+    }
     
     function pta_get_all_urls($homepage_url) {
         
-        
-        $url_sitemap = $homepage_url . 'sitemap.xml';
-        if(@simplexml_load_file($url_sitemap) != NULL){
-            $xml = @simplexml_load_file($url_sitemap);
-        }else {
+        $xml = $this->is_xml_file_contain($homepage_url);
+        if($xml == FALSE){
             return FALSE;
         }
         
