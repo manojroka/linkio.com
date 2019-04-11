@@ -22,8 +22,6 @@ class PTAFHome extends PTAfrontend {
 
     function pta_generate_url_list() {
         
-        error_reporting(E_ALL); ini_set('display_errors', 1);
-        
         $homepage_url = $_POST['home_page_url'];
         if ($homepage_url == '' || $homepage_url == NULL) {
             $custom_data = array(
@@ -32,11 +30,8 @@ class PTAFHome extends PTAfrontend {
             wp_send_json_error($custom_data);
         }
         
-        if (substr($homepage_url, -1) != '/') {
-            $homepage_url .= '/';
-        }
-        
-        $result_array = $this->home_model->read_all_url($homepage_url);
+        $homepage_url = $this->home_model->pta_get_home_page($homepage_url);
+        $result_array = $this->home_model->pta_get_all_urls($homepage_url);
         if($result_array == FALSE){
             $custom_data = array(
                 'msg' => 'Sorry, no xml file found.',
@@ -44,30 +39,26 @@ class PTAFHome extends PTAfrontend {
             wp_send_json_error($custom_data);
         }
         
-        $url_list = NULL;
-        foreach ($result_array['url'] as $key => $url) {
-            
-            $url_list[$key] = $url;
+        $url_list = array();
+        $checked_home_page = FALSE;
+        foreach ($result_array as $key => $url) {
+    
+            $url_list[$key]['url'] = $url;
             $url_list[$key]['website_type'] = $_POST['website_type'];
             $url_list[$key]['domain_type'] = $_POST['domain_type'];
-            
-            if ($this->fully_parse_url($url['loc']) == $this->fully_parse_url($homepage_url)) {
-                $url_list[$key]['page_type'] = 'home_page';
-            }else{
+            if( $checked_home_page === FALSE){
+                $is_home_page = $this->home_model->pta_get_home_page($homepage_url, $url);
+                if($is_home_page === TRUE){
+                    $url_list[$key]['page_type'] = 'home_page';
+                    $checked_home_page = TRUE;
+                }
+            } else {
                 $url_list[$key]['page_type'] = 'informational_page';
             }
             $url_list[$key]['page_subtype'] = $this->get_sub_page_detail($url_list[$key]);
         }
         $this->data['url_lists'] = $url_list;
         $this->page = 'url_list';
-    }
-    
-    function fully_parse_url($url) {
-        $removed_http = preg_replace("(^https?://)", "", $url);
-        if (strpos($removed_http, 'www.') !== false) {
-            $removed_http = str_replace("www.", "", $removed_http);
-        }
-        return $removed_http;
     }
     
     function get_sub_page_detail($url_value = NULL) {

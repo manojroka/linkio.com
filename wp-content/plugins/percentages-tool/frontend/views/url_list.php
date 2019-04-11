@@ -20,7 +20,7 @@
                         $c++; ?>
                         <tr>
                             <td class="td-sn"><?= $c; ?></td>
-                            <td class="td-page-url"><a href="<?= $url_value['loc'] ?>" target="_blank"><?= $url_value['loc'] ?></a></td>
+                            <td class="td-page-url"><a href="<?= $url_value['url'] ?>" target="_blank"><?= $url_value['url'] ?></a></td>
                             <td style="padding: 0.25em;">
                                 <select id="page_type" class="page_type" data-current-page-type="<?= $url_value['page_type'] ?>" data-website_type="<?= $url_value['website_type'] ?>" data-domain_type="<?= $url_value['domain_type'] ?>" data-sn="<?= $c; ?>">
                                     <option <?php if ($url_value['page_type'] == 'home_page') {
