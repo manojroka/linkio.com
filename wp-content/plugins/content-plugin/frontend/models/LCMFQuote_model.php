@@ -62,6 +62,7 @@ class LCMFQuote_model extends LCMF_model {
     
     function quote_sanitize($data) {
         
+        $data['title'] = stripslashes( $data['title'] );
         $data['title'] = sanitize_text_field($data['title']);
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);

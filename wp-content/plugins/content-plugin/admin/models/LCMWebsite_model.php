@@ -122,6 +122,7 @@ class LCMWebsite_model extends LCM_model {
             $data['is_weburl_df'] = sanitize_text_field('nofollow');
         }
         
+        $data['website_name'] = stripslashes( $data['website_name'] );
         $data['website_name'] = sanitize_text_field($data['website_name']);
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);

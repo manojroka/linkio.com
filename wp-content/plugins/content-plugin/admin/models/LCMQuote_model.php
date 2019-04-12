@@ -116,6 +116,7 @@ class LCMQuote_model extends LCM_model {
             $data['is_weburl_df'] = sanitize_text_field('nofollow');
         }
         
+        $data['title'] = stripslashes( $data['title'] );
         $data['title'] = sanitize_text_field($data['title']);
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);

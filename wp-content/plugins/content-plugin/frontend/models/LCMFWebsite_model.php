@@ -67,6 +67,7 @@ class LCMFWebsite_model extends LCMF_model{
     
     function website_sanitize($data) {
         
+        $data['website_name'] = stripslashes( $data['website_name'] );
         $data['website_name'] = sanitize_text_field($data['website_name']);
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);

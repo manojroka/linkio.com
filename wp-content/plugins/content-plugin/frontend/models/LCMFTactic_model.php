@@ -67,6 +67,7 @@ class LCMFTactic_model extends LCMF_model{
         $data['tactic_description'] = stripslashes( $data['tactic_description'] );
         $data['tactic_description'] = sanitize_textarea_field($data['tactic_description']);
         
+        $data['tactic_name'] = stripslashes( $data['tactic_name'] );
         $data['tactic_name'] = sanitize_text_field($data['tactic_name']);
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);

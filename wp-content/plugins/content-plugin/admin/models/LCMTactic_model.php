@@ -128,6 +128,8 @@ class LCMTactic_model extends LCM_model {
         
         $data['tool_included'] = sanitize_text_field($data['tool_included']);
         $data['collapse_expand'] = sanitize_text_field($data['collapse_expand']);
+        
+        $data['tactic_name'] = stripslashes( $data['tactic_name'] );
         $data['tactic_name'] = sanitize_text_field($data['tactic_name']);
         $data['tactic_description'] = stripslashes( $data['tactic_description'] );
         $data['tactic_description'] = sanitize_textarea_field($data['tactic_description']);

@@ -259,6 +259,7 @@ class LCMTool_model extends LCM_model {
         $data['summary'] = sanitize_textarea_field($data['summary']);
         $data['description'] = sanitize_textarea_field($data['description']);
         
+        $data['tool_name'] = stripslashes( $data['tool_name'] );
         $data['tool_name'] = sanitize_text_field($data['tool_name']);
         $data['home_page_url'] = sanitize_text_field($data['home_page_url']);
         $data['price'] = sanitize_text_field($data['price']);
