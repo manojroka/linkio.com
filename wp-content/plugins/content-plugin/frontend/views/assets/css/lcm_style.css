@@ -11,9 +11,8 @@
 }
 .lcm-i-form {
     display: none;
-    top:0.5em;
+    top:4%;
     background: #fff;
-/*    padding: 1%;*/
     width: 60%;
     position: fixed;
     left: 20%;
@@ -21,7 +20,7 @@
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0,0,0,0.9);
     overflow: auto;
-    height: 95%;
+    max-height: 94%;
 }
 .lcm-i-close {
     top: 0;
@@ -301,8 +300,8 @@
     text-transform: none;
 }
 .lcm_search_box .lcm-s-a-btn:hover, .lcm_search_box .lcm-s-a-btn:focus, .lcm_popup_bottom_bottons button:hover, .lcm_popup_bottom_bottons button:focus {
-    color: #fff;
-    background-color: #DFE2E4;
+    color: #fff !important;
+    background-color: #DFE2E4 !important;
 }
 #lcm-search-query::placeholder{
     letter-spacing: 1.09px;
@@ -355,7 +354,7 @@
     border: none;
     outline: none;
     padding-left: 15px;
-    width: 105px;
+    /*width: 105px;*/
     
     /* Here's the code we need */
 	-webkit-appearance: none;
@@ -384,7 +383,7 @@
   	color: #434B67;
   	pointer-events: none;
         font-size: 12px;
-        position: absolute;
+        /*position: absolute;*/
   	top: 0px;
   	right: 0px;
 }
@@ -605,4 +604,12 @@ color:#6F8692;
     color: #265c8e;
     font-size: 17px !important;
     font-weight: 400;
+}
+#lcm-do-search{
+    color: #6f6f6f !important;
+    background-color: #fff !important;
+}
+#lcm-do-search:hover {
+    color: #fff !important;
+    background-color: #DFE2E4 !important;
 }

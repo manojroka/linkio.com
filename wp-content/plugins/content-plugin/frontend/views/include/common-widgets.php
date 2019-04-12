@@ -74,17 +74,19 @@ function _lcm_top_search_box($detail) {
     
     $srch_box_html = '<div class="lcm_search_box">
                         <div class="lcm_row">
-                            <div class="lcm_col-md-7">
-                                <input type="text" id="lcm-search-query" class="fas fa-search" data-template_id="'.$detail->id.'" data-module="'.$detail->module.'" placeholder="&#xf002;  Search">
-                            </div>
-                            <div class="lcm_col-md-2">
-                                <div class="lcm_padding_lr18_22">
-                                    <input type="submit" class="lcm-s-a-btn" id="lcm-do-search" style="font-family:Arial, FontAwesome" value="&#xf002; Search">
+                            <form>
+                                <div class="lcm_col-md-7">
+                                    <input type="text" id="lcm-search-query" class="fas fa-search" data-template_id="'.$detail->id.'" data-module="'.$detail->module.'" placeholder="&#xf002;  Search">
                                 </div>
-                            </div>
-                            <div class="lcm_col-md-1 lcm_display_none">
-                                <P>OR</p>
-                            </div>
+                                <div class="lcm_col-md-2">
+                                    <div class="lcm_padding_lr18_22">
+                                        <input type="submit" class="lcm-s-a-btn fas fa-search" id="lcm-do-search" style="font-family:Arial, FontAwesome" value="&#xf002; Search">
+                                    </div>
+                                </div>
+                                <div class="lcm_col-md-1 lcm_display_none">
+                                    <P>OR</p>
+                                </div>
+                            </form>
                             <div class="lcm_col-md-2 lcm_padding_l18 lcm_float_right lcm_mobile_clear_both_float_left">
                                 <input type="button" class="lcm-s-a-btn" style="font-family:Arial, FontAwesome" placeholder="Add New Item" id="lcm-open-i-form" data-module="'.$detail->module.'" value="&#xf055; Add New Item">
                             </div>
@@ -94,10 +96,10 @@ function _lcm_top_search_box($detail) {
                                 <span class="lcm_search_text">Sort by:</span>
                                 <div class="lcm_select-wrapper">
                                     <select id="lcm-i-sort">
-                                        <option value="name_asc">Name Asc</option>
-                                        <option value="name_desc">Name Desc</option>
-                                        <option value="rating_asc">Rating Asc</option>
-                                        <option value="rating_desc">Rating Desc</option>
+                                        <option value="name_asc">A-Z</option>
+                                        <option value="name_desc">Z-A</option>
+                                        <option value="rating_asc">Rating Low to High</option>
+                                        <option value="rating_desc">Rating High to Low</option>
                                     </select>
                                 </div>
                             </div>

@@ -8,7 +8,7 @@
             
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
-                    <label class="lcm_mobile_line_height">Strategy Title</label>
+                    <label class="lcm_mobile_line_height">Tactic Title</label>
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
@@ -23,6 +23,16 @@
                 <div class="lcm_col-md-6">
                     <div class="">
                         <input class="form-control" type="text" name="name" required>
+                    </div>
+                </div>
+            </div>
+            <div class="lcm_flex lcm_row">
+                <div class="lcm_col-md-3">
+                    <label>Email</label>
+                </div>
+                <div class="lcm_col-md-6">
+                    <div class="">
+                        <input class="form-control" type="email" name="email" required>
                     </div>
                 </div>
             </div>

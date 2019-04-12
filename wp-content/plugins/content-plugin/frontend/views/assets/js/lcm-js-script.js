@@ -186,6 +186,7 @@ jQuery(document).ready(function () {
 });
 
 jQuery(document).on('click','#lcm-do-search', function () {
+    event.preventDefault();
     var qry_self = jQuery('#lcm-search-query');
     var qry_string = document.getElementById('lcm-search-query').value;
     if(qry_string == ''){

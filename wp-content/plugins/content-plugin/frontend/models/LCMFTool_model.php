@@ -128,6 +128,7 @@ class LCMFTool_model extends LCMF_model {
         $data['tool_name'] = sanitize_text_field($data['tool_name']);
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);
+        $data['company'] = stripslashes( $data['company'] );
         $data['company'] = sanitize_text_field($data['company']);
         $data['status'] = sanitize_text_field($data['status']);
         $data['home_page_url'] = sanitize_text_field($data['home_page_url']);

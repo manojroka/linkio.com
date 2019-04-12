@@ -70,6 +70,7 @@ class LCMFWebsite_model extends LCMF_model{
         $data['website_name'] = sanitize_text_field($data['website_name']);
         $data['name'] = sanitize_text_field($data['name']);
         $data['email'] = sanitize_email($data['email']);
+        $data['company'] = stripslashes( $data['company'] );
         $data['company'] = sanitize_text_field($data['company']);
         $data['status'] = sanitize_text_field($data['status']);
         $data['website_url'] = sanitize_text_field($data['website_url']);

@@ -88,20 +88,23 @@
         </th>
         <td>
             <?php
-            $c = 0;
-            foreach (json_decode($data->tool_included)->tool_included_name as $tool_included_name) {
-                $checked = '';
-                if (json_decode($data->tool_included)->tool_included_df[$c] == 'on') {
-                    $checked = 'checked';
+            $include_name = json_decode($data->tool_included)->tool_included_name;
+            if($include_name != NULL){
+                $c = 0;
+                foreach (json_decode($data->tool_included)->tool_included_name as $tool_included_name) {
+                    $checked = '';
+                    if (json_decode($data->tool_included)->tool_included_df[$c] == 'on') {
+                        $checked = 'checked';
+                    }
+                    echo '<div>';
+                    echo '<input class="regular-text" type="text" name="tool_included_name[]" value="' . $tool_included_name . '" required>';
+                    echo '&nbsp;<input class="regular-text" type="url" name="tool_included_url[]" value="' . json_decode($data->tool_included)->tool_included_url[$c] . '" required>';
+                    echo '<input type="hidden" value="0" name="tool_included_df[]">';
+                    echo '&nbsp;<input class="regular-text" ' . $checked . ' type="checkbox" name="tool_included_df[]">DF';
+                    echo '&nbsp;<span class="tool_include_delete">Delete</span>';
+                    echo '</div>';
+                    $c++;
                 }
-                echo '<div>';
-                echo '<input class="regular-text" type="text" name="tool_included_name[]" value="' . $tool_included_name . '" required>';
-                echo '&nbsp;<input class="regular-text" type="url" name="tool_included_url[]" value="' . json_decode($data->tool_included)->tool_included_url[$c] . '" required>';
-                echo '<input type="hidden" value="0" name="tool_included_df[]">';
-                echo '&nbsp;<input class="regular-text" ' . $checked . ' type="checkbox" name="tool_included_df[]">DF';
-                echo '&nbsp;<span class="tool_include_delete">Delete</span>';
-                echo '</div>';
-                $c++;
             }
             ?>
             <div>

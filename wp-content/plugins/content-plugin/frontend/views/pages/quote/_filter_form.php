@@ -26,6 +26,16 @@
             </div>
             <div class="lcm_flex lcm_row">
                 <div class="lcm_col-md-3">
+                    <label>Email</label>
+                </div>
+                <div class="lcm_col-md-6">
+                    <div class="">
+                        <input class="form-control" type="email" name="email" required>
+                    </div>
+                </div>
+            </div>
+            <div class="lcm_flex lcm_row">
+                <div class="lcm_col-md-3">
                     <label class="lcm_mobile_line_height">Author Picture</label>
                 </div>
                 <div class="lcm_col-md-6">
