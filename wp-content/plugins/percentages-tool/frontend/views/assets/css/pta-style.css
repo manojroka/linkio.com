@@ -68,11 +68,12 @@ and open the template in the editor.
     width: 90% !important;
     color: black !important;
 }
-.web-type-btn label{
+.web-type-btn label, .domain-type-btn label{
     padding: 1.5em;
+    vertical-align: top;
 }
-.domain-type-btn label{
-    padding-left: 1.5em;
+.pta_popup_info, .pta_popup_info span {
+    vertical-align: top;
 }
 .domain-type-btn .pta-r-btn-i{
     height: 2em;
@@ -283,4 +284,44 @@ and open the template in the editor.
 }
 .pta-ext-lnk a{
     color: #007acc !important;
+}
+.pta_container .add_table {
+    height: 40px;
+}
+
+@media screen and (max-width: 888px) {
+    .web-type-btn label {
+        padding: 0.5em 1.5em;
+        display: flex;
+    }
+    .domain-type-btn .pta-r-btn-i {
+        padding-left: 1.5em;
+        display: inline-block;
+        padding-top: 10px;
+    }
+    .domain-type-btn label {
+        padding-left: 0;
+    }
+    .web-type-btn label {
+    line-height: 20px;
+    }
+    .domain-type-btn .pta-dtb-col1 {
+        width: 100%;
+    }
+    .pta_popup_info {
+        display: inline-flex;
+    }
+    .pta_popup_info span {
+        display: inline-flex;
+    }
+}
+@media screen and (max-width: 382px) { 
+    
+    .web-type-btn label {
+        padding: 0.5em 0.5em;
+    }
+    .domain-type-btn .pta-r-btn-i {
+        padding-left: 0.5em;
+    }
+    
 }

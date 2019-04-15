@@ -74,6 +74,11 @@ class PTAFHome_model {
         }elseif(@simplexml_load_file($url_sitemapsw) != NULL){
             $xml = @simplexml_load_file($url_sitemapsw);
         }
+        
+        echo '<pre>';
+        var_dump($xml);
+        die;
+        
         return $xml;
     }
     

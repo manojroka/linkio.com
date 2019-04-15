@@ -1,5 +1,5 @@
 
-<div style="margin-top: 3%">
+<div class="pta_container" style="margin-top: 3%">
     <form class="pta-form-control" method="post" id="submit_pta_form_data">
         <input type="hidden" id="pta_home_url" value="<?= PTA_HOME_URL ?>">
         <div class="form-group">
