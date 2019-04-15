@@ -223,7 +223,7 @@
     border-radius: 5px;
     padding: 0px 8px 2px;
 }
-.lcm_border_around p a{
+.lcm_border_around p, .lcm_border_around a {
     color: #79849A !important;
     font-size: 14px !important;
     font-weight: bold;
