@@ -66,10 +66,7 @@
                     </div>
                 </div>
             </div>
-            <!--<div>-->
-            <!--<label>Email*</label>-->
-            <input class="form-control" type="hidden" name="email" value="test@test.com" required>
-            <!--</div>-->
+            
             <div>
                 <label class="lcm_mobile_padding_top">Content</label>
                 <?php lcm_editor("", "tactic_description", array('textarea_rows' => '12')); ?>
