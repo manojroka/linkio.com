@@ -65,14 +65,26 @@ class PTAFHome_model {
         $url_sitemapw = 'http://www.'.$homepage_url . 'sitemap.xml';
         $url_sitemapsw = 'https://www.'.$homepage_url . 'sitemap.xml';
         
-        if(@simplexml_load_file($url_sitemap) != NULL){
-            $xml = @simplexml_load_file($url_sitemap);
-        }elseif(@simplexml_load_file($url_sitemaps) != NULL){
-            $xml = @simplexml_load_file($url_sitemaps);
-        }elseif(@simplexml_load_file($url_sitemapw) != NULL){
-            $xml = @simplexml_load_file($url_sitemapw);
-        }elseif(@simplexml_load_file($url_sitemapsw) != NULL){
-            $xml = @simplexml_load_file($url_sitemapsw);
+//        error_reporting(E_ALL);
+//        ini_set('display_errors', 1);
+//        if(@simplexml_load_file($url_sitemap) != NULL){
+//            $xml = @simplexml_load_file($url_sitemap);
+//        }elseif(@simplexml_load_file($url_sitemaps) != NULL){
+//            $xml = @simplexml_load_file($url_sitemaps);
+//        }elseif(@simplexml_load_file($url_sitemapw) != NULL){
+//            $xml = @simplexml_load_file($url_sitemapw);
+//        }elseif(@simplexml_load_file($url_sitemapsw) != NULL){
+//            $xml = @simplexml_load_file($url_sitemapsw);
+//        }
+        
+        if(file_get_contents($url_sitemap) != NULL){
+            $xml = simplexml_load_string (html_entity_decode(file_get_contents($url_sitemap)));
+        }elseif(file_get_contents($url_sitemaps) != NULL){
+            $xml = simplexml_load_string (html_entity_decode(file_get_contents($url_sitemaps)));
+        }elseif(file_get_contents($url_sitemapw) != NULL){
+            $xml = simplexml_load_string (html_entity_decode(file_get_contents($url_sitemapw)));
+        }elseif(file_get_contents($url_sitemapsw) != NULL){
+            $xml = simplexml_load_string (html_entity_decode(file_get_contents($url_sitemapsw)));
         }
         return $xml;
     }
