@@ -286,7 +286,7 @@ and open the template in the editor.
     color: #007acc !important;
 }
 .pta_container .add_table {
-    height: 40px;
+    min-height: 40px;
 }
 
 @media screen and (max-width: 888px) {
