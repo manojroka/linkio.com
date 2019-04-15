@@ -217,6 +217,7 @@
     color: #79849A;
     font-size: 14px;
     font-weight: bold;
+    line-height: 23px;
 }
 .lcm_border_around {
     border: 1px solid #79849A;
@@ -228,6 +229,7 @@
     font-size: 14px !important;
     font-weight: bold;
     margin: 0px !important;
+    line-height: 26px !important;
 }
 .lcm_border_around i{
     color: #adadad !important;
