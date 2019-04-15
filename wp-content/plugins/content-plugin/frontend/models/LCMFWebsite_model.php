@@ -93,7 +93,7 @@ class LCMFWebsite_model extends LCMF_model{
         $error_msg = '';
         
         if($post_data['website_description'] == ''){
-            $error_msg .= '<p>Please, Enter Description</p>';
+            $error_msg .= '<p>Please enter the description</p>';
         }elseif(str_word_count($post_data['website_description']) > 200){
             $error_msg .= '<p>Description must not be greater then 200 word.</p>';
         }

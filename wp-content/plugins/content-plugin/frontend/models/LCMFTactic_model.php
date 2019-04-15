@@ -94,9 +94,9 @@ class LCMFTactic_model extends LCMF_model{
         $error_msg = '';
         
         if($post_data['tactic_description'] == ''){
-            $error_msg .= '<p>Please, Enter Tactic Description</p>';
+            $error_msg .= '<p>Please enter the content</p>';
         }elseif(str_word_count($post_data['tactic_description']) > 500){
-            $error_msg .= '<p>Tactic Description must not be greater then 500 word.</p>';
+            $error_msg .= '<p>Content must not be greater then 500 word.</p>';
         }
         
         if(isset($post_data['is_cooke'])){

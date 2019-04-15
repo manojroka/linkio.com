@@ -615,3 +615,8 @@ color:#6F8692;
     color: #fff !important;
     background-color: #DFE2E4 !important;
 }
+
+/*----- un-wanted css -----------*/
+.sgpb-hide, .sgpb-insert-media-button-js, .thickbox, #add-typeform{
+    display: none !important;
+}

@@ -87,9 +87,9 @@ class LCMFQuote_model extends LCMF_model {
     function quote_validation($post_data) {
         $error_msg = '';
         if($post_data['quote_description'] == ''){
-            $error_msg .= '<p>Please, Enter Quote Description</p>';
+            $error_msg .= '<p>Please enter the content</p>';
         }elseif(str_word_count($post_data['quote_description']) > 200){
-            $error_msg .= '<p>Quote must not be greater then 200 word.</p>';
+            $error_msg .= '<p>Content must not be greater then 200 word.</p>';
         }
         if(isset($post_data['is_cooke'])){
             if($post_data['is_cooke'] != 'on'){

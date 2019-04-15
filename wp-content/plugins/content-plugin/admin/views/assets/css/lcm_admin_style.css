@@ -110,6 +110,7 @@ and open the template in the editor.
 .lcm-remove-btn-sm:hover{
     background: #691700;
 }
+/*---- unwanted css-----*/
 .sgpb-hide{
     display: none;
 }
