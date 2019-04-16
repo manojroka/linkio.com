@@ -26,7 +26,7 @@ function on_change_page_subtype(pta_sn, selected_id){
 jQuery('#submit_pta_form_data').submit(function (event) {
     var formData = new FormData(document.getElementById('submit_pta_form_data'));
     jQuery('.add_table').empty();
-    jQuery('.add_table').append('<p>Please Wait, We are fetching report(It can take more then a minutes.)...</p>');
+    jQuery('.add_table').append('<p>Please Wait. We are fetching report and can take few minutes...</p>');
     formData.append("action", "pta_generate_url_list");
     document.getElementById('pta_item_submit_btn').setAttribute("disabled", true);
     event.preventDefault();

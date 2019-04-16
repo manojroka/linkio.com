@@ -41,7 +41,7 @@ and open the template in the editor.
     display: inline-block;
     width: 1.15em;
     height: 1.15em;
-    padding: 0.2em;
+    padding: 3.5px;
     /* background-color only for content */
     background-clip: content-box;
     border: 2px solid #1e7f61;
@@ -68,7 +68,7 @@ and open the template in the editor.
     width: 90% !important;
     color: black !important;
 }
-.web-type-btn label, .domain-type-btn label{
+.web-type-btn label{
     padding: 1.5em;
     vertical-align: top;
 }
@@ -79,6 +79,8 @@ and open the template in the editor.
     height: 2em;
     display: inline-flex; 
     width: 100%;
+    padding: 1.5em;
+    padding-top: 0em;
 }
 .domain-type-btn .pta-dtb-col1{
     width: 25%;

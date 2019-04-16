@@ -51,8 +51,10 @@ class PTAFHome_model {
         $sorted_url = array();
         $all_urls = array_unique($all_urls);
         asort($all_urls, SORT_STRING | SORT_FLAG_CASE | SORT_NATURAL);
+        $i = 1;
         foreach ($all_urls as $url) {
             $sorted_url[] = $url;
+            if ($i++ == 50) { break; }
         }
         return $sorted_url;
     }

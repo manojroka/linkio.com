@@ -28,7 +28,7 @@
     
     .pta-sc-tooltip .pta-sc-tooltiptext {
         visibility: hidden !important;
-        width: 95% !important;
+        width: 65% !important;
         background-color: #555 !important;
         color: #fff !important;
         text-align: center !important;
@@ -59,7 +59,7 @@
         opacity: 1 !important;
     }
     
-    .pta_copy_source_code{
+    .pta_copy_short_code{
         background: #458bc5;
         color: white;
         cursor: pointer;
@@ -72,9 +72,9 @@
 <div style="margin-top: 2%">
     <div>
         <div>
-            <p class="pta-sc-tooltip">Sourcecode: 
+            <p class="pta-sc-tooltip">Plugin shortcode for any pages: 
                 <span class="pta-sc-tooltiptext" id="pta-sc-spantooltip">Click Here copy to clipboard</span>
-                <span class="pta_copy_source_code">[percentages_tool_analysis]</span>
+                <span class="pta_copy_short_code">[percentages_tool_analysis]</span>
             </p>
         </div>
         <h5>Saved Percentages :</h5>
@@ -131,7 +131,7 @@
 </div>
 
 <script type="text/javascript">
-jQuery('.pta_copy_source_code').click(function(){
+jQuery('.pta_copy_short_code').click(function(){
     var pta_sc_cpy = document.createElement("input");
     pta_sc_cpy.setAttribute("id", "pta-sc-temp-id");
     pta_sc_cpy.setAttribute("value", "[percentages_tool_analysis]");
