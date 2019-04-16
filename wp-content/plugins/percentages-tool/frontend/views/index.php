@@ -33,7 +33,7 @@
                             <label><input type="radio" name="domain_type" value="emd" checked> Exact Match Domain</label>
                         </div>
                         <div class="pta-dtb-col2">
-                            <span class="pta_popup_info"><i class="fas fa-info-circle"></i><span>Your domain name match your keyword</span></span>
+                            <span class="pta_popup_info"><i class="fas fa-info-circle"></i><span>Your domain name matches your keyword</span></span>
                         </div>
                     </div>
                     <div class="pta-r-btn-i">
@@ -50,7 +50,7 @@
                             <label><input type="radio" name="domain_type" value="pmd"> Partial Match Domain</label>
                         </div>
                         <div class="pta-dtb-col2">
-                            <span class="pta_popup_info"><i class="fas fa-info-circle"></i><span>Your domain name partially match your keyword</span></span>
+                            <span class="pta_popup_info"><i class="fas fa-info-circle"></i><span>Your domain name partially matches your keyword</span></span>
                         </div>
                     </div>
                 </div>

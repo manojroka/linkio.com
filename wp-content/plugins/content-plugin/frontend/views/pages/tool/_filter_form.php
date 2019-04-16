@@ -51,7 +51,7 @@
                 </div>
                 <div class="lcm_col-md-6">
                     <div class="">
-                        <input class="form-control" name="videos[]" type="url" placeholder="Give vimeo or youtube links">
+                        <input class="form-control" name="videos[]" type="url" placeholder="Enter vimeo or youtube url">
                     </div>
                 </div>
             </div>
@@ -70,7 +70,7 @@
             <div>
                 <label>Content</label>
                 <?php lcm_editor('', 'description', array('textarea_rows' => '15')); ?>
-                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
+                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>You can use editor functionality to format the content. Please limit your description to 500 words</span>
             </div>
             <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
         </div>

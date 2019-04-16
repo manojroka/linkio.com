@@ -15,10 +15,68 @@
         padding-bottom: 0.6rem;
         font-size: 0.75rem;
     }
+    
+    .pta-sc-tooltip {
+        position: relative !important;
+        /*display: inline-block !important;*/
+        opacity: 1;
+        float: right;
+        background: #efefef;
+    padding: 3px;
+    border-radius: 4px;
+    }
+    
+    .pta-sc-tooltip .pta-sc-tooltiptext {
+        visibility: hidden !important;
+        width: 95% !important;
+        background-color: #555 !important;
+        color: #fff !important;
+        text-align: center !important;
+        border-radius: 6px !important;
+        padding: 5px !important;
+        position: absolute !important;
+        z-index: 1 !important;
+        bottom: 120% !important;
+        /*left: 50% !important;*/
+        margin-left: -80px !important;
+        opacity: 0 !important;
+        transition: opacity 0.3s !important;
+    }
+    
+    .pta-sc-tooltip .pta-sc-tooltiptext::after {
+        content: "" !important;
+        position: absolute !important;
+        top: 100% !important;
+        left: 50% !important;
+        margin-left: 35px !important;
+        border-width: 8px !important;
+        border-style: solid !important;
+        border-color: #555 transparent transparent transparent;
+    }
+    
+    .pta-sc-tooltip:hover .pta-sc-tooltiptext {
+        visibility: visible !important;
+        opacity: 1 !important;
+    }
+    
+    .pta_copy_source_code{
+        background: #458bc5;
+        color: white;
+        cursor: pointer;
+        font-weight: 600;
+        padding: 2px;
+    }
+    
 </style>
+
 <div style="margin-top: 2%">
     <div>
-        
+        <div>
+            <p class="pta-sc-tooltip">Sourcecode: 
+                <span class="pta-sc-tooltiptext" id="pta-sc-spantooltip">Click Here copy to clipboard</span>
+                <span class="pta_copy_source_code">[percentages_tool_analysis]</span>
+            </p>
+        </div>
         <h5>Saved Percentages :</h5>
         <div class="table-responsive">
             <table class="table table-bordered table-hover table-condensed">
@@ -72,3 +130,18 @@
     </div>
 </div>
 
+<script type="text/javascript">
+jQuery('.pta_copy_source_code').click(function(){
+    var pta_sc_cpy = document.createElement("input");
+    pta_sc_cpy.setAttribute("id", "pta-sc-temp-id");
+    pta_sc_cpy.setAttribute("value", "[percentages_tool_analysis]");
+    document.body.appendChild(pta_sc_cpy);
+    pta_sc_cpy.select();
+    document.execCommand("copy");
+    var copied_pta_sc_value = document.getElementById("pta-sc-temp-id").value;
+    pta_sc_cpy.removeAttribute("id");
+    document.body.removeChild(pta_sc_cpy);
+    var sc_tooltip = document.getElementById("pta-sc-spantooltip");
+    sc_tooltip.innerHTML = "Copied: " + copied_pta_sc_value;
+});
+</script>

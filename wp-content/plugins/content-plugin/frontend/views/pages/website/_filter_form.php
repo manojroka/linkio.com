@@ -65,7 +65,7 @@
             <div>
                 <label>Website Description</label>
     <?php lcm_editor("", "website_description", array('textarea_rows' => '12')); ?>
-                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>Some description about what they can enter here, formating, html...???</span>
+                <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>You can use editor functionality to format the content. Please limit your description to 200 words</span>
             </div>
     <?php _lcmf_term_and_conditions_chkbox($module_detail) ?>
         </div>
