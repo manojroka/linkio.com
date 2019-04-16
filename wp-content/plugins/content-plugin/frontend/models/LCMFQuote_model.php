@@ -85,17 +85,15 @@ class LCMFQuote_model extends LCMF_model {
     }
     
     function quote_validation($post_data) {
+        
         $error_msg = '';
-        if($post_data['quote_description'] == ''){
-            $error_msg .= '<p>Please enter the content</p>';
-        }elseif(str_word_count($post_data['quote_description']) > 200){
-            $error_msg .= '<p>Content must not be greater then 200 word.</p>';
+        
+        $post_data['content'] = $post_data['quote_description'];
+        $chk_validate = $this->common_validation($post_data, 200);
+        if($chk_validate != NULL){
+            $error_msg = $chk_validate;
         }
-        if(isset($post_data['is_cooke'])){
-            if($post_data['is_cooke'] != 'on'){
-                $error_msg .= '<p>Please accept to the Terms and Conditions.</p>';
-            }
-        }
+        
         if($error_msg != ''){
             $err_data = array(
                 'status'=>FALSE,

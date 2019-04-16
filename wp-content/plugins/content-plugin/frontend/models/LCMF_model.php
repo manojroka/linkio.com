@@ -65,4 +65,39 @@ class LCMF_model {
         );
         return $this->db->insert($this->table_prefix . 'lcm_clients_ip_records', $data);
     }
+    
+    function common_validation($post_data, $desc_count = NULL, $content_desc = 'content') {
+        
+        $error_msg = '';
+        
+        //--------email validate---------
+        $post_data['email'] = sanitize_email($post_data['email']);
+        if($post_data['email'] == NULL){
+            $error_msg .= '<p>Please enter the valid email</p>';
+        }
+        
+        //--------desc validate---------       
+        if($post_data['content'] == ''){
+            $error_msg .= '<p>Please enter the '.$content_desc.'</p>';
+        }
+            
+        //--------desc count validate---------
+        if( ($desc_count > 0) && (str_word_count($post_data['content']) > $desc_count) ){
+            $error_msg .= '<p>'.ucfirst($content_desc).' must not be greater then '.$desc_count.' word</p>';
+        }
+        
+        //--------cooke validate---------
+        if(isset($post_data['is_cooke'])){
+            if($post_data['is_cooke'] != 'on'){
+                $error_msg .= '<p>Please accept to the Terms and Conditions</p>';
+            }
+        }
+        
+        if($error_msg == ''){
+            return NULL;
+        } else {
+            return $error_msg;
+        }
+        
+    }
 }

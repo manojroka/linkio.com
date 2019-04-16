@@ -92,17 +92,12 @@ class LCMFWebsite_model extends LCMF_model{
         
         $error_msg = '';
         
-        if($post_data['website_description'] == ''){
-            $error_msg .= '<p>Please enter the description</p>';
-        }elseif(str_word_count($post_data['website_description']) > 200){
-            $error_msg .= '<p>Description must not be greater then 200 word.</p>';
+        $post_data['content'] = $post_data['website_description'];
+        $chk_validate = $this->common_validation($post_data, 200, 'description');
+        if($chk_validate != NULL){
+            $error_msg = $chk_validate;
         }
         
-        if(isset($post_data['is_cooke'])){
-            if($post_data['is_cooke'] != 'on'){
-                $error_msg .= '<p>Please accept to the Terms and Conditions.</p>';
-            }
-        }
         if($error_msg != ''){
             $err_data = array(
                 'status'=>FALSE,

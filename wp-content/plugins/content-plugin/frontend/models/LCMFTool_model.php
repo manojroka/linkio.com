@@ -165,16 +165,13 @@ class LCMFTool_model extends LCMF_model {
     
     function tool_validation($post_data) {
         $error_msg = '';
-        if($post_data['description'] == ''){
-            $error_msg .= '<p>Please enter the content</p>';
-        }elseif(str_word_count($post_data['description']) > 500){
-            $error_msg .= '<p>Content must not be greater then 500 word.</p>';
+        
+        $post_data['content'] = $post_data['description'];
+        $chk_validate = $this->common_validation($post_data, 500);
+        if($chk_validate != NULL){
+            $error_msg = $chk_validate;
         }
-        if(isset($post_data['is_cooke'])){
-            if($post_data['is_cooke'] != 'on'){
-                $error_msg .= '<p>Please accept to the Terms and Conditions.</p>';
-            }
-        }
+        
         if($error_msg != ''){
             $err_data = array(
                 'status'=>FALSE,
