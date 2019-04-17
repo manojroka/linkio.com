@@ -507,6 +507,9 @@ color:#6F8692;
     text-align: right;
     line-height: 16px !important;
 }
+.lcm-i-submit:disabled{
+    cursor: wait;
+}
 .fa-search::placeholder {
     font-family: "Font Awesome 5 Free";
     -moz-osx-font-smoothing: grayscale;

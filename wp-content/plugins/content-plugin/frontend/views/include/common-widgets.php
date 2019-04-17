@@ -1,20 +1,4 @@
 <?php
-function _lcm_dropdown_selector($name, $select = NULL, $select_option, $label) {
-    $option_li = '';
-    foreach ($select_option as $option) {
-        $selected = '';
-        if($select != NULL){
-            if($option == $select){
-                $selected = 'selected';
-            }
-        }
-        $option_li .= '<option value="'.$option.'" '.$selected.'>'.$option.'</option>';
-    }
-    if( $label !='' || $label != NULL ){
-        echo '<label>'.$label.'</label>';
-    }
-    echo '<select name="'.$name.'" id="'.$name.'" class="postform form-control">'.$option_li.'</select>';
-}
 
 function lcm_tool_additional_links($json_data){
     if($json_data == '' || $json_data == NULL){
@@ -138,7 +122,7 @@ function lcm_vote_update($detail){
     echo $lcm_vote_html;
 }
 
-function _lcmf_term_and_conditions_chkbox($module_detail) {
+function _lcmf_term_and_conditions_chkbox() {
     $term_condition_html = '<div class="lcm_flex lcm_row">
                                 <div class="lcm_col-md-6">
                                     <div class="lcm_term_and_condtion">
@@ -149,9 +133,7 @@ function _lcmf_term_and_conditions_chkbox($module_detail) {
                                     </div>    
                                 </div>
                             </div>';
-    if($module_detail->saved_cookie == 0){
-        echo $term_condition_html;
-    }
+    echo $term_condition_html;
 }
 
 function _lcm_item_submit_btn() {
@@ -230,10 +212,17 @@ function lcmf_popup_form_open($module_detail) {
                 <form id="lcm-i-ajax-data" method="post" enctype="multipart/form-data">';
     _lcmf_item_form_heading($module_detail);
     _lcmf_item_form_hidden_fields($module_detail);
+    echo '<div class="lcm_popup_content lcm_padding_lr25">';
 }
 
 function lcmf_popup_form_closed($module_detail) {
-    echo '<div class="lcm_popup_bottom_bottons">';
+    
+        if($module_detail->saved_cookie == 0){
+            _lcmf_term_and_conditions_chkbox();
+        }
+        echo '</div>';
+        echo '<div class="lcm_border_bottom">&nbsp;</div>';
+        echo '<div class="lcm_popup_bottom_bottons">';
         //_lcmf_term_and_conditions_chkbox($module_detail);
         _lcm_item_submit_btn();
         echo '</form>

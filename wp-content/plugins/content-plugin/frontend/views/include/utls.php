@@ -1,9 +1,4 @@
 <?php 
-
-//function lcm_get_word_by_count($string, $count) {
-//    return implode(' ', array_slice(explode(' ', $string), 0, $count));
-//}
-
 function _lcm_expand_collapse_btns($json_btns, $id) {
     $btn_html = '';
     $btns = json_decode($json_btns);
