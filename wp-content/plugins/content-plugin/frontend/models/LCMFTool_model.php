@@ -138,7 +138,7 @@ class LCMFTool_model extends LCMF_model {
         $data['summary'] = sanitize_textarea_field($data['summary']);
         
         $data['description'] = stripslashes( $data['description'] );
-        $data['description'] = sanitize_textarea_field($data['description']);
+        //$data['description'] = sanitize_textarea_field($data['description']);
         
         $data['collapse_expand'] = json_encode(array('lcm_btn_expand'=>$data['lcm_btn_expand'], 'lcm_btn_collapse'=>$data['lcm_btn_collapse']));
         $data['collapse_expand'] = sanitize_text_field($data['collapse_expand']);

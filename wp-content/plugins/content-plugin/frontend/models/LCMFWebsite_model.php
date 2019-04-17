@@ -78,7 +78,7 @@ class LCMFWebsite_model extends LCMF_model{
         $data['website_logo'] = sanitize_text_field($data['website_logo']);
         $data['is_cooke'] = sanitize_text_field($data['is_cooke']);
         $data['website_description'] = stripslashes( $data['website_description'] );
-        $data['website_description'] = sanitize_textarea_field($data['website_description']);
+        //$data['website_description'] = sanitize_textarea_field($data['website_description']);
         
         $data['module_id'] = sanitize_text_field($data['module_id']);
         $data['template_id'] = sanitize_text_field($data['template_id']);

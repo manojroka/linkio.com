@@ -65,7 +65,7 @@ class LCMFTactic_model extends LCMF_model{
         $data['collapse_expand'] = json_encode(array('lcm_btn_expand'=>$data['lcm_btn_expand'], 'lcm_btn_collapse'=>$data['lcm_btn_collapse']));
         $data['collapse_expand'] = sanitize_text_field($data['collapse_expand']);
         $data['tactic_description'] = stripslashes( $data['tactic_description'] );
-        $data['tactic_description'] = sanitize_textarea_field($data['tactic_description']);
+        //$data['tactic_description'] = sanitize_textarea_field($data['tactic_description']);
         
         $data['tactic_name'] = stripslashes( $data['tactic_name'] );
         $data['tactic_name'] = sanitize_text_field($data['tactic_name']);

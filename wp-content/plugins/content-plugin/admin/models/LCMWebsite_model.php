@@ -133,7 +133,7 @@ class LCMWebsite_model extends LCM_model {
         $data['website_logo'] = sanitize_text_field($data['website_logo']);
         
         $data['website_description'] = stripslashes( $data['website_description'] );
-        $data['website_description'] = sanitize_textarea_field($data['website_description']);
+        //$data['website_description'] = sanitize_textarea_field($data['website_description']);
         
         $data['template_id'] = sanitize_text_field($_GET['templateid']);
         $data['module_id'] = sanitize_text_field($_GET['mid']);

@@ -40,7 +40,7 @@
             <div class="lcm_col-md-6">
                 <div class="">
                     <input class="lcm-i-type-file form-control" type="file" name="img_path[]" accept="image/*" value="Upload">
-                    <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>For best preview the logo images should be 180px x 90px</span>
+                    <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>For best preview the logo images should be 180px x 90px or similar ratio.</span>
                 </div>
             </div>
         </div>

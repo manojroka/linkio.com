@@ -39,7 +39,7 @@ function _subpage_popup_table($id, $ideal_percent) {
                             <tr>
                                 <td rowspan="3" class="pta-anchr-title">Keyword</td>
                                 <td>Exact Keyword</td>
-                                <td>'.$ideal_percent->exact_keyword.'</td>
+                                <td>'.$ideal_percent->exact_keyword.'%</td>
                                 <td rowspan="3" class="pta-anchr-title">'.$keyword_total.'%</td>
                             </tr>
                             <tr>
