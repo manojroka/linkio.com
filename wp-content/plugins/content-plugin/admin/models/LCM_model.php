@@ -30,9 +30,11 @@ class LCM_model {
         $error_msg = '';
         //--------email validate---------
         if(isset($post_data['email'])){
-            $post_data['email'] = sanitize_email($post_data['email']);
-            if($post_data['email'] == NULL){
-                $error_msg .= '<p>The email is in incorrect format</p>';
+            if($post_data['email'] != ''){
+                $post_data['email'] = sanitize_email($post_data['email']);
+                if($post_data['email'] == NULL){
+                    $error_msg .= '<p>The email is in incorrect format</p>';
+                }
             }
         }
         

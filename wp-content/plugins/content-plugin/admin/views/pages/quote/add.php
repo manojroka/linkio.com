@@ -10,7 +10,7 @@
     </tr>
     <tr>
         <th>
-            <label>Quote* </label>
+            <label>Quote </label>
         </th>
         <td>
             <?php wp_editor($this->flash_notice->form_value('quote_description'), "quote_description", array('textarea_rows' => '7')); ?>

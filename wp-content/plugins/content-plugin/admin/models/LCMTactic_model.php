@@ -58,6 +58,15 @@ class LCMTactic_model extends LCM_model {
     
     function update_tactic() {
         $data = $_POST;
+        
+        $validation_check = $this->common_validation($data);
+        if($validation_check != NULL){
+            return array(
+                    'status'=>FALSE,
+                    'last_error'=>$validation_check
+                );
+        }
+        
         $data = $this->tactic_sanitize($data);
         $condition = array( 'id' => $_GET['id'], 'template_id' => $data['template_id'], 'module_id' => $data['module_id'] );
         return $this->db->update($this->table_prefix.'lcm_template_tactics', $data, $condition);

@@ -10,7 +10,7 @@
     </tr>
     <tr>
         <th>
-            <label>Tactic Description* </label>
+            <label>Tactic Description </label>
         </th>
         <td>
             <?php wp_editor($this->flash_notice->form_value('tactic_description'), "tactic_description", array('textarea_rows' => '8')); ?>

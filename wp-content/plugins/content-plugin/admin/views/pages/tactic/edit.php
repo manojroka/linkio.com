@@ -11,7 +11,7 @@
     </tr>
     <tr>
         <th>
-            <label>Tactic Description* </label>
+            <label>Tactic Description </label>
         </th>
         <td>
             <?php wp_editor($data->tactic_description, "tactic_description", array('textarea_rows' => '8')); ?>

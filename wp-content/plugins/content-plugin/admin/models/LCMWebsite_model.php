@@ -67,6 +67,15 @@ class LCMWebsite_model extends LCM_model {
             $this->delete_image();
             $data['website_logo'] = $image_upload['status_id'];
         }
+        
+        $validation_check = $this->common_validation($data);
+        if($validation_check != NULL){
+            return array(
+                    'status'=>FALSE,
+                    'last_error'=>$validation_check
+                );
+        }
+        
         $data = $this->website_sanitize($data);
         $condition = array( 'id' => $_GET['id'], 'template_id' => $data['template_id'], 'module_id' => $data['module_id'] );
         return $this->db->update($this->table_prefix.'lcm_template_websites', $data, $condition);

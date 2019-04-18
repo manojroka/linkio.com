@@ -10,7 +10,7 @@
     </tr>
     <tr>
         <th>
-            <label>Quote* </label>
+            <label>Quote </label>
         </th>
         <td>
             <?php wp_editor($data->quote_description, 'quote_description', array('textarea_rows' => '10')); ?>
@@ -26,7 +26,7 @@
     </tr>
     <tr>
         <th>
-            <label>Headshot*</label>
+            <label>Headshot</label>
         </th>
         <td>
             <?php if ($data->headshot != '') { ?>

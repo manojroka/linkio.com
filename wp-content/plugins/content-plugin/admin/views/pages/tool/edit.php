@@ -26,7 +26,7 @@
     </tr>
     <tr>
         <th>
-            <label>Description*</label>
+            <label>Description</label>
         </th>
         <td>
             <?php wp_editor($data->description, "description", array('textarea_rows' => '8')); ?>
@@ -167,7 +167,7 @@ if ($data->images != '') {
     </tr>
     <tr>
         <th>
-            <label>Type* </label> 
+            <label>Type </label> 
         </th>
         <td>
             

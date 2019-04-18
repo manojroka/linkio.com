@@ -127,7 +127,7 @@
     </tr>
     <tr>
         <th>
-            <label>Type* </label> 
+            <label>Type </label> 
         </th>
         <td>
             

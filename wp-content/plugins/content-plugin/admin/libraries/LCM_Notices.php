@@ -30,9 +30,6 @@ class LCM_Notices {
                         <p>{$flash_message}</p>
                     </div>";
             }
-            if(!isset($_GET['msg'])){
-                unset($_SESSION['flash_notice']);
-            }
         } else {
             if(isset($_SESSION['flash_notice']) && isset($_GET['msg']) ){
                 $flash_data = $_SESSION['flash_notice'];
@@ -43,9 +40,7 @@ class LCM_Notices {
                         <p>{$flash_message}</p>
                     </div>";
             }
-            if(!isset($_GET['msg'])){
-                unset($_SESSION['flash_notice']);
-            }
+            unset($_SESSION['flash_notice']);
         }
         
     }
