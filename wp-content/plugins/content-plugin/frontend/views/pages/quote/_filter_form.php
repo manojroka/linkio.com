@@ -5,27 +5,29 @@
     <?php if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Quote Title</label>
+                <label>Quote Title*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
-                    <input class="form-control limit_word" type="text" name="title" id="title" required>   
+                    <input class="form-control limit_word" type="text" name="title" id="title" required>
+                    <div class="lcm-i-submit-error" id="i-title"></div>
                 </div>
             </div>
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Author</label>
+                <label>Author*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
                     <input class="form-control" type="text" name="name" required>
+                    <div class="lcm-i-submit-error" id="i-name"></div>
                 </div>
             </div>
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Email</label>
+                <label>Email*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -36,7 +38,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Author Picture</label>
+                <label class="lcm_mobile_line_height">Author Picture*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -47,11 +49,12 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Author's Company</label>
+                <label class="lcm_mobile_line_height">Author's Company*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
                     <input class="form-control" type="text" name="company" required>
+                    <div class="lcm-i-submit-error" id="i-company"></div>
                 </div>
             </div>
         </div>
@@ -61,22 +64,23 @@
             </div>
             <div class="lcm_col-md-6">
                 <div class="lcm_mobile_line_height">
-                    <input class="form-control" type="url" name="company_website">
+                    <input class="form-control" type="url" name="company_website" required>
                 </div>
             </div>
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Author Job Position</label>
+                <label class="lcm_mobile_line_height">Author Job Position*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
-                    <input class="form-control limit_word" type="text" name="job_position" required>
+                    <input class="form-control" type="text" name="job_position" required>
+                    <div class="lcm-i-submit-error" id="i-job_position"></div>
                 </div>
             </div>
         </div>
         <div>
-            <label class="lcm_mobile_padding_top">Content</label>
+            <label class="lcm_mobile_padding_top">Content*</label>
             <?php lcm_editor("", "quote_description", array('textarea_rows' => '12')); ?>
             <div class="lcm-i-submit-error" id="i-content_desc"></div>
             <div class="lcm-i-submit-error" id="i-content_desc_count"></div>

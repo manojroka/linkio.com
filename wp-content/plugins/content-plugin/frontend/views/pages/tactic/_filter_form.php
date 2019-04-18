@@ -5,7 +5,7 @@
     <?php if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Tactic Title</label>
+                <label class="lcm_mobile_line_height">Tactic Title*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -15,7 +15,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Author</label>
+                <label>Author*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -25,7 +25,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Email</label>
+                <label>Email*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -36,7 +36,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Author's Company</label>
+                <label class="lcm_mobile_line_height">Author's Company*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -56,7 +56,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Author Job Position</label>
+                <label class="lcm_mobile_line_height">Author Job Position*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -65,7 +65,7 @@
             </div>
         </div>
         <div>
-            <label class="lcm_mobile_padding_top">Content</label>
+            <label class="lcm_mobile_padding_top">Content*</label>
             <?php lcm_editor("", "tactic_description", array('textarea_rows' => '12')); ?>
             <div class="lcm-i-submit-error" id="i-content_desc"></div>
             <div class="lcm-i-submit-error" id="i-content_desc_count"></div>

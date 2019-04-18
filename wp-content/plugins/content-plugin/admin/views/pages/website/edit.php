@@ -19,7 +19,7 @@
     </tr>
     <tr>
         <th>
-            <label>Website description*</label>
+            <label>Website description</label>
         </th>
         <td>
             <?php wp_editor("$data->website_description", "website_description", array('textarea_rows' => '7')); ?>

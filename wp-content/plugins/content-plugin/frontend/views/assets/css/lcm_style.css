@@ -619,6 +619,13 @@ color:#6F8692;
     color: #fff !important;
     background-color: #DFE2E4 !important;
 }
+#lcm-do-search:disabled {
+    font-size: 13px !important;
+    text-transform: none !important;
+    color: #3c3c3c !important;
+    background-color: #dcdcdc !important;
+    cursor: wait;
+}
 
 /*----- un-wanted css -----------*/
 .sgpb-hide, .sgpb-insert-media-button-js, .thickbox, #add-typeform{

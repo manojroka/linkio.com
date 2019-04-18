@@ -139,7 +139,6 @@ function _lcmf_term_and_conditions_chkbox() {
 
 function _lcm_item_submit_btn() {
     $submit_button_and_validation_error_html = '<div class="lcm_paddingbuttom_tr1510 lcm_float_right">
-                                                    <div class="lcm-i-submit-error"></div>
                                                     <div class="lcm_flex lcm_row lcm_i_footer_btns">
                                                         <div class="lcm_margin_r12 lcm-i-x">
                                                             <button type="button">Cancel</button>

@@ -110,13 +110,18 @@ jQuery(document).ready(function () {
 });
 
 jQuery(document).on('click','#lcm-do-search', function () {
+    
+    var do_srch_btn = document.getElementById('lcm-do-search');
+    
     event.preventDefault();
+    do_srch_btn.setAttribute('disabled', true);
     var qry_self = jQuery('#lcm-search-query');
     var qry_string = document.getElementById('lcm-search-query').value;
     if(qry_string == ''){
         jQuery('.lcm-i-lists').each(function () {
             jQuery(this).show();
         });
+        do_srch_btn.removeAttribute('disabled');
         return false;
     }else{
         jQuery.ajax({
@@ -145,12 +150,13 @@ jQuery(document).on('click','#lcm-do-search', function () {
                 }else{
                     alert(data.data.msg);
                 }
+                do_srch_btn.removeAttribute('disabled');
             }
         });
     }
 });
 
-jQuery(document).on('click','#lcm-i-sort', function () {
+jQuery(document).on('change','#lcm-i-sort', function () {
     var sort_by = document.getElementById("lcm-i-sort").value;
     var divList = jQuery(".lcm-i-lists");
     if (sort_by == 'rating_asc') {

@@ -24,6 +24,8 @@ class LCMWebsite extends LCMAdmin{
     }
     
     function create_new() {
+        
+        $this->flash_notice->set_i_values();
         if(isset($_POST) && isset($_POST['submit'])){
             
             $result = $this->t_model->add_new_website();

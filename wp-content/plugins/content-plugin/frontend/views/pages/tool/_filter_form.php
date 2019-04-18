@@ -5,7 +5,7 @@
     <?php if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Tool name</label>
+                <label>Tool name*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -15,7 +15,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Tool URL</label>
+                <label>Tool URL*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -25,7 +25,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Email</label>
+                <label>Email*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -36,11 +36,11 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Website Logo</label>
+                <label class="lcm_mobile_line_height">Website Logo*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
-                    <input class="lcm-i-type-file form-control" type="file" name="img_path[]" accept="image/*" value="Upload">
+                    <input class="lcm-i-type-file form-control" type="file" name="img_path[]" accept="image/*" value="Upload" required>
                     <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>For best preview the logo images should be 180px x 90px or similar ratio.</span>
                 </div>
             </div>
@@ -68,7 +68,7 @@
             </div>
         </div>
         <div>
-            <label>Content</label>
+            <label>Content*</label>
             <?php lcm_editor('', 'description', array('textarea_rows' => '15')); ?>
             <div class="lcm-i-submit-error" id="i-content_desc"></div>
             <div class="lcm-i-submit-error" id="i-content_desc_count"></div>

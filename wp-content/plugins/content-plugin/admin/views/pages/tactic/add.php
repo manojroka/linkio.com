@@ -5,7 +5,7 @@
             <label>Tactic name*</label>
         </th>
         <td>
-            <input class="regular-text limit_title" type="text" name="tactic_name" required>
+            <input class="regular-text limit_title" type="text" value="<?= $this->flash_notice->form_value('tactic_name') ?>" name="tactic_name" required>
         </td>
     </tr>
     <tr>
@@ -13,7 +13,7 @@
             <label>Tactic Description* </label>
         </th>
         <td>
-            <?php wp_editor("", "tactic_description", array('textarea_rows' => '8')); ?>
+            <?php wp_editor($this->flash_notice->form_value('tactic_description'), "tactic_description", array('textarea_rows' => '8')); ?>
         </td>
     </tr>
     <tr>
@@ -29,7 +29,7 @@
             <label>Name </label> 
         </th>
         <td>
-            <input class="regular-text" type="text" name="name">
+            <input class="regular-text" type="text" value="<?= $this->flash_notice->form_value('name') ?>" name="name">
         </td>
     </tr>
     <tr>
@@ -37,7 +37,7 @@
             <label>Email  </label>
         </th>
         <td>					
-            <input class="regular-text" type="Email" name="email">
+            <input class="regular-text" type="email" value="<?= $this->flash_notice->form_value('email') ?>" name="email">
         </td>
     </tr>
     <tr>
@@ -45,7 +45,7 @@
             <label>Company </label>
         </th>
         <td>
-            <input class="regular-text" type="text" name="company">
+            <input class="regular-text" type="text" value="<?= $this->flash_notice->form_value('company') ?>" name="company">
         </td>
     </tr>
     <tr>
@@ -53,7 +53,7 @@
             <label>Company Url </label>
         </th>
         <td>
-            <input class="regular-text" type="url" name="company_url">
+            <input class="regular-text" type="url" value="<?= $this->flash_notice->form_value('company_url') ?>" name="company_url">
         </td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@
             <label>Job Position </label>
         </th>
         <td>
-            <input class="regular-text" type="text" name="job_position">
+            <input class="regular-text" type="text" value="<?= $this->flash_notice->form_value('job_position') ?>" name="job_position">
         </td>
     </tr>
     <tr>

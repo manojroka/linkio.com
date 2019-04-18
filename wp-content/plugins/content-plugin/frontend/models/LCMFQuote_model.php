@@ -94,6 +94,25 @@ class LCMFQuote_model extends LCMF_model {
             $error_msg = $chk_validate;
         }
         
+        //---------- title validate---------
+        if($post_data['title'] == NULL){    
+            $error_msg[] = array('id'=>'i-title', 'msg'=>'Please enter the title');
+        }
+        
+        //---------- name validate---------
+        if($post_data['name'] == NULL){    
+            $error_msg[] = array('id'=>'i-name', 'msg'=>'Please enter the author');
+        }
+        
+        //---------- company validate---------
+        if($post_data['name'] == NULL){    
+            $error_msg[] = array('id'=>'i-company', 'msg'=>'Please enter the company');
+        }
+        //---------- job position validate---------
+        if($post_data['job_position'] == NULL){    
+            $error_msg[] = array('id'=>'i-job_position', 'msg'=>'Please enter the position');
+        }
+        
         if($error_msg != NULL){
             $err_data = array(
                 'status'=>FALSE,

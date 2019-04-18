@@ -12,7 +12,7 @@
     <?php if (isset($submit_form)) { lcmf_popup_form_open($module_detail); ?>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Your Name</label>
+                <label>Your Name*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -22,7 +22,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Your Email</label>
+                <label>Your Email*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -33,7 +33,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Website Name</label>
+                <label>Website Name*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -43,7 +43,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Website Url</label>
+                <label>Website Url*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -53,7 +53,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Website Logo</label>
+                <label>Website Logo*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
@@ -63,7 +63,7 @@
             </div>
         </div>
         <div>
-            <label>Website Description</label>
+            <label>Website Description*</label>
             <?php lcm_editor("", "website_description", array('textarea_rows' => '12')); ?>
             <div class="lcm-i-submit-error" id="i-content_desc"></div>
             <div class="lcm-i-submit-error" id="i-content_desc_count"></div>

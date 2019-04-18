@@ -5,7 +5,7 @@
             <label>Tool name*</label>
         </th>
         <td>
-            <input class="regular-text limit_title" type="text" name="tool_name" required>
+            <input class="regular-text limit_title" type="text" name="tool_name" value="<?= $this->flash_notice->form_value('tool_name') ?>" required>
         </td>
     </tr>
     <tr>
@@ -13,7 +13,7 @@
             <label>Tool home page URL*</label>
         </th>
         <td>
-            <input class="regular-text" type="url" name="home_page_url" required>
+            <input class="regular-text" type="url" name="home_page_url" value="<?= $this->flash_notice->form_value('home_page_url') ?>" required>
         </td>
     </tr>
     <tr>
@@ -21,15 +21,15 @@
             <label>Summary</label>
         </th>
         <td>
-            <?php wp_editor("", "summary", array('textarea_rows' => '6')); ?>   
+            <?php wp_editor($this->flash_notice->form_value('summary'), "summary", array('textarea_rows' => '6')); ?>   
         </td>
     </tr>
     <tr>
         <th>
-            <label>Description*</label>
+            <label>Description</label>
         </th>
         <td>
-            <?php wp_editor("", "description", array('textarea_rows' => '8')); ?>
+            <?php wp_editor($this->flash_notice->form_value('description'), "description", array('textarea_rows' => '8')); ?>
         </td>
     </tr>
     <tr>
@@ -61,7 +61,7 @@
             <label>Name </label> 
         </th>
         <td>
-            <input class="regular-text" type="text" name="name">
+            <input class="regular-text" type="text" value="<?= $this->flash_notice->form_value('name') ?>" name="name">
         </td>
     </tr>
     <tr>
@@ -69,7 +69,7 @@
             <label>Email  </label>
         </th>
         <td>					
-            <input class="regular-text" type="Email" name="email">
+            <input class="regular-text" type="email" value="<?= $this->flash_notice->form_value('email') ?>" name="email">
         </td>
     </tr>
     <tr>
@@ -77,7 +77,7 @@
             <label>Company </label>
         </th>
         <td>
-            <input class="regular-text" type="text" name="company">
+            <input class="regular-text" type="text" value="<?= $this->flash_notice->form_value('company') ?>" name="company">
         </td>
     </tr>
     <tr>

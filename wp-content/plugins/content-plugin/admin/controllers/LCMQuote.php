@@ -19,6 +19,7 @@ class LCMQuote extends LCMAdmin{
     }
     
     function create_new() {
+        $this->flash_notice->set_i_values();
         if(isset($_POST) && isset($_POST['submit'])){
             $result = $this->q_model->add_new_quote();
             if($result['status'] === TRUE){

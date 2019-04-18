@@ -5,7 +5,7 @@
             <label>Website Name*</label>
         </th>
         <td>
-            <input class="regular-text limit_title" type="text" name="website_name" required>
+            <input class="regular-text limit_title" type="text" name="website_name" value="<?= $this->flash_notice->form_value('website_name'); ?>" required>
         </td>
     </tr>
     <tr>
@@ -13,16 +13,16 @@
             <label>Website URL*</label>
         </th>
         <td>
-            <input class="regular-text" type="url" name="website_url" required>&nbsp;
+            <input class="regular-text" type="url" name="website_url" value="<?= $this->flash_notice->form_value('website_url') ?>" required>&nbsp;
             <input type="checkbox" name="is_weburl_df" value="dofollow"> Dofollow
         </td>
     </tr>
     <tr>
         <th>
-            <label>Website description*</label>
+            <label>Website description</label>
         </th>
         <td>
-            <?php wp_editor("", "website_description", array('textarea_rows' => '7')); ?>
+            <?php wp_editor("{$this->flash_notice->form_value('website_description')}", "website_description", array('textarea_rows' => '7')); ?>
         </td>
     </tr>
     <tr>
@@ -46,7 +46,7 @@
             <label>Name </label> 
         </th>
         <td>
-            <input class="regular-text" type="text" name="name" value="">
+            <input class="regular-text" type="text" name="name" value="<?= $this->flash_notice->form_value('name'); ?>">
         </td>
     </tr>
     <tr>
@@ -54,7 +54,7 @@
             <label>Email </label>
         </th>
         <td>					
-            <input class="regular-text" type="Email" name="email" value="">
+            <input class="regular-text" type="email" name="email" value="<?= $this->flash_notice->form_value('email'); ?>">
         </td>
     </tr>
     <tr>
@@ -62,7 +62,7 @@
             <label>Company </label>
         </th>
         <td>
-            <input class="regular-text" type="text" name="company" value="">
+            <input class="regular-text" type="text" name="company" value="<?= $this->flash_notice->form_value('company'); ?>">
         </td>
     </tr>
 </table>
