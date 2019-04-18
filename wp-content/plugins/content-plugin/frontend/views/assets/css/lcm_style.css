@@ -626,6 +626,11 @@ color:#6F8692;
     background-color: #dcdcdc !important;
     cursor: wait;
 }
+#lcm_list .tmp-no-match{
+    padding: 1%;
+    text-align: center;
+    padding-bottom: 2%;
+}
 
 /*----- un-wanted css -----------*/
 .sgpb-hide, .sgpb-insert-media-button-js, .thickbox, #add-typeform{
