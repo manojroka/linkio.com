@@ -25,6 +25,12 @@ jQuery(document).on('click', '#lcm-open-i-form', function () {
     var module_name = jQuery('#lcm-open-i-form').attr('data-module');
     showPopup('popup_form_' + module_name);
 });
+jQuery( window ).on( "load", function(){
+    if(document.getElementById("new-i-form-popup") != null){
+        var module_name = document.getElementById("new-i-form-popup").value;
+        showPopup('popup_form_' + module_name);
+    }
+});
 //------- item popup form open end ---------
 
 jQuery('#lcm-i-ajax-data').submit(function (event) {
@@ -33,6 +39,7 @@ jQuery('#lcm-i-ajax-data').submit(function (event) {
     var formData = new FormData(document.getElementById('lcm-i-ajax-data'));
     formData.append("action", "lcm_item_submit");
     lcm_item_submit_btn.setAttribute('disabled', true);
+    jQuery('.lcm-i-submit-error').empty();
     event.preventDefault();
     jQuery.ajax({
         url: document.getElementById("lcm_home_url").value + '/wp-admin/admin-ajax.php',
@@ -47,8 +54,10 @@ jQuery('#lcm-i-ajax-data').submit(function (event) {
                 alert('Your data has been sucessfully added.');
                 window.location.href = result.lcm_refferer_url;
             } else if (result.status == false) {
-                jQuery('.lcm-i-submit-error').empty();
-                jQuery('.lcm-i-submit-error').append(result.last_error);
+                //jQuery('.lcm-i-submit-error').empty();
+                result.last_error.forEach(function(detail) {
+                    jQuery('#'+detail.id).append('<p>'+detail.msg+'</p>');
+                });
                 lcm_item_submit_btn.removeAttribute('disabled');
             } else {
                 alert('Something is going to wrong. Please try latter.');

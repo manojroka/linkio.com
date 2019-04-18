@@ -133,8 +133,7 @@ function lcm_aditional_links($json_links) {
 if(isset($_GET['newitemform'])){
     $item_module = $_GET['newitemform'];
     if( ($item_module == 'tactic') || ($item_module == 'quote') || ($item_module == 'website') || ($item_module == 'tool') ){
-        $module_popup = "'".$item_module."'";
-        echo '<body onload="open_popup_form('.$module_popup.')"></body>';
+        echo '<input type="hidden" id="new-i-form-popup" value="'.$item_module.'">';
     }
 }
 

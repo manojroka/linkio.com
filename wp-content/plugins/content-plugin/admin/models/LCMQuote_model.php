@@ -29,6 +29,15 @@ class LCMQuote_model extends LCM_model {
         } else {
             return $image_upload;
         }
+        
+        $validation_check = $this->common_validation($data);
+        if($validation_check != NULL){
+            return array(
+                    'status'=>FALSE,
+                    'last_error'=>$validation_check
+                );
+        }
+        
         $data = $this->quote_sanitize($data);
         return $id = $this->db->insert($this->table_prefix.'lcm_template_quotes', $data);
     }

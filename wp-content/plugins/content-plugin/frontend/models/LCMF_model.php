@@ -68,36 +68,30 @@ class LCMF_model {
     
     function common_validation($post_data, $desc_count = NULL, $content_desc = 'content') {
         
-        $error_msg = '';
+        $err_arr = NULL;
         
         //--------email validate---------
         $post_data['email'] = sanitize_email($post_data['email']);
-        if($post_data['email'] == NULL){
-            $error_msg .= '<p>Please enter the valid email</p>';
+        if($post_data['email'] == NULL){    
+            $err_arr[] = array('id'=>'i-email', 'msg'=>'Please enter the valid email');
         }
         
         //--------desc validate---------       
         if($post_data['content'] == ''){
-            $error_msg .= '<p>Please enter the '.$content_desc.'</p>';
+            $err_arr[] = array('id'=>'i-content_desc', 'msg'=>'Please enter the '.$content_desc);
         }
             
         //--------desc count validate---------
         if( ($desc_count > 0) && (str_word_count($post_data['content']) > $desc_count) ){
-            $error_msg .= '<p>'.ucfirst($content_desc).' must not be greater then '.$desc_count.' word</p>';
+            $err_arr[] = array('id'=>'i-content_desc_count', 'msg'=>ucfirst($content_desc).' must not be greater then '.$desc_count.' words.');
         }
         
         //--------cooke validate---------
         if(isset($post_data['is_cooke'])){
             if($post_data['is_cooke'] != 'on'){
-                $error_msg .= '<p>Please accept to the Terms and Conditions</p>';
+                $err_arr[] = array('id'=>'i-is_cooke', 'msg'=> 'Please accept to the Terms and Conditions');
             }
         }
-        
-        if($error_msg == ''){
-            return NULL;
-        } else {
-            return $error_msg;
-        }
-        
+        return $err_arr;
     }
 }

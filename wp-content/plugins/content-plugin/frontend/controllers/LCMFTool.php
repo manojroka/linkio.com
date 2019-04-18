@@ -24,7 +24,7 @@ class LCMFTool extends LCMfrontend{
         if($save_result['status'] == TRUE){
             $lcm_refferer_url = $_SERVER['HTTP_REFERER'];
             if (strpos($lcm_refferer_url, 'newitemform') !== false) {
-                $lcm_refferer_url = str_replace('?newitemform=tool', '', $lcm_refferer_url);
+                $lcm_refferer_url = str_replace('newitemform=tool', '', $lcm_refferer_url);
                 $save_result['lcm_refferer_url'] = $lcm_refferer_url;
             } else {
                 $save_result['lcm_refferer_url'] = $lcm_refferer_url;

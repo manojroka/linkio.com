@@ -477,6 +477,7 @@ color:#6F8692;
     border-radius: 50%;
     outline: none;
     margin-right: 1px;
+    cursor: pointer;
 }
 /* appearance for checked radiobutton */
 .lcm-i-type-radio input[type="radio"]:checked {
@@ -504,7 +505,7 @@ color:#6F8692;
     margin-bottom: 1px;
     color: red !important;
     font-size: 13px !important;
-    text-align: right;
+    /*text-align: right;*/
     line-height: 16px !important;
 }
 .lcm-i-submit:disabled{

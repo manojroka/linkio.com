@@ -23,6 +23,13 @@ class LCMTactic_model extends LCM_model {
     function add_new_tactic() {
         
         $data = $_POST;
+        $validation_check = $this->common_validation($data);
+        if($validation_check != NULL){
+            return array(
+                    'status'=>FALSE,
+                    'last_error'=>$validation_check
+                );
+        }
         $data = $this->tactic_sanitize($data);
         return $id = $this->db->insert($this->table_prefix.'lcm_template_tactics', $data);
     }

@@ -72,7 +72,7 @@
 <div style="margin-top: 2%">
     <div>
         <div>
-            <p class="pta-sc-tooltip">Plugin shortcode for any pages: 
+            <p class="pta-sc-tooltip">Plugin Shortcode: 
                 <span class="pta-sc-tooltiptext" id="pta-sc-spantooltip">Click Here copy to clipboard</span>
                 <span class="pta_copy_short_code">[percentages_tool_analysis]</span>
             </p>

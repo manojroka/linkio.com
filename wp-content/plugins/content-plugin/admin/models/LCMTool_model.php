@@ -27,6 +27,13 @@ class LCMTool_model extends LCM_model {
         if(($images_upload != FALSE) && ($images_upload['success'] != NULL) ){
             $data['images'] = json_encode($images_upload['success']);
         }
+        $validation_check = $this->common_validation($data);
+        if($validation_check != NULL){
+            return array(
+                    'status'=>FALSE,
+                    'last_error'=>$validation_check
+                );
+        }
         $data = $this->tool_sanitize($data);
         return $id = $this->db->insert($this->table_prefix.'lcm_template_tools', $data);
     }

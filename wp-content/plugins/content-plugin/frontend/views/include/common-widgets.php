@@ -129,6 +129,7 @@ function _lcmf_term_and_conditions_chkbox() {
                                         <label class="cb-checkbox">
                                             <input type="hidden" name="is_cooke" value="off">
                                             <input type="checkbox" name="is_cooke" id="is_cooke">I agree to the Terms and Conditions
+                                            <div class="lcm-i-submit-error" id="i-is_cooke"></div>
                                         </label>
                                     </div>    
                                 </div>

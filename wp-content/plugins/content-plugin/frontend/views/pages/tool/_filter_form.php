@@ -30,6 +30,7 @@
             <div class="lcm_col-md-6">
                 <div class="">
                     <input class="form-control" type="email" name="email" required>
+                    <div class="lcm-i-submit-error" id="i-email"></div>
                 </div>
             </div>
         </div>
@@ -69,6 +70,8 @@
         <div>
             <label>Content</label>
             <?php lcm_editor('', 'description', array('textarea_rows' => '15')); ?>
+            <div class="lcm-i-submit-error" id="i-content_desc"></div>
+            <div class="lcm-i-submit-error" id="i-content_desc_count"></div>
             <span class="lcm_popup_info"><i class="fas fa-info-circle"></i>You can use editor functionality to format the content. Please limit your description to 500 words</span>
         </div>
     <?php lcmf_popup_form_closed($module_detail); } ?>

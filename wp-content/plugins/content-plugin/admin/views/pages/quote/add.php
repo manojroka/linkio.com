@@ -45,7 +45,7 @@
             <label>Email  </label>
         </th>
         <td>					
-            <input class="regular-text" type="Email" name="email">
+            <input class="regular-text" type="email" name="email">
         </td>
     </tr>
     <tr>

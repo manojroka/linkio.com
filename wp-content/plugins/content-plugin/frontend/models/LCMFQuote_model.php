@@ -86,7 +86,7 @@ class LCMFQuote_model extends LCMF_model {
     
     function quote_validation($post_data) {
         
-        $error_msg = '';
+        $error_msg = NULL;
         
         $post_data['content'] = $post_data['quote_description'];
         $chk_validate = $this->common_validation($post_data, 200);
@@ -94,10 +94,10 @@ class LCMFQuote_model extends LCMF_model {
             $error_msg = $chk_validate;
         }
         
-        if($error_msg != ''){
+        if($error_msg != NULL){
             $err_data = array(
                 'status'=>FALSE,
-                'last_error'=>$error_msg
+                'last_error'=> $error_msg
             );
             return $err_data;
         }
