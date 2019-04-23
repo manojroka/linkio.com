@@ -45,8 +45,9 @@
                                     `vote_count` int(11) NOT NULL DEFAULT '0',
                                     `template_id` int(11) NOT NULL,
                                     `module_id` int(11) NOT NULL,
-                                    PRIMARY KEY (`id`),
-                                    FULLTEXT(`title`,`quote_description`)
+                                    FULLTEXT (`title`), 
+                                    FULLTEXT (`quote_description`), 
+                                    PRIMARY KEY (`id`)
                                 );".$charset_collate;
     // === end create quote table ===========
     
@@ -67,8 +68,10 @@
                                     `category` text,
                                     `is_cooke` enum('on') DEFAULT NULL,
                                     `vote_count` int(11) NOT NULL DEFAULT '0',
-                                    `template_id` int(11) NOT NULL,
-                                    `module_id` int(11) NOT NULL,
+                                    `template_id` int(11) NOT NULL, 
+                                    `module_id` int(11) NOT NULL, 
+                                    FULLTEXT (`tactic_name`), 
+                                    FULLTEXT (`tactic_description`), 
                                     PRIMARY KEY (`id`)
                                 );".$charset_collate;
     // === end create tactic table ===========
@@ -92,8 +95,10 @@
                                     `price` enum('Free','Paid','Freemium') DEFAULT NULL,
                                     `is_cooke` enum('on') DEFAULT NULL,
                                     `vote_count` int(11) NOT NULL DEFAULT '0',
-                                    `template_id` int(11) NOT NULL,
-                                    `module_id` int(11) NOT NULL,
+                                    `template_id` int(11) NOT NULL, 
+                                    `module_id` int(11) NOT NULL, 
+                                    FULLTEXT (`tool_name`), 
+                                    FULLTEXT (`description`), 
                                     PRIMARY KEY (`id`)
                                 );".$charset_collate;
     // === end create tool table ===========
@@ -114,6 +119,8 @@
                                     `vote_count` int(11) NOT NULL DEFAULT '0',
                                     `template_id` int(11) NOT NULL,
                                     `module_id` int(11) NOT NULL,
+                                    FULLTEXT (`website_name`), 
+                                    FULLTEXT (`website_description`), 
                                     PRIMARY KEY (`id`)
                                 );".$charset_collate;
     // === end create websites table ===========

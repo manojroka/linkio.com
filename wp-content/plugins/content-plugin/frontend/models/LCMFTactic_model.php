@@ -111,13 +111,21 @@ class LCMFTactic_model extends LCMF_model{
     
     function get_search_item_ids() {
         
-        $condition_keyword = "";
-        if($_POST['qry_string'] != ''){
-            $condition_keyword = " AND (tactic_name LIKE '%{$_POST['qry_string']}%') OR (tactic_description LIKE '%{$_POST['qry_string']}%')";
-        }
-        $s_query = "SELECT * 
-                    FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
-                    WHERE template_id = {$_POST['template_id']}{$condition_keyword}";
+        if($_POST['qry_string'] == ''){
+            $s_query = "SELECT * 
+                        FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
+                        WHERE template_id = {$_POST['template_id']} 
+                        LIMIT 0, 1000";
+        }else{
+            $s_query = "SELECT *, 
+                        MATCH (`tactic_name`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance1, 
+                        MATCH (`tactic_description`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance2 
+                        FROM {$this->table_prefix}lcm_template_{$_POST['module']}s 
+                        WHERE template_id = {$_POST['template_id']} 
+                        HAVING (relevance1 + relevance2) > 0 
+                        ORDER BY (relevance1 *3 ) + (relevance2) DESC 
+                        LIMIT 0, 1000";       
+        }            
         return $this->db->lcm_db_result($s_query, 'object');
     }
 }

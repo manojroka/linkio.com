@@ -125,24 +125,21 @@ class LCMFQuote_model extends LCMF_model {
     
     function get_search_item_ids() {
         
-        $condition_keyword = "";
-        if($_POST['qry_string'] != ''){
-            $condition_keyword = " AND (title LIKE '%{$_POST['qry_string']}%') OR (quote_description LIKE '%{$_POST['qry_string']}%')";
-        }
-        $s_query = "SELECT * 
+        if($_POST['qry_string'] == ''){
+            $s_query = "SELECT * 
                     FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
-                    WHERE template_id = {$_POST['template_id']}{$condition_keyword}";
-             
-                    
-                    
-        $s_query = "SELECT wp6f_lcm_template_quotes.*, SUM( ( MATCH(title) AGAINST('410')*1) + (MATCH(quote_description) AGAINST('410')*2) ) as relevance FROM `wp6f_lcm_template_quotes` WHERE template_id = 1 AND ( MATCH(`title`) AGAINST('410') OR MATCH(quote_description) AGAINST('410') ) ORDER BY relevance DESC";       
-                    
-        $rr = $this->db->lcm_db_result($s_query, 'object');
-        
-        echo '<pre>';
-        print_r($rr);
-//        die;
-                    
+                    WHERE template_id = {$_POST['template_id']} 
+                    LIMIT 0, 1000";
+        }else{
+            $s_query = "SELECT *, 
+                    MATCH (`title`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance1, 
+                    MATCH (`quote_description`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance2 
+                    FROM {$this->table_prefix}lcm_template_{$_POST['module']}s 
+                    WHERE template_id = {$_POST['template_id']} 
+                    HAVING (relevance1 + relevance2) > 0 
+                    ORDER BY (relevance1 *3 ) + (relevance2) DESC 
+                    LIMIT 0, 1000";       
+        }
         return $this->db->lcm_db_result($s_query, 'object');
     }
     
