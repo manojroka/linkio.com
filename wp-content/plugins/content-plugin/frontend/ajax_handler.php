@@ -36,7 +36,7 @@ function lcm_item_submit_function() {
     if (file_exists($expectedController)) {
         require_once $expectedController;
         $fcontroller = new $controllerName();
-        $fcontroller->ajaxPerform($action, $module, $item_id=null, $template_id=null, $module_id=null);
+        $fcontroller->ajaxPerform($action, $module);
     }
     exit;
 }
@@ -59,7 +59,11 @@ function lcm_get_search_item_ids_function() {
         if (file_exists($expectedController)) {
             require_once $expectedController;
             $fcontroller = new $controllerName();
+            ob_start();
             $fcontroller->ajaxPerform($action, $module);
+            $output = ob_get_contents();
+            ob_end_clean();
+            wp_send_json_success(array('msg'=>$output));
         }
     }
     exit;

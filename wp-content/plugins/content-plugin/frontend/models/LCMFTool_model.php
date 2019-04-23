@@ -184,10 +184,13 @@ class LCMFTool_model extends LCMF_model {
     
     function get_search_item_ids() {
         
-        $s_query = "SELECT id 
+        $condition_keyword = "";
+        if($_POST['qry_string'] != ''){
+            $condition_keyword = " AND (tool_name LIKE '%{$_POST['qry_string']}%') OR (description LIKE '%{$_POST['qry_string']}%')";
+        }
+        $s_query = "SELECT * 
                     FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
-                    WHERE template_id = {$_POST['template_id']} AND (tool_name LIKE '%{$_POST['qry_string']}%') OR (description LIKE '%{$_POST['qry_string']}%')";
-                    
+                    WHERE template_id = {$_POST['template_id']}{$condition_keyword}";
         return $this->db->lcm_db_result($s_query, 'object');
     }
 }

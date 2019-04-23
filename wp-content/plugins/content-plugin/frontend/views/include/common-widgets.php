@@ -93,6 +93,18 @@ function _lcm_top_search_box($detail) {
     
 }
 
+function lcm_img_src($img_name = NULL) {
+    if($img_name == NULL || $img_name == ''){
+        return LCM_PLUGIN_FRONT_DIR_URL.'/views/assets/no-img.png';
+    } else {
+        if(@getimagesize(LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $img_name)){
+            return LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $img_name;
+        }else{
+            return LCM_PLUGIN_FRONT_DIR_URL.'/views/assets/no-img.png';
+        }   
+    }
+}
+
 function lcm_vote_update($detail){
     $lcm_vote_html = '';
     if($detail != NULL || $detail != ''){

@@ -60,7 +60,7 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label>Company Url</label>
+                <label>Company Url*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="lcm_mobile_line_height">

@@ -31,7 +31,7 @@ class LCMFHome extends LCMfrontend{
                             $this->data['_filter_by'] = $this->_filter_by($data_list);
                         }
                         $this->data['data'] = $data_list;
-                        $this->page = 'pages/'.$module.'/list';
+                        $this->page = 'pages/'.$module.'/index';
                     } else {
                         
                         if($this->submit_form != NULL){
@@ -124,7 +124,7 @@ class LCMFHome extends LCMfrontend{
         return $f_arr;
     }
     
-    function lcm_get_search_item_ids() {
+    function lcm_get_search_item_ids__() {
         
         $id_s = $this->lcmf_model->get_search_item_ids();
         if($id_s['status'] == TRUE){
@@ -140,4 +140,17 @@ class LCMFHome extends LCMfrontend{
         }
     }
     
+    function lcm_get_search_item_ids() {
+        $id_s = $this->lcmf_model->get_search_item_ids();
+        if($id_s['status'] != TRUE){
+            echo 'Something Is Wrong, Please Reload the page.';
+        } else {
+            if($id_s['num_rows'] > 0){
+                $this->data['data'] =  $id_s['result'];
+                $this->page = 'pages/'.$_POST["module"].'/_list';
+            } else {
+                echo '<p class="tmp-no-match">No matching result found.</p>';
+            }   
+        }
+    }
 }

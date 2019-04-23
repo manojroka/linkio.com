@@ -43,6 +43,7 @@ global $wpdb;
 
 // ORDER BY votes ASC
 $tools = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}seo_tools_list WHERE status = 'Published' ORDER BY votes DESC LIMIT 5", OBJECT); // Might also try with OBJECT_K
+$tools_noscript = $wpdb->get_results("SELECT * FROM {$wpdb->prefix}seo_tools_list WHERE status = 'Published' ORDER BY votes DESC LIMIT 200 OFFSET 5", OBJECT);
 $tools_count = $wpdb->get_row("SELECT COUNT(id) AS count FROM {$wpdb->prefix}seo_tools_list WHERE status = 'Published'")->count;
 
 // }

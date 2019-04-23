@@ -168,6 +168,20 @@
             </div>
         </div>
     </div>
+<?php  
+echo '<noscript>';
+foreach ($tools_noscript as $too) { ?>
+                <div>
+                    <h2><a><?php echo $too->name; ?></a></h2>
+                    <div>
+                        <h5><?php echo str_replace(array(',', '_'), array(', ', ' '), $too->type); ?></h5>
+                        <h5><?php echo $too->price; ?></h5>
+                    </div>
+                    <p><?php echo $too->summary; ?></p>
+                </div>
+<?php }
+echo '</noscript>';
+?>
     <!-- End SEO Tools Content aaa -->
     <div id="go-to-top" title="Go to top"><i class="fa fa-angle-up"></i></div>
     <input type="hidden" value="<?= get_home_url() ?>" id="st_home_url">

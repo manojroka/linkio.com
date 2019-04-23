@@ -125,9 +125,23 @@ class LCMFQuote_model extends LCMF_model {
     
     function get_search_item_ids() {
         
-        $s_query = "SELECT id 
+        $condition_keyword = "";
+        if($_POST['qry_string'] != ''){
+            $condition_keyword = " AND (title LIKE '%{$_POST['qry_string']}%') OR (quote_description LIKE '%{$_POST['qry_string']}%')";
+        }
+        $s_query = "SELECT * 
                     FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
-                    WHERE template_id = {$_POST['template_id']} AND (title LIKE '%{$_POST['qry_string']}%') OR (quote_description LIKE '%{$_POST['qry_string']}%')";
+                    WHERE template_id = {$_POST['template_id']}{$condition_keyword}";
+             
+                    
+                    
+        $s_query = "SELECT wp6f_lcm_template_quotes.*, SUM( ( MATCH(title) AGAINST('410')*1) + (MATCH(quote_description) AGAINST('410')*2) ) as relevance FROM `wp6f_lcm_template_quotes` WHERE template_id = 1 AND ( MATCH(`title`) AGAINST('410') OR MATCH(quote_description) AGAINST('410') ) ORDER BY relevance DESC";       
+                    
+        $rr = $this->db->lcm_db_result($s_query, 'object');
+        
+        echo '<pre>';
+        print_r($rr);
+//        die;
                     
         return $this->db->lcm_db_result($s_query, 'object');
     }

@@ -45,7 +45,8 @@
                                     `vote_count` int(11) NOT NULL DEFAULT '0',
                                     `template_id` int(11) NOT NULL,
                                     `module_id` int(11) NOT NULL,
-                                    PRIMARY KEY (`id`)
+                                    PRIMARY KEY (`id`),
+                                    FULLTEXT(`title`,`quote_description`)
                                 );".$charset_collate;
     // === end create quote table ===========
     

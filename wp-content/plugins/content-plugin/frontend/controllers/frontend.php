@@ -80,11 +80,8 @@ class LCMfrontend {
         
     }
     
-    public function ajaxPerform($action = 'index', $module = null, $item_id=null, $template_id=null, $module_id=null) {
+    public function ajaxPerform($action = 'index', $module = null) {
         //-------load model start--------
-        $this->item_id = $item_id;
-        $this->template_id = $template_id;
-        $this->module_id = $module_id;
         $model_file = 'LCMF' . ucfirst($module) . '_model';
         $expected_model_file = LCM_PLUGIN_FRONT_DIR . '/models/' . $model_file . '.php';
         if (file_exists($expected_model_file)) {

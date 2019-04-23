@@ -46,11 +46,11 @@
         </div>
         <div class="lcm_flex lcm_row">
             <div class="lcm_col-md-3">
-                <label class="lcm_mobile_line_height">Company Url</label>
+                <label class="lcm_mobile_line_height">Company Url*</label>
             </div>
             <div class="lcm_col-md-6">
                 <div class="">
-                    <input class="form-control" name="company_url" type="url">
+                    <input class="form-control" name="company_url" type="url" required>
                 </div>
             </div>
         </div>

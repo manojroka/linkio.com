@@ -110,56 +110,32 @@ jQuery(document).ready(function () {
 });
 
 jQuery(document).on('click','#lcm-do-search', function () {
-    
     var do_srch_btn = document.getElementById('lcm-do-search');
-    
     event.preventDefault();
     do_srch_btn.setAttribute('disabled', true);
-    jQuery('.tmp-no-match').remove();
     var qry_self = jQuery('#lcm-search-query');
     var qry_string = document.getElementById('lcm-search-query').value;
-    if(qry_string == ''){
-        jQuery('.lcm-i-lists').each(function () {
-            jQuery(this).show();
-        });
-        do_srch_btn.removeAttribute('disabled');
-        return false;
-    }else{
-        jQuery.ajax({
-            url: document.getElementById('lcm_home_url').value + '/wp-admin/admin-ajax.php',
-            type: 'post',
-            data: {
-                action: 'lcm_get_search_item_ids',
-                template_id: qry_self.attr('data-template_id'),
-                module: qry_self.attr('data-module'),
-                qry_string: qry_string,
-            },
-            success: function (data) {
-                if (data.success == true) {
-                    var ids = [];
-                    data.data.msg.forEach(function(detail) {
-                        ids.push(detail.id);
-                    });
-                    if(ids.length > 0){
-                        ids = JSON.stringify(ids);
-                        jQuery('.lcm-i-lists').hide();
-                        jQuery('.lcm-i-lists').each(function () {
-                            var this_div = jQuery(this);
-                            if( ids.includes(this_div.data('id') ) == true ) {
-                                this_div.show();
-                            }
-                        });
-                    }else{
-                        jQuery('.lcm-i-lists').hide();
-                        jQuery('#lcm_list').append('<p class="tmp-no-match">No matching result found.</p>');
-                    }
-                }else{
-                    alert(data.data.msg);
-                }
-                do_srch_btn.removeAttribute('disabled');
+    jQuery('.tmp-no-match').remove();
+    jQuery.ajax({
+        url: document.getElementById('lcm_home_url').value + '/wp-admin/admin-ajax.php',
+        type: 'post',
+        dataType: 'json',
+        data: {
+            action: 'lcm_get_search_item_ids',
+            template_id: qry_self.attr('data-template_id'),
+            module: qry_self.attr('data-module'),
+            qry_string: qry_string,
+        },
+        success: function (data) {
+            if(data.success == false){
+                alert(data.data.msg);
+            }else{
+                jQuery('#lcm_list').html('');
+                jQuery('#lcm_list').html(data.data.msg);
             }
-        });
-    }
+            do_srch_btn.removeAttribute('disabled');
+        }
+    });
 });
 
 jQuery(document).on('change','#lcm-i-sort', function () {
