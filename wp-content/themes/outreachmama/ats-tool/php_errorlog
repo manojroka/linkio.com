@@ -1,7 +1,0 @@
-[28-Nov-2018 17:24:43 CST6CDT] PHP Fatal error:  Uncaught RequestException: An unexpected problem occurred with the API request. Some causes include: invalid JSON or XML returned. Here is the actual response from the server: ----  in /home/linkio07/public_html/wp-content/themes/outreachmama/ats-tool/includes/Connector.class.php:209
-Stack trace:
-#0 /home/linkio07/public_html/wp-content/themes/outreachmama/ats-tool/includes/Contact.class.php(87): AC_Connector->curl('https://outreac...', Array)
-#1 /home/linkio07/public_html/wp-content/themes/outreachmama/ats-tool/includes/ActiveCampaign.class.php(109): AC_Contact->sync('', Array)
-#2 /home/linkio07/public_html/wp-content/themes/outreachmama/ats-tool/email.php(40): ActiveCampaign->api('contact/sync', Array)
-#3 {main}
-  thrown in /home/linkio07/public_html/wp-content/themes/outreachmama/ats-tool/includes/Connector.class.php on line 209

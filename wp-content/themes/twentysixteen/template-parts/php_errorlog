@@ -1,4 +1,0 @@
-[05-Dec-2018 11:38:43 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function the_ID() in /home/linkio07/public_html/wp-content/themes/twentysixteen/template-parts/content-single.php:11
-Stack trace:
-#0 {main}
-  thrown in /home/linkio07/public_html/wp-content/themes/twentysixteen/template-parts/content-single.php on line 11

@@ -1,23 +1,11 @@
-#netbeans folder
-nbproject
 
-#htaccess file
-.htaccess
 
-#config file
-wp-config.php
+# Ignore everything
+*
 
-#admin
-wp-admin/*
+!/.gitignore
 
-#upload file
-wp-content/uploads/*
+!/wp-content/plugins/**
 
-#upgrade
-wp-content/upgrade/*
+!/wp-content/themes/**
 
-#includes
-wp-includes/*
-
-#xmlrpc
-xmlrpc.php

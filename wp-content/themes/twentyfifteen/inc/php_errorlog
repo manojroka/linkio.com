@@ -1,4 +1,0 @@
-[26-Oct-2018 00:24:07 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php:41
-Stack trace:
-#0 {main}
-  thrown in /home/linkio07/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
