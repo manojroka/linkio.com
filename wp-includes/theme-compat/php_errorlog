@@ -1,8 +1,0 @@
-[11-Feb-2018 01:49:17 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home/linkio07/public_html/wp-includes/theme-compat/embed-content.php:13
-Stack trace:
-#0 {main}
-  thrown in /home/linkio07/public_html/wp-includes/theme-compat/embed-content.php on line 13
-[12-Feb-2018 07:13:12 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function post_class() in /home/linkio07/public_html/wp-includes/theme-compat/embed-content.php:13
-Stack trace:
-#0 {main}
-  thrown in /home/linkio07/public_html/wp-includes/theme-compat/embed-content.php on line 13
