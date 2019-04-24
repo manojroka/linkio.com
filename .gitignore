@@ -5,7 +5,9 @@
 
 !/.gitignore
 
-!/wp-content/plugins/**
+!/wp-content/
+/wp-content/**
+!/wp-content/plugins/
 
-!/wp-content/themes/**
+
 
