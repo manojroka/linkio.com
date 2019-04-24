@@ -7,9 +7,14 @@ nbproject
 #config file
 wp-config.php
 
+#admin
+wp-admin/*
+
 #upload file
 wp-content/uploads/*
 
-#wflogs file
-wp-content/wflogs/*
+#upgrade
+wp-content/upgrade/*
 
+#includes
+wp-includes/*
