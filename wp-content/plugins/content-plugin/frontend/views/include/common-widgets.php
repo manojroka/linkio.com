@@ -97,7 +97,7 @@ function lcm_img_src($img_name = NULL) {
     if($img_name == NULL || $img_name == ''){
         return LCM_PLUGIN_FRONT_DIR_URL.'/views/assets/no-img.png';
     } else {
-        if(@getimagesize(LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $img_name)){
+        if(file_exists( LCM_PLUGIN_IMG_UPLOAD_BASE_PATH.$img_name )){
             return LCM_PLUGIN_IMG_UPLOAD_BASE_DIR . $img_name;
         }else{
             return LCM_PLUGIN_FRONT_DIR_URL.'/views/assets/no-img.png';
@@ -187,13 +187,6 @@ function _lcmf_item_form_heading($module_detail) {
                             </div>
                         </div>
                         </div>
-                        <!--<div class="lcm_title_top">
-                            <h4>Want to recommend a '.ucfirst($module_detail->module).' not on the list ?</h4>
-                            <p>
-                                Make sure to fill in all the fields and be thorough and informational (not promotional!)<br>
-                                Your entry will be reviewed before going live.
-                            </p>
-                        </div>-->
                     </div>';
     echo $heading_html;
 }
@@ -218,7 +211,6 @@ function _lcmf_add_new_popup_btn($module) {
 }
 
 function lcmf_popup_form_open($module_detail) {
-    // _lcmf_add_new_popup_btn("'".$module_detail->module."'");
     echo '<div class="lcm-i-popup">
             <div class="lcm-i-form" id="popup_form_'.$module_detail->module.'">
                 <form id="lcm-i-ajax-data" method="post" enctype="multipart/form-data">';

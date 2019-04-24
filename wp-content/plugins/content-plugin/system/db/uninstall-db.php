@@ -24,3 +24,6 @@
     
     $wpdb->query( sprintf( "DROP TABLE IF EXISTS %s",
             $wpdb->prefix . 'lcm_template_tactics_categories' ) );
+    
+    $wpdb->query( sprintf( "DROP TABLE IF EXISTS %s",
+            $wpdb->prefix . 'lcm_template_tools_types' ) );

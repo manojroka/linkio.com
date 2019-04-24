@@ -18,6 +18,7 @@ define( 'LCM_PLUGIN_FRONT_DIR', LCM_PLUGIN_DIR . '/frontend' );
 define( 'LCM_PLUGIN_FRONT_DIR_URL', plugin_dir_url( __FILE__ ) . 'frontend');
 define( 'LCM_PLUGIN_ADMIN_DIR_URL', plugin_dir_url( __FILE__ ) . 'admin');
 define( 'LCM_PLUGIN_IMG_UPLOAD_BASE_DIR', wp_upload_dir()['baseurl']);
+define( 'LCM_PLUGIN_IMG_UPLOAD_BASE_PATH', wp_upload_dir()['basedir']);
 define( 'HOME_URL', get_home_url());
 
 /**
