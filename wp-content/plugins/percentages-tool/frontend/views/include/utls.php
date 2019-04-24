@@ -1,8 +1,41 @@
 <?php
-
-function get_pta_target_ideal_percentage_popup($url_value) {
-    echo '<button>View</button>';
+function page_type_dropdown($url_value, $sn) {
+    
+    $page_type = $url_value['page_type'];
+    $web_type = $url_value['website_type'];
+    $domain_type = $url_value['domain_type'];
+    
+    $selected_home = '';
+    if($page_type == 'home_page'){
+        $selected_home = 'selected';
+    }
+    $selected_commercial = '';
+    if($page_type == 'commercial_page'){
+        $selected_commercial = 'selected';
+    }
+    $selected_informational = '';
+    if($page_type == 'informational_page'){
+        $selected_informational = 'selected';
+    }
+    echo '<select id="page_type" class="page_type" data-current-page-type="'.$page_type.'" data-website_type="'.$web_type.'" data-domain_type="'.$domain_type.'" data-sn="'.$sn.'">';
+        echo '<option '.$selected_home.'>Home Page</option>';
+        echo '<option '.$selected_commercial.'>Commercial Page</option>';
+        echo '<option '.$selected_informational.'>Informational Page</option>';
+    echo '</select>';
 }
+
+function page_sub_type_dropdown($subtype, $sn) {
+    echo '<select class="page_subtype" data-sn="'.$sn.'">';
+    foreach ($subtype['list'] as $r) {
+        $selected = '';
+        if($r->id == $subtype['detail']->id){
+            $selected = 'selected';
+        }
+        echo '<option value="'.$r->id.'" '.$selected.'>'.$r->anchor_type.'</option>';
+    }
+    echo '</select>';
+}
+
 
 function _subpage_popup_table($id, $ideal_percent) {
     
@@ -50,7 +83,6 @@ function _subpage_popup_table($id, $ideal_percent) {
                                 <td>Keyword Plus Word</td>
                                 <td>'.$ideal_percent->keyword_plus_word.'%</td>
                             </tr>
-
                             <tr>
                                 <td rowspan="2" class="pta-anchr-title">Hybrid</td>
                                 <td>Title Tag</td>
@@ -61,7 +93,6 @@ function _subpage_popup_table($id, $ideal_percent) {
                                 <td>Brand + Keyword</td>
                                 <td>'.$ideal_percent->brand_plus_keyword.'%</td>
                             </tr>
-
                             <tr>
                                 <td rowspan="3" class="pta-anchr-title">Url</td>
                                 <td>Naked Url</td>
@@ -76,7 +107,6 @@ function _subpage_popup_table($id, $ideal_percent) {
                                 <td>Home Page Url</td>
                                 <td>'.$ideal_percent->home_page_url.'%</td>
                             </tr>
-
                             <tr>
                                 <td rowspan="3" class="pta-anchr-title">Natural</td>
                                 <td>Just Natural</td>
@@ -97,3 +127,7 @@ function _subpage_popup_table($id, $ideal_percent) {
     return $html_code;
 }
 
+function _load_js_pta_popup_hover() {
+    $src = PTA_PLUGIN_FRONT_DIR_URL.'/views/assets/js/pta-hover.js';
+    echo "<script type='text/javascript' src='".$src."'></script>";
+}

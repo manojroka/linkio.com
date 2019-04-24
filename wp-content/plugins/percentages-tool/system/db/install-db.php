@@ -23,10 +23,12 @@
                                     PRIMARY KEY (`id`)
                                 )$charset_collate;";
     
-    $sql_pta_category_sub_type_data = "INSERT INTO `{$wpdb->prefix}pta_category_sub_type` (`id`, `anchor_type`, `brand_name`, `website_dot_com`, `exact_keyword`, 
-                                                                                            `part_of_keyword`, `keyword_plus_word`, `title_tag`, `brand_plus_keyword`, 
-                                                                                            `naked_url`, `naked_url_no_http`, `home_page_url`, `just_natural`, `no_text`, `totally_random`, 
-                                                                                            `page_type`, `domain_type`, `website_type`) VALUES
+    $sql_pta_category_sub_type_data = "INSERT INTO `{$wpdb->prefix}pta_category_sub_type` 
+                                        (`id`, `anchor_type`, `brand_name`, `website_dot_com`, `exact_keyword`, 
+                                            `part_of_keyword`, `keyword_plus_word`, `title_tag`, `brand_plus_keyword`, 
+                                            `naked_url`, `naked_url_no_http`, `home_page_url`, `just_natural`, `no_text`, `totally_random`, 
+                                            `page_type`, `domain_type`, `website_type`) 
+                                        VALUES
                                         (1, 'Local Homepage - Partial Match Domain', 27.62, 8.59, 1.76, 3.56, 3.17, 2.73, 3.29, 19.45, 10.2, 0, 12.39, 7.26, 0, 'home_page', 'pmd', 'local'),
                                         (2, 'Local Homepage - No Keyword in Domain', 38.35, 7.65, 0, 6.95, 0, 3.02, 6.28, 14.96, 11.36, 0, 9.57, 1.86, 0, 'home_page', 'nmd', 'local'),
                                         (3, 'Local Homepage - Exact Match Domain where Brand Name is not a Keyword', 17.59, 2.56, 5.5, 4.83, 1.82, 0, 3.55, 28.54, 10.96, 0, 21.47, 3.17, 0, 'home_page', 'emd', 'local'),

@@ -1,6 +1,5 @@
 <?php require_once PTA_PLUGIN_FRONT_DIR . '/controllers/frontend.php';
 
-
 function pta_percentages_tool_analysis_shortcode_function(){
     ob_start();
     $module = 'home';
