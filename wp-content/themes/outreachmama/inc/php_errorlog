@@ -1,0 +1,8 @@
+[05-Dec-2018 11:31:47 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/themes/outreachmama/inc/customizer.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/themes/outreachmama/inc/customizer.php on line 61
+[07-Dec-2018 10:24:20 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/linkio07/public_html/wp-content/themes/outreachmama/inc/customizer.php:61
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/themes/outreachmama/inc/customizer.php on line 61

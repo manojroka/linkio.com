@@ -1,0 +1,87 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+   
+.custom-logo {
+    max-width: 210px !important;
+}
+.main-navigation a {
+    font-size: 15px;
+}
+.row-1100 {
+    width: 100%;
+}    
+ .premium-contact {
+    width: 100%;
+}   
+    
+.sec-3-inn{    
+    width: 100% !important;
+}
+.questions-f {
+    width: 95%;
+}
+#sec02 .kc_row_inner{
+    width:100%;   
+}
+
+#sec04 .com-box {
+    width: 280px;
+}
+.page-id-589 #sec04 .com-box {
+    width: 280px;
+}
+#why-margin.kc_row_inner{
+    width: 100%;
+}
+.page-id-113 #sec04 .com-box {
+    width: 280px;
+}
+.page-id-568 #sec04 .com-box {
+    width: 280px;
+}
+.page-id-113 #sec04 .com-box {
+    width: 280px;
+}
+#inner-header h1 {
+    font-size: 45px;
+}
+.page-id-600 #sec04 .com-box {
+    width: 200px !important;
+}
+#service-sec4 .com-box .content {
+    width: auto;
+}
+.page-id-607 #sec04 .com-box {
+    width: 280px;
+}
+.m-l {
+    width: 99%;
+}
+.sec-3-inn-5 .com-box {
+    width: 200px !important;
+}
+.page-id-111 .sec-3-inn-5 .com-box .content {
+    min-height: 555px !important;
+}
+.sec03-res-left {
+    padding-left: 15px;
+}
+#sec02 .kc_row_inner {
+    padding-left: 15px;
+}
+.my-image {
+    padding-left: 15px;
+}
+.sec-3-inn-right {
+    padding-right: 15px;
+}
+#pd-rt {
+    padding-left: 20px;
+}
+  
+  
+  
+  
+  
+    
+}
+    

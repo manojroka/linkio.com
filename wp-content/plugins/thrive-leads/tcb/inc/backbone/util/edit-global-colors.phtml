@@ -1,0 +1,58 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Ovidiu
+ * Date: 7/25/2018
+ * Time: 10:26 AM
+ */
+?>
+
+<div id="active_color_details">
+	<div class="tcb-favorites-steps control-grid tcb-favorites-step-1" data-step="1">
+		<div class="tcb-global-color-preview"></div>
+		<span class="tcb-global-color-label tcb-truncate"><#= text #></span>
+		<span class="click tcb-global-color-icon" data-fn="remove_favorite"><?php tcb_icon( 'star-solid' ); ?></span>
+		<span class="click tcb-global-color-icon" data-fn="make_global" data-tooltip="<?php echo __( 'Make it global', 'thrive-cb' ); ?>">
+			<?php tcb_icon( 'globe-regular' ); ?>
+		</span>
+	</div>
+	<?php //Edit view: 2 ?>
+	<div class="tcb-favorites-steps control-grid tcb-favorites-step-2" data-step="2">
+		<div class="tcb-global-color-preview"></div>
+		<span class="tcb-global-color-label tcb-truncate"><#= text #></span>
+		<div class="click" data-fn="unlink_global"><?php echo __( 'Unlink', 'thrive-cb' ); ?></div>
+		<div class="click" data-fn="go_to_state" data-state="3"><?php echo __( 'Edit', 'thrive-cb' ); ?></div>
+	</div>
+	<?php //Edit State: 3 ?>
+	<div class="tcb-favorites-steps control-grid tcb-favorites-step-3" data-step="3">
+		<div class="tcb-global-color-preview"></div>
+		<div class="click" data-fn="go_to_state" data-state="31"><#= edit_property_label #></div>
+		<div class="click" data-fn="go_to_state" data-state="32"><?php echo __( 'Label', 'thrive-cb' ); ?></div>
+		<div class="click" data-fn="go_to_state"  data-state="33"><?php echo __( 'Remove', 'thrive-cb' ); ?></div>
+	</div>
+	<?php //Edit - Color: 31 ?>
+	<div class="tcb-favorites-steps control-grid tcb-favorites-step-31" data-step="31">
+		<div class="tcb-global-color-preview"></div>
+		<span class="tcb-global-color-label tcb-truncate"><#= text #></span>
+		<span class="click tcb-global-color-icon" data-fn="undo_global"><?php tcb_icon( 'times-regular' ); ?></span>
+		<span class="click tcb-global-color-icon" data-fn="update_global"><?php tcb_icon( 'check-regular' ); ?></span>
+	</div>
+
+	<?php //Edit - Name: 32 ?>
+	<div class="tcb-favorites-steps control-grid tcb-favorites-step-32" data-step="32">
+		<div class="tcb-global-color-preview"></div>
+		<input type="text" id="tcb_global_color_name" value="<#= text #>"/>
+		<span class="click tcb-global-color-icon" data-fn="undo_global"><?php tcb_icon( 'times-regular' ); ?></span>
+		<span class="click tcb-global-color-icon" data-fn="update_global"><?php tcb_icon( 'check-regular' ); ?></span>
+	</div>
+	<?php //Remove: 33 ?>
+	<div class="tcb-favorites-steps control-grid tcb-favorites-step-33" data-step="33">
+		<div class="warning">
+			<?php echo __( 'Are you sure?', 'thrive-cb' ); ?>
+		</div>
+		<div class="remove-buttons">
+			<div class="click" data-fn="go_to_state" data-state="3"><?php echo __( 'NO', 'thrive-cb' ); ?></div>
+			<div class="click" data-fn="remove_global"><?php echo __( 'YES', 'thrive-cb' ); ?></div>
+		</div>
+	</div>
+</div>

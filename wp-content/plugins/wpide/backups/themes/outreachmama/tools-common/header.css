@@ -1,0 +1,267 @@
+#header-new {
+	max-width: 1100px; min-height: 80px;
+	margin: 0 auto; padding: 20px;
+	
+/*	-webkit-box-shadow: 0px 3px 5px 0px #e7e7e7;
+    -moz-box-shadow: 0px 3px 5px 0px #e7e7e7;
+    box-shadow: 0px 3px 5px 0px #e7e7e7; */
+}
+	#linkio-logo { width: 150px; height: auto; }
+
+
+	
+/* SIGN UP BUTTON: Hidden by default ... only visible on small devices */
+.sign-up-btn { display: none; float: right; }
+@media only screen and (max-width: 979px) {
+	.sign-up-btn {
+		display: inline-block;
+		width: 120px; height: 42px;
+		margin-right: 40px; padding: 0;
+
+		color: white !important;
+		
+		text-transform: uppercase; text-align: center;
+		font-family: 'Calibri', sans-serif;
+		font-size: 15px; line-height: 42px;
+
+		border: none;
+		border-radius: 5px;
+		background-color: #1ABC9C;
+	}
+	.sign-up-btn:hover { text-decoration: none; background-color: #0057a7 !important; }
+}
+
+@media only screen and (max-width: 767px) {
+	.sign-up-btn {
+		display: inline-block;
+		width: 110px; height: 35px;
+		margin-right: 20px;
+
+		color: white !important;
+		font-size: 15px; line-height: 35px;
+	}
+}
+
+/* MENU BUTTON: Hidden by default ... only visible on small devices */
+button.menu-toggle {
+	display: none;
+	width: 62px; height: 42px;
+	float: right;
+	margin: 0;
+
+	text-transform: uppercase;
+	letter-spacing: 0.046875em;
+	font: 700 13px/1 'Calibri';
+
+	cursor: pointer;
+    -webkit-appearance: button;
+
+	border: 1px solid #d1d1d1; border-radius: 3px;
+	background: white;
+}
+	button.menu-toggle:hover { 
+		color: #007acc;
+		border-color: #007acc;
+		background-color: #fff;
+    }
+	.menu-toggle.active {
+		color: #fff;
+		border-color: #1a1a1a;
+		background-color: #1a1a1a;
+	}
+
+@media only screen and (max-width: 979px) {
+	button.menu-toggle {
+		display: inline-block;
+	}
+}
+@media only screen and (max-width: 767px) {
+	button.menu-toggle {
+		display: inline-block;
+		height: 35px;
+		
+		line-height: 35px;
+	}
+}
+
+/* MENU: */
+.site-header-menu { display: block; margin: 0; }
+.site-header-menu.toggled-on, .no-js .site-header-menu { display: block; }
+@media screen and (min-width: 56.875em) {
+	.site-header-menu { flex: 0 1 auto; }
+}
+@media screen and (min-width: 44.375em) {
+	.site-header-menu { margin: 1.3125em 0; }
+}
+	
+/* Mobile devices */
+@media only screen and (max-width: 979px) {
+	.main-navigation { display: none; margin-top: 10px; }
+	.main-navigation ul {
+		margin: 0; padding: 0;
+		list-style: none;
+		border: 0;
+	}
+	.main-navigation .primary-menu > li {
+		position: relative;
+		font-size: 16px;
+		border: none !important;
+	}
+	
+	/* Menu Links */
+	.main-navigation a {
+		display: inline-block; height: 40px;
+		padding: 10px;
+
+		color: #084376 !important;
+		text-transform: uppercase; letter-spacing: 0;
+		font: normal 17px/20px 'Source Sans Pro', sans-serif;
+		text-decoration: none;
+	}
+		
+		ul.sub-menu { display: none; }
+		ul.sub-menu li a {
+			display: block;
+
+			color: white !important;
+			background-color: #084376 !important;
+			border-bottom: 1px solid white;
+		}
+	
+	.dropdown-toggle {
+		display: block; float: right;
+		width: 48px;  height: 40px;
+		position: absolute; top: 0; right: 0;
+		padding: 0;
+		
+		content: "";
+    	color: #1a1a1a; text-transform: none; font-size: 18px;		
+		
+		border: 0; border-radius: 0;
+		background-color: transparent;
+	}
+	.dropdown-toggle:after {
+		display: inline-block; width: 48px;		
+		position: relative; left: 1px;
+		vertical-align: top;
+
+		content: "\f431";
+		text-align: center;
+		font: normal 24px/1 "Genericons";
+
+		border: 0 solid #d1d1d1;
+		border-left-width: 1px;
+		
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		speak: none;
+	}
+	#menu-item-5603 { display: none; }
+}
+
+/* Desktop devices */
+@media only screen and (min-width: 979px) {
+	.main-navigation { display: block !important; float: right; }
+	.main-navigation ul {
+		margin: 0; padding: 0;
+		list-style: none;
+		border: 0;
+	}
+	.main-navigation .primary-menu > li {
+		position: relative;
+		font-size: 16px;
+		border: none !important;
+
+		float: left;
+	}
+		.main-navigation ul ul {
+			display: block;
+			margin: 0;
+			position: absolute; left: -999em;
+			
+			z-index: 99999;
+		}
+
+		.main-navigation li:hover > ul, .main-navigation li.focus > ul { left: auto; right: 0; }
+		.main-navigation ul ul { border-bottom: none; border: 1px solid #02396b; background: #fff; }
+
+		ul.sub-menu { width: 200px; max-height: 0; }
+		.main-navigation li:hover > ul.sub-menu {
+			overflow-y: hidden;
+			max-height: 300px; /* approximate max height */
+
+			transition-property: all;
+			transition-duration: 300ms;
+			transition-timing-function: cubic-bezier(1, 1, 1, 1);
+		}
+			ul.sub-menu li {
+				overflow: hidden;
+				
+				background-color: #084376 !important;
+				border-bottom: 1px solid #0057a7;
+			}
+			ul.sub-menu li:last-child { border-bottom: 0; }
+				ul.sub-menu li a { color: #fff !important; text-decoration: none; border-bottom: 1px solid #; }
+
+			/* Menu Links */
+			.main-navigation a {
+				display: block;
+				height: 40px;
+				padding: 1px 20px;
+
+				color: #084376 !important;
+				text-transform: uppercase; letter-spacing: 0;
+				font: normal 13px/36px 'Source Sans Pro', sans-serif;
+				text-decoration: none;
+				
+				outline-offset: -8px;
+				transition: all 0.3s ease;
+			}
+			
+			/* Top menu items with children */
+			.main-navigation .menu-item-has-children { margin-right: 10px;	}
+			.main-navigation .menu-item-has-children > a:after {
+				display: inline-block;
+				
+				content: "\f431";
+				position: absolute;
+				top: 10px;
+				
+				vertical-align: top;
+				
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+
+				text-transform: none; text-decoration: inherit;
+				text-align: center; 
+				font: normal 16px/1 "Genericons";
+			}
+
+			.main-navigation #menu-item-5603 { margin-left: 10px; }
+			.main-navigation #menu-item-5603 a {
+				display: block;
+				width: 120px; height: 36px;
+				margin-right: 0; padding: 0;
+				
+				color: white !important;
+				text-align: center;
+				text-transform: capitalize; text-decoration: none;
+				font-size: 14px !important; line-height: 36px;
+				
+				border: none; border-radius: 5px;
+				background-color: #1ABC9C;
+			}
+			.main-navigation #menu-item-5603 a:hover {
+				background-color: #0057a7 !important;
+			}			
+			
+		.dropdown-toggle { display: none; }
+}
+/* Login Button */
+#menu-item-5602 a { font-weight: bold !important; }
+
+	
+	
+
+	
+	

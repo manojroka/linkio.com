@@ -1,0 +1,174 @@
+#intro-section .row-900 {
+    width: 900px;
+    margin: 0 auto;
+    float: none;
+}
+.page-template-anchor-text .vc_row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+#anchor-text-optimization-header {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/header-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 55px;
+}
+#anchor-text-optimization-header h4 {
+
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Gotham' !important;
+    font-weight: 300;
+    margin-bottom: 0px;
+
+}
+#anchor-text-optimization-header h2 {
+
+    color: #fff !important;
+    font-family: 'Gotham' !important;
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    margin-top: 3px;
+    margin-bottom: 0px;
+
+}
+#anchor-text-optimization-header h6 {
+
+    color: #fff;
+    font-family: 'Gotham' !important;
+    font-size: 36px;
+    background-color: #1abc9c;
+    width: 195px;
+    margin: 0 auto;
+    padding: 8px 0px;
+    border-radius: 50px;
+    font-weight: 400 !important;
+    position: relative;
+    bottom: -60px;
+
+}
+#founder-section {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/founder-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+}
+#founder-section h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Gotham' !important;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+#founder-section h4 strong {
+    font-weight: normal;
+    color: #ff8400;
+    font-style: italic;
+}
+#founder-section h4 em {
+
+    color: #1abc9c;
+
+}
+#founder-section p {
+
+    text-align: center;
+    position: relative;
+    bottom: -54px;
+    z-index: 9;
+
+}
+#founder-section a {
+
+    background-color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    color: #005689;
+    padding: 5px 26px;
+    border-radius: 25px;
+    font-family: 'Gotham' !important;
+    padding-left: 45px;
+    border: 1px solid #b0b0b0;
+
+}
+#founder-section p br {
+
+    display: none;
+
+}
+.newsletter-found {
+
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/newsletter-icon.png);
+    background-repeat: no-repeat;
+    background-position: 7px;
+    margin-right: 5px !important;
+
+}
+.facebook-found {
+
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/fb-icon.png);
+    background-repeat: no-repeat;
+    background-position: 7px;
+    margin-left: 5px !important;
+
+}
+.page-template-anchor-text h2 {
+    font-family: 'Gotham' !important;
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: 500;
+}
+#intro-section {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/intro-bg.jpg);
+}
+.intro-sec-1 h2 {
+    font-size: 34px !important;
+    color: #2d5c87 !important;
+    font-family: 'Gotham' !important;
+}
+.intro-sec-1 {
+    background-color: #fff;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    padding-top: 90px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 90px;
+
+}
+.intro-sec-2 {
+
+    background-color: #d4fcff;
+    border-left: 1px solid #8bdccc;
+    border-right: 1px solid #8bdccc;
+    border-top: 1px solid #71c2b2;
+    border-bottom: 1px solid #71c2b2;
+    padding-top: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+
+}
+.intro-sec-2 .wpb_text_column:last-child {
+    margin-bottom: 0px;
+}
+.intro-sec-2 h2 {
+
+    background-color: #1abc9c;
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: 500;
+    width: 610px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 15px 0px;
+    position: absolute;
+left: 0;
+right: 0;
+top: -93px;
+margin-top: 0px !important;
+margin-bottom: 0px !important;
+
+}
