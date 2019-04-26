@@ -1926,3 +1926,11 @@ Stack trace:
 Stack trace:
 #0 {main}
   thrown in /home/linkio07/public_html/wp-content/themes/outreachmama/index.php on line 17
+[25-Apr-2019 00:39:57 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/linkio07/public_html/wp-content/themes/outreachmama/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/themes/outreachmama/index.php on line 17
+[26-Apr-2019 00:39:24 CST6CDT] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/linkio07/public_html/wp-content/themes/outreachmama/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/linkio07/public_html/wp-content/themes/outreachmama/index.php on line 17

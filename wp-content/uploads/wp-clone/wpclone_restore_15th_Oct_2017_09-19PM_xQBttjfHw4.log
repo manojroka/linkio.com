@@ -1,0 +1,24 @@
+Sunday, 15-Oct-2017 21:19:12 - restore started
+Sunday, 15-Oct-2017 21:19:12 - wp version     : 4.8.2
+Sunday, 15-Oct-2017 21:19:12 - php version    : 7.0.24
+Sunday, 15-Oct-2017 21:19:12 - mysql version  : 5.6.36
+Sunday, 15-Oct-2017 21:19:12 - memory limit   : 1024M
+Sunday, 15-Oct-2017 21:19:12 - execution time : 600
+Sunday, 15-Oct-2017 21:19:12 - mysql timeout  : 
+Sunday, 15-Oct-2017 21:19:12 - socket timeout : 600
+Sunday, 15-Oct-2017 21:19:12 - file download started
+Sunday, 15-Oct-2017 21:19:27 - download finished, filesize - 153.01 MB
+Sunday, 15-Oct-2017 21:19:27 - extracting database using ziparchive
+Sunday, 15-Oct-2017 21:19:27 - changing prefix from "wpck_" to "wp6f_"
+Sunday, 15-Oct-2017 21:19:27 - database import started
+Sunday, 15-Oct-2017 21:19:27 - updating mysql query with current site's url - new query : "INSERT INTO wp6f_options VALUES("1", "siteurl", "http://www.linkio.com", "yes")"
+Sunday, 15-Oct-2017 21:19:30 - mysql query failed. error : 1065 Query was empty - query : ""
+Sunday, 15-Oct-2017 21:19:30 - database import finished
+Sunday, 15-Oct-2017 21:19:30 - search and replace started
+Sunday, 15-Oct-2017 21:19:30 - there are 35 tables to scan
+Sunday, 15-Oct-2017 21:19:31 - search and replace finished
+Sunday, 15-Oct-2017 21:19:31 - extracting archive using ziparchive
+Sunday, 15-Oct-2017 21:19:33 - copying files..
+Sunday, 15-Oct-2017 21:19:34 - deleting temp directory..
+Sunday, 15-Oct-2017 21:19:35 - deleting downloaded zip file..
+Sunday, 15-Oct-2017 21:19:35 - restore finished

@@ -1,0 +1,1160 @@
+<!-- start Simple Custom CSS and JS -->
+<style type="text/css">
+.page-template-anchor-text .entry-content a:hover{
+	text-decoration:underline
+}
+
+.row-900 {
+    width: 900px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+.row-800 {
+    width: 800px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+.row-740 {
+    width: 740px;
+    margin: 0 auto !important;
+    float: none !important;
+}
+#tablepress-14 th {
+  background-color: #ee8537;
+}
+#tablepress-12 th {
+  background-color: #717151;
+}
+#tablepress-11 th, #tablepress-9 th{
+    background-color: #19b837 !important;
+}
+#tablepress-7 th {
+  background-color: #a2b719
+}
+#tablepress-6 th {
+  background-color: #19a7b8;
+}
+#tablepress-5 th {
+   background-color: #b87619 !important;
+}
+#tablepress-4 th{
+	background-color: #1a8ab9 !important;
+}
+#tablepress-3 th, #tablepress-2 th, #tablepress-1 th{
+    background-color: #19b394;
+}    
+ #tablepress-8 th {
+    background-color: #19b837 !important;
+}
+#tablepress-10 th {
+    background-color:#19b837 !important;
+}
+#tablepress-13 th {
+    background-color:#0eb4c2 !important;
+}
+#tablepress-14 th a{
+	color:#fff !important;
+}
+
+
+#intro-section .row-900 {
+    width: 900px;
+    margin: 0 auto;
+    float: none;
+}
+/*.page-template-anchor-text .vc_row {*/
+/*    margin-left: 0 !important;*/
+/*    margin-right: 0 !important;*/
+/*}*/
+#anchor-text-optimization-header {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/header-bg-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 55px;
+}
+#anchor-text-optimization-header h4, #anchor-text-optimization-header h2, #anchor-text-optimization-header h6{
+  font-family: 'GothamMedium';  
+}
+
+#anchor-text-optimization-header h4 {
+    color: #fff;
+    font-size: 24px;    
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+#anchor-text-optimization-header h2 {
+    color: #fff !important;
+    font-size: 36px !important;
+    font-weight: 600 !important;
+    margin-top: 3px;
+    margin-bottom: 0px;
+}
+#anchor-text-optimization-header h6 {
+    color: #fff;
+    font-size: 36px;
+    background-color: #1abc9c;
+    width: 195px;
+    margin: 0 auto;
+    padding: 8px 0px;
+    border-radius: 50px;
+    font-weight: 400 !important;
+    position: relative;
+    bottom: -60px;
+
+}
+.tablepress .vglnk {
+    pointer-events: none;
+    color: #4f4f4f !important;
+  font-size: 14px;
+}
+.tablepress {
+    border: 1px solid #d2d2d2 !important;
+    /*border-radius: 10px;*/
+    overflow: hidden;
+    font-size: 14px;
+    border-collapse: unset;
+}
+#tablepress-13 .row-3 .column-1 {
+   border-top: 1px #d2d2d2 solid;
+}
+#tablepress-13 .row-5 .column-1 {
+   border-top: 1px #d2d2d2 solid;
+}
+#tablepress-13 .row-6 .column-1 {
+   border-top: 1px #d2d2d2 solid;
+}
+#tablepress-13 .row-8 .column-1 {
+
+   border-top: 1px #d2d2d2 solid;
+}
+#tablepress-1 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-2 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-3 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-4 {
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-5 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-6 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-7 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-8 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-9 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-10 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-11 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-12 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-13 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#tablepress-14 {
+    border: 1px solid #d2d2d2;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.row-2 .column-1 {
+    background-color: #E7E7E7;
+}
+.row-3 .column-1 {
+    border-top: none;
+    background-color: #E7E7E7;
+}
+.row-3 .column-4 {
+    border-top: none;
+}
+.row-4 .column-1 {
+    background-color: #E7E7E7;
+}
+.row-5 .column-1 {
+    border-top: none;
+    background-color: #E7E7E7;
+}
+.row-5 .column-4 {
+    border-top: none;
+}
+.row-6 .column-1 {
+    border-top: none;
+    background-color: #E7E7E7;
+}
+.row-6 .column-4 {
+    border-top: none;;
+}
+.row-7 .column-1 {
+    background-color: #E7E7E7;
+}
+.row-8 .column-1 {
+    border-top: none;
+    background-color: #E7E7E7;
+}
+.row-8 .column-4 {
+    border-top: none;
+}
+.row-9 .column-1 {
+    background-color: #E7E7E7;
+}
+.row-10 .column-1 {
+    border-top: none;
+    background-color: #E7E7E7;
+}
+.row-10 .column-4 {
+    border-top: none;
+}
+.row-11 .column-1 {
+    border-top: none;
+    background-color: #E7E7E7;
+}
+.tablepress tbody tr td:first-child {
+    background-color: #E7E7E7 !important;
+}
+.row-11 .column-4 {
+    border-top: none;
+}
+.row-13 .column-1 {
+    border-top: none;
+}
+.row-13 .column-4 {
+    border-top: none;
+}
+.row-14 .column-1 {
+    border-top: none;
+}
+.row-14 .column-4 {
+    border-top: none;
+}
+.tablepress td, .tablepress th {
+    padding: 8px;
+    border: none;
+        border-top-color: currentcolor;
+        border-top-style: none;
+        border-top-width: medium;
+        border-right-color: currentcolor;
+        border-right-style: none;
+        border-right-width: medium;
+    border-right: 1px solid #d2d2d2;
+}
+.tablepress td.column-4, .tablepress th.column-4 {
+   border-right: none;
+}
+.tablepress tbody td, .tablepress tfoot th {
+    border-top: 1px solid #323232;
+}
+.tablepress tfoot th, .tablepress thead th, .tablepress tfoot th a .tablepress thead th a {
+    background-color: #0057a7;
+    font-weight: bold;
+    vertical-align: middle;
+    color: #fff !important;
+    font-size: 16px;
+    text-align: center;
+    border-right: 1px solid #d2d2d2;
+    line-height: 16px;
+}
+.tablepress .sorting::after {
+    display: none !important;
+}
+.tablepress .sorting:hover, .tablepress .sorting_asc, .tablepress .sorting_desc {
+    background-color: #0057a7;
+}
+.tablepress tbody td {
+    vertical-align: top;
+    text-align: center;
+    border-top: 1px solid #d2d2d2;
+}
+.row-8 .column-2 {
+    background-color: #fff;
+}
+.row-7 .column-2 {
+    background-color: #fff;
+}
+.row-6 .column-2 {
+    background-color: #fff;
+}
+.row-5 .column-2 {
+    background-color: #fff;
+}
+.row-4 .column-2 {
+    background-color: #fff;
+}
+.row-3 .column-2 {
+    background-color: #fff;
+}
+.row-2 .column-2 {
+    background-color: #fff;
+}
+.dataTables_filter, .dataTables_length, .dataTables_paginate, .dataTables_info {
+    float: right;
+    white-space: nowrap;
+    display: none;
+}
+
+#founder-section {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/founder-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 60px;
+}
+#founder-section h4 {
+    color: #fff;
+    font-size: 16px;
+    font-family: 'GothamMedium';  
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+#founder-section h4 strong {
+    font-weight: normal;
+    color: #ff8400;
+    font-style: italic;
+}
+#founder-section h4 em {
+    color: #1abc9c;
+}
+#founder-section p {
+    text-align: center;
+    position: relative;
+    bottom: -54px;
+    z-index: 9;
+}
+#founder-section a.foundBtn {
+    background-color: #fff;
+    display: inline-block;
+    font-size: 12px;
+    color: #005689;
+    padding: 5px 26px;
+    border-radius: 25px;
+    font-family: 'GothamMedium';  
+    padding-left: 45px;
+    border: 1px solid #b0b0b0;
+}
+#founder-section p br {
+    display: none;
+}
+.newsletter-found {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/newsletter-icon.png);
+    background-repeat: no-repeat;
+    background-position: 7px;
+    margin-right: 5px !important;
+}
+.facebook-found {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/fb-icon.png);
+    background-repeat: no-repeat;
+    background-position: 7px;
+    margin-left: 5px !important;
+}
+.page-template-anchor-text h2 {
+    font-family: 'GothamSSm-Book' !important;  
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: 500;
+}
+.page-template-anchor-text h3, .page-template-anchor-text h4{
+	font-family: 'GothamSSm-Book' !important;  
+  }
+
+#intro-section {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/intro-bg.jpg);
+}
+.intro-sec-1 h2 {
+    font-size: 34px !important;
+    color: #2d5c87 !important;
+    font-family: 'GothamMedium' !important
+}
+.intro-sec-1 {
+    background-color: #fff;
+    border-left: 1px solid #c8c8c8;
+    border-right: 1px solid #c8c8c8;
+    padding-top: 90px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 90px;
+      border: 1px solid #b8bbbe;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+    box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+    background-image:url(https://www.linkio.com/wp-content/uploads/2019/04/introBg.jpg);
+    background-repeat:no-repeat;
+    background-position: right 100px;
+}
+.intro-sec-2 {
+    background-color: #d4fcff;
+    border-left: 1px solid #8bdccc;
+    border-right: 1px solid #8bdccc;
+    border-top: 1px solid #71c2b2;
+    border-bottom: 1px solid #71c2b2;
+    padding-top: 60px;
+    padding-left: 35px;
+    padding-right: 35px;
+    position: relative;
+}
+.intro-sec-2 .wpb_text_column:last-child {
+    margin-bottom: 0px;
+}
+.intro-sec-2 h2 {
+    background-color: #1abc9c;
+    color: #fff !important;
+    font-size: 30px !important;
+    font-weight: 500;
+    width: 610px;
+    margin: 0 auto;
+    border-radius: 50px;
+    padding: 15px 0px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -93px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.page-template-anchor-text .entry-content .vc_row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.anchor-text p {
+    font-size: 17px !important;
+}
+
+.page-template-anchor-text .entry-content a{
+    color: #151515 ;
+}
+
+
+
+
+.page-template-anchor-text .site-content ul{
+    margin-left: 0;}
+.page-template-anchor-text .site-content ul li{
+    list-style: none;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/bulletG.png);
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    color: #585858 !important;
+}
+.comSection{} 
+.comSection h2{
+	font-size:36px;
+} 
+.comSection h3{
+	font-size:30px;
+} 
+.comSection h4{
+	font-size:24px;
+} 
+
+.categorySec{
+  	position:relative;
+	background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/blueSecBg.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    min-height:590px;
+    color:#fff !important;
+}
+.categorySec:before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    width: 70%;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/lightBlueBg.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    left: 0;
+    height: 590px;
+}
+.categorySecMain{
+	background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/categorySecRight.jpg);
+    background-repeat: no-repeat;
+    background-position: right 0;
+    height: 590px;
+  	padding:70px 280px 70px 20px;
+}
+.comSection{
+	float:left;
+    width:100%
+}
+.sectionMain01{}
+.comMainBox{
+	padding:40px 40px 0px 40px;
+  	border:1px solid #b8bbbe;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+  	-moz-box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+  	box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+      margin-bottom: 80px !important;
+  background-color: #fff;
+}
+.comMainBox .bigButton {
+    margin-bottom: -30px;
+}
+
+.comMainBox02{
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/border01.jpg), url(https://www.linkio.com/wp-content/uploads/2019/04/border01.jpg);
+    background-repeat: repeat-x, repeat-x;
+    background-position: 0 bottom, 0 top;
+    padding: 40px 40px 0px 40px;
+}
+.comMainBox02 h3{
+	color: #1c75a8;
+    font-family: 'GothamSSm-Book' !important;
+    font-weight: 500;
+    margin-top: 0 !important;
+    margin-bottom: 30px !important;
+  font-size: 28px !important;
+}
+.bigButtonO button{
+	background-color: #ed7b26 !important;
+    border: 1px solid #ed7b26 !important;
+}
+.secondBorder{
+    background-image: none, url(https://www.linkio.com/wp-content/uploads/2019/04/border01.jpg);
+}
+.innerDivider{
+	background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/border01.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 bottom; 
+    border:0px;
+      height: 21px;
+}
+.innerDivider .vc_sep_line {
+    border-top: 0 !important;
+}
+.typeSec{
+ background-image:none;
+  min-height: 950px;
+  background-color:#00876c
+}
+.typeSec:before {
+    background-image: none;
+    height: 950px;
+  background-color:#1abc9c
+}
+.typeSec .categorySecMain {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/typeBg2.jpg);
+    height: 950px;
+	position:relative;  
+}
+.typeSec .categorySecMain:before{
+	    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/typeBg.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    height: 42px;
+  left: 2px;
+      
+}
+.sectionMain02{}
+.sectionMain02 .comMainBox{
+     border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+      border-top: 0px;
+  	  padding-top: 0;
+      background-image: none;
+      margin-bottom: 16px !important;
+}
+.sectionMain02 .comMainBox.comMainBox.comMainBox02{
+    padding: 40px 40px 0px 40px;
+    border: 1px solid #b8bbbe;
+  	position:relative;
+ 	border-radius: 20px;
+}
+
+.sectionMain02 .comMainBox.comMainBox.comMainBox02:before{
+content: "";
+    position: absolute;
+    top: -17px;
+    width: 80%;
+    right: 0px;
+    left: 0px;
+    height: 30px;
+    background-color: #19b394;
+    margin: 0 auto;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.sectionMain02 .comMainBox.comMainBox.comMainBox02 h3{
+	font-size:28px !important;
+}
+
+.comMainBox_blue:before{
+	background-color:#1a8ab9 !important;
+}
+.comMainBox_blue h3{
+	color:#1a8ab9 !important;
+}
+.comMainBox_orange:before{
+	background-color:#b87619 !important;
+}
+.comMainBox_orange h3{
+	color:#b87619 !important;
+}
+.comMainBox_skyBlue:before{
+	background-color:#19a7b8 !important;
+}
+.comMainBox_skyBlue h3{
+	color:#19a7b8 !important;
+}
+.comMainBox_green:before{
+	background-color:#a2b719 !important;
+}
+.comMainBox_green h3{
+	color:#a2b719 !important;
+}
+.comMainBox_greenDark:before{
+	background-color:#19b837 !important;
+}
+.comMainBox_greenDark h3{
+	color:#19b837 !important;
+}
+.comMainBox_brown:before{
+	background-color:#717151 !important;
+}
+.comMainBox_brown h3{
+	color:#717151 !important;
+}
+#anchor-text-optimization-header .wpb_content_element{
+	margin-bottom: 10px;
+}
+#anchor-text-optimization-header h6 {
+	bottom: -28px !important;
+}
+.SkyBuleSection {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/skyBlueSecBg.jpg);
+    margin-top: -18px;
+}
+.SkyBuleSection:before {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/skyLightBlueBg.jpg);
+  	min-height:850px;  
+}
+.SkyBuleSection .categorySecMain {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/skyBlueMid.jpg);
+  	min-height:850px;
+}
+.borBTNRadius {
+    border-bottom-left-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+}
+.sectionMain04 {
+	position: relative !important;
+    top: -30px;}
+.sectionMain04 .comMainBox{
+	border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    padding-top: 50px;
+    margin-bottom: 0 !important;
+}
+.section05{
+	background-color:#1d3c52;
+	padding:80px 0;
+    margin-top: -35px;
+}
+.section05 .comMainBox{
+	border-radius: 20px;
+  	box-shadow:none
+}    
+.section05 h1{
+	margin-bottom:20px !important
+}
+
+.section06{
+	background-color:#e9f4fc;
+}
+.section06 h1, .section07 h1{
+	color:#1d3c52 !important
+}
+.section07{
+	background-color:#fff !important
+}
+.section07 .comMainBox {
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+    box-shadow: 0px 0px 10px 0px rgba(161,161,161,1);
+}
+.section08{
+  	background-color:#f5f5f5 !important;
+    border:0px !important;
+  	position:relative !important; 
+    padding-top: 0;
+  	overflow: inherit !important; 
+    padding-bottom: 0;
+}
+.section08 .vc_btn3-container {
+	position: absolute;
+    top: -35px;
+    left: 0px;
+    right: 0px;
+    margin: 0 auto;  
+}
+.section08 .comMainBox{
+	border-radius:0px;
+    padding-top: 80px;
+    margin-bottom:0px !important;
+    border: none !important;
+}
+.site-main > article {
+    margin-bottom: 4.0em !important
+}
+div#disqus_thread {
+    width: 900px;
+    margin: 0 auto 50px;
+}
+.identifySection{
+	margin-bottom:0px !important;
+}
+#tablepress-14 tbody tr td.column-1 {
+    border-top: 1px solid #d2d2d2;
+}
+#tablepress-14 tbody tr td.column-4{
+    border-top: 1px solid #d2d2d2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page-template-anchor-text h1 {
+    font-size: 36px !important;
+}
+.tableBox{
+	background-color:#f2f2f2;
+    color:#fff;
+    padding:200px 0;
+  	text-align:center
+}
+.tableBox p{
+	font-size:50px !important;
+  	text-transform:uppercase !important;
+  	color:#fff !important
+}
+ul.orangeBullet li {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/bulletO.png) !important;
+}
+ul.grayList li {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/bulletGray.png) !important;
+} 
+ul.blueList li {
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/bulletBlue.png) !important;
+} 
+
+
+.comBox{
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/border01.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 bottom;
+    padding-bottom: 50px;
+
+}
+.comBox h4{
+	position: relative;
+}
+.comBox h4:before{
+    content: "";
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/headBullet.png);
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    width: 65px;
+    height: 65px;
+    left: -68px;
+    top: -20px;
+    position: absolute;
+  
+}
+.comBox ul{ margin-left: 0;}
+.comBox ul li{
+    list-style: none;
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/bulletO.png) !important;
+    background-repeat: no-repeat;
+    background-position: 0 8px;
+    padding-left: 25px;
+    margin-bottom: 8px;
+    color: #585858 !important;
+}
+
+.whiteText, .whiteText p, .whiteText a, .whiteText p a{
+	color:#fff !important;
+}
+
+.whiteText p a{
+color:#fff
+}
+.bigButton{}
+.bigButton button{
+	font-size: 23px !important;
+    font-family: 'GothamSSm-Book';
+    border-radius: 35px !important;
+    text-transform: capitalize;
+    padding: 20px 100px !important;
+}
+
+
+
+
+
+@media (max-width: 995px){
+#intro-section .row-900 {
+    width: 100%;
+  }
+  
+  .row-900 {
+    width: 100%;
+   }
+  .row-800 {
+    width: 100%;
+  }
+  .section05 h1 {
+    text-align: center !important;
+  }
+  #disqus_thread {
+    width: 100% !important;
+    padding: 0 40px;
+
+}
+  #founder-section a {
+    font-size: 9px !important;
+    padding: 5px 10px !important;
+    padding-left: 35px !important;
+    border: 1px solid #b0b0b0 !important;
+}
+  .intro-sec-2 h2 {
+    font-size: 20px !important;
+    width: 100% !important;
+}
+  
+.sectionMain01 .row-900 {
+    width: 90%;
+}
+  
+.typeSec {
+    width: 100% !important;
+   min-height: auto;
+}
+.typeSec .categorySecMain{
+    width: 100% !important;
+    height: auto;
+}
+.typeSec .categorySecMain:before {
+    height: auto; 
+}
+.categorySecMain {
+    height: auto;
+    padding: 20px 245px 20px 20px;
+} 
+.sectionMain02 .comMainBox{
+	padding-top:50px  
+}
+.sectionMain04 .comMainBox {
+    width: 98%;
+}
+.section05 {
+    padding: 40px 0;
+}
+.section05 .row-800 {
+    width: 98%;
+} 
+  
+  
+  
+}
+@media (max-width: 768px){
+  .typeSec .categorySecMain {
+    height: auto !important;
+  }
+.categorySecMain {
+   padding: 20px ;
+   background-repeat: no-repeat;
+  background-image: none;
+  }
+  
+.categorySec {
+   background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/lightBlueBg.jpg);
+  min-height:auto
+}
+  .categorySec:before {
+    width: 100%;
+     height: auto;
+}
+.SkyBuleSection .categorySecMain {
+    min-height: auto;
+}  
+  
+  .bigButton button {
+    padding: 20px 20px !important;
+}
+  .row-740 {
+    width: 100% !important;
+  }
+  .SkyBuleSection .categorySecMain {
+    background-image: none !important;
+  }
+  .typeSec .categorySecMain {
+    background-image: none !important;
+  }
+  .mob-resp-padding{
+  padding:0px 20px !important;
+  }
+  .comBox h4:before {
+    display:none !important;
+  }
+  #anchor-text-optimization-header h2 {
+    font-size: 31px !important;
+  }
+ #anchor-text-optimization-header h4 {
+    font-size: 21px; 
+  }
+  .intro-sec-1 {
+    padding-top: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .anchor-text h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+ .intro-sec-1 h2 {
+    font-size: 30px !important;
+    }
+ .intro-sec-2 {
+    padding-top: 0;
+    padding-left: 10px;
+    padding-right: 10px; 
+  }
+  .sectionMain01 .row-900 {
+    width: 95%;
+    padding: 20px  !important;
+}
+.comMainBox h4{
+    margin-bottom: 20px;
+}
+ .comMainBox .bigButton {
+    margin-bottom: -55px;
+}
+.bigButton button {
+    font-size: 18px !important;
+}
+.anchor-text h2 br{
+	display:none  
+}
+.typeSec .categorySecMain {
+	background-image:none;
+}
+.typeSec {
+    background-color: transparent;
+  	background-color: #1abc9c;
+      background-image: none;
+}
+.categorySec:before {
+    width: 100%;  
+  }
+ .sectionMain02 .comMainBox {
+    padding: 20px;
+    border: none;
+}
+ .innerDivider {
+    height: 5px;
+    margin: 10px 0;
+} 
+.sectionMain02 .wpb_content_element{
+    margin-bottom: 20px;
+}
+ .sectionMain02 .comMainBox.comMainBox.comMainBox02 {
+    padding: 40px 20px 20px 20px;
+  }
+ .sectionMain02 .comMainBox.comMainBox.comMainBox02 h3 {
+    font-size: 25px !important;
+} 
+.sectionMain02 .row-740 {
+    width: 97% !important;
+}  
+.sectionMain04 .comMainBox {
+	padding:20px
+} 
+.anchor-text p .anchor-text a, .anchor-text li {
+    font-size: 17px !important;
+}
+.page-template-anchor-text .site-content ul {
+    margin-bottom: 20px;
+}
+.page-template-anchor-text h1 {
+    font-size: 30px !important;
+}
+.page-template-anchor-text h1 br, .page-template-anchor-text h2 br, 
+.page-template-anchor-text h3 br, .page-template-anchor-text h4 br{
+	display:none  
+}
+.comMainBox {
+    padding: 20px;
+}
+.section05 {
+    padding: 20px 0;
+}  
+.section08 .vc_btn3-container {
+    width: 98%;
+}  
+   
+  
+  
+}
+
+
+@media (max-width: 480px){
+#anchor-text-optimization-header h2 {
+    font-size: 25px !important;
+    margin-top: 6px;
+} 
+ .newsletter-found {
+    margin-right: 0;
+    margin-bottom: 10px;
+} 
+#founder-section p {
+    bottom: 0;
+    top: 15px;
+}  
+#founder-section a {
+    margin-left: 0px !important;
+}
+#intro-section .vc_column_container>.vc_column-inner {
+    padding-left: 5px;
+    padding-right: 5px;
+}  
+.intro-sec-1 {
+    padding-top: 20px;
+}
+.anchor-text h2 {
+    margin-bottom: 20px; 
+}  
+.intro-sec-1 h2 {
+    font-size: 25px !important;
+} 
+.categorySecMain {
+      min-height: auto;
+    padding: 20px;
+  background-image:none;
+}
+.categorySec:before {
+    width: 100%;
+    min-height: auto;
+    width: 100%;
+    background-repeat: repeat;
+    height: auto;
+}
+.categorySec {
+    min-height: auto;
+    color: #fff !important;
+    overflow: auto !important;  
+    background-image: url(https://www.linkio.com/wp-content/uploads/2019/04/lightBlueBg.jpg);
+      background-repeat: repeat;
+  }
+.comSection h4 {
+    font-size: 19px;
+}  
+.comMainBox02 h3 {
+    margin-top: 0 !important;
+    margin-bottom: 20px !important;
+    font-size: 25px !important;
+} 
+.anchor-text h2 {
+    margin-bottom: 20px;
+}
+.page-template-anchor-text h2 {
+    font-size: 25px !important;  
+}
+.typeSec{
+    height: auto;
+    background-color: #1abc9c;
+}  
+.sectionMain02 .comMainBox.comMainBox.comMainBox02 h3 {
+    font-size: 22px !important;
+} 
+.page-template-anchor-text .entry-content a {
+    font-size: 17px;
+}  
+  
+.intro-sec-2 h2 {
+    font-size: 17px !important;
+    line-height: normal;
+  padding:20px;
+}  
+.bigButton button {
+    font-size: 17px !important;
+    line-height: 25px !important;
+      padding: 15px !important;
+  }
+  
+  
+  
+}  
+
+
+
+
+/* Add your CSS code here.
+
+For example:
+.example {
+    color: red;
+}
+
+For brushing up on your CSS knowledge, check out http://www.w3schools.com/css/css_syntax.asp
+
+End of comment */ 
+
+</style>
+<!-- end Simple Custom CSS and JS -->
