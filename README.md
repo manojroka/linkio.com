@@ -19,7 +19,9 @@
         Cmd: `ssh -T git@github.com`<br />
         **This ensures that github.com is now added to the known hosts and makes all communication between server and github through key/pair so that we don't need to use github username and password for all the git pulls.**
 
-5.  Now go to the directory where we want to clone and sync. For the main site like, linkio.com, the directory is: /home/linkio07/public_html, for dev.linkio.com, its /home/linkio07/dev/public_html.
+5.  Now go to the directory where we want to clone and sync. For the main site like, linkio.com, the directory is:<br /> 
+    `cd /home/linkio07/public_html`, 
+    for dev.linkio.com, its `cd /home/linkio07/dev/public_html`.
 
 6.  Run: `git init`
 
