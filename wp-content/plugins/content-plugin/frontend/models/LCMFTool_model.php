@@ -198,6 +198,12 @@ class LCMFTool_model extends LCMF_model {
                         HAVING (relevance1 + relevance2) > 0 
                         ORDER BY (relevance1 *3 ) + (relevance2) DESC 
                         LIMIT 0, 1000";       
+            
+            $s_query = "SELECT * 
+                    FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
+                    WHERE template_id = {$_POST['template_id']} AND status = 'Published' 
+                    AND (`tool_name` LIKE '%{$_POST['qry_string']}%' OR `description` LIKE '%{$_POST['qry_string']}%') 
+                    LIMIT 0, 1000";
         }   
         return $this->db->lcm_db_result($s_query, 'object');
     }
