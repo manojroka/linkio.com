@@ -38,7 +38,7 @@
             <label>Status</label>
         </th>
         <td>					
-            <?php lcm_admin_dropdown_selector('status', NULL, array('Suggested', 'New', 'Published', 'Hidden', 'Spam')) ?>
+            <?php lcm_admin_dropdown_selector('status', 'Published', array('Suggested', 'New', 'Published', 'Hidden', 'Spam')) ?>
         </td>
     </tr>
     <tr>

@@ -19,13 +19,13 @@ class LCMFHome_model extends LCMF_model{
     function get_all_templates_by_id($module, $id, $limit, $offset) {
         
         if($limit > '0' && $offset > '0'){
-            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id." LIMIT $limit OFFSET $offset";
+            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id." AND status = 'Published' LIMIT $limit OFFSET $offset";
         }elseif($limit > '0'){
-            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id." LIMIT $limit";
+            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id." AND status = 'Published' LIMIT $limit";
         }elseif($offset > '0'){
-            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id." OFFSET $offset";
+            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id." AND status = 'Published' OFFSET $offset";
         }else{
-            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id."";
+            $query = "SELECT * FROM `".$this->table_prefix."lcm_template_".$module."s` WHERE template_id=".$id." AND status = 'Published' ";
         }
         $result = $this->db->lcm_db_result($query, 'object');
         // - get tactic categories lists------

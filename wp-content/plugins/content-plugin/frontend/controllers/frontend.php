@@ -80,7 +80,7 @@ class LCMfrontend {
         
     }
     
-    public function ajaxPerform($action = 'index', $module = null) {
+    public function ajaxPerform($action = 'index', $module = 'home') {
         //-------load model start--------
         $model_file = 'LCMF' . ucfirst($module) . '_model';
         $expected_model_file = LCM_PLUGIN_FRONT_DIR . '/models/' . $model_file . '.php';

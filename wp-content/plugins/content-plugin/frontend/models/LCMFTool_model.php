@@ -187,14 +187,14 @@ class LCMFTool_model extends LCMF_model {
         if($_POST['qry_string'] == ''){
             $s_query = "SELECT * 
                         FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
-                        WHERE template_id = {$_POST['template_id']} 
+                        WHERE template_id = {$_POST['template_id']} AND status = 'Published' 
                         LIMIT 0, 1000";
         }else{
             $s_query = "SELECT *, 
                         MATCH (`tool_name`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance1, 
                         MATCH (`description`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance2 
                         FROM {$this->table_prefix}lcm_template_{$_POST['module']}s 
-                        WHERE template_id = {$_POST['template_id']} 
+                        WHERE template_id = {$_POST['template_id']} AND status = 'Published' 
                         HAVING (relevance1 + relevance2) > 0 
                         ORDER BY (relevance1 *3 ) + (relevance2) DESC 
                         LIMIT 0, 1000";       

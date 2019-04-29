@@ -19,24 +19,24 @@ class LCMFTactic extends LCMfrontend{
         }
     }
     
-    function submit_item() {
-        $save_result = $this->lcmf_model->save_item();
-        if($save_result['status'] == TRUE){
-            $lcm_refferer_url = $_SERVER['HTTP_REFERER'];
-            if (strpos($lcm_refferer_url, 'newitemform') !== false) {
-                $lcm_refferer_url = str_replace('newitemform=tactic', '', $lcm_refferer_url);
-                $save_result['lcm_refferer_url'] = $lcm_refferer_url;
-            } else {
-                $save_result['lcm_refferer_url'] = $lcm_refferer_url;
-            }
-            echo json_encode($save_result);
-        } else {
-            if( isset($save_result['status']) && $save_result['status'] == FALSE){
-                echo json_encode($save_result);
-            } else {
-                echo json_encode(array('status'=>FALSE));
-            }
-        }
-        exit;
-    }
+//    function submit_item() {
+//        $save_result = $this->lcmf_model->save_item();
+//        if($save_result['status'] == TRUE){
+//            $lcm_refferer_url = $_SERVER['HTTP_REFERER'];
+//            if (strpos($lcm_refferer_url, 'newitemform') !== false) {
+//                $lcm_refferer_url = str_replace('newitemform=tactic', '', $lcm_refferer_url);
+//                $save_result['lcm_refferer_url'] = $lcm_refferer_url;
+//            } else {
+//                $save_result['lcm_refferer_url'] = $lcm_refferer_url;
+//            }
+//            echo json_encode($save_result);
+//        } else {
+//            if( isset($save_result['status']) && $save_result['status'] == FALSE){
+//                echo json_encode($save_result);
+//            } else {
+//                echo json_encode(array('status'=>FALSE));
+//            }
+//        }
+//        exit;
+//    }
 }

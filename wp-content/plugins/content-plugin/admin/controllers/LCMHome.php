@@ -69,4 +69,13 @@ class LCMHome extends LCMAdmin{
         $this->flash_notice->set_flash('success','<strong>Success: </strong>' .'You have successfully deleted');
         wp_redirect( "admin.php?page=lcms&msg" );
     }
+    
+    function lcm_item_status_update() {
+        $update_result = $this->h_model->update_status_value();
+        if($update_result['status'] == TRUE){
+            wp_send_json_success($_POST);
+        } else {
+            wp_send_json_error($_POST);
+        }
+    }
 }

@@ -31,7 +31,8 @@ function lcm_item_submit_function() {
     
     $module = $_POST['module'];
     $action = 'submit_item';
-    $controllerName = 'LCMF' . ucfirst($module);
+    //$controllerName = 'LCMF' . ucfirst($module);
+    $controllerName = 'LCMF' . ucfirst('home');
     $expectedController = LCM_PLUGIN_FRONT_DIR . '/controllers/' . $controllerName . '.php';
     if (file_exists($expectedController)) {
         require_once $expectedController;

@@ -339,4 +339,29 @@ jQuery(document).on("click", "#lcm-remove-web-logo", function () {
     jQuery('#web-logo-img').html('<input type="hidden" name="website_logo">');
 });
 
-
+jQuery(document).on("click", ".lcm-i-action-publish", function () {
+    var status_conform = confirm("Are you sure? you want to publish ?");
+    if (status_conform != true) {
+        return false;
+    }
+    var this_div = jQuery(this);
+    var id = jQuery(this).parent().attr('data-id');
+    var template_id = jQuery(this).parent().attr('data-template_id');
+    var module = jQuery(this).parent().attr('data-module');
+    var lcm_home_url = document.getElementById('lcm_home_url').value;
+    jQuery.ajax({
+        url: lcm_home_url+'/wp-admin/admin-ajax.php',
+        type: 'post',
+        data: {
+           action:'lcm_item_status_update',
+           id:id,
+           template_id:template_id,
+           module:module,
+        },
+        success: function (data) {
+            if(data.success == true){
+                this_div.remove();
+            }
+        }
+    });
+});

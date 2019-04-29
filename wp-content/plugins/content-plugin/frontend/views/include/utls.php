@@ -130,10 +130,14 @@ function lcm_aditional_links($json_links) {
 }
 
 //------- open popup form links --------------
-if(isset($_GET['newitemform'])){
+if(isset($_GET['newitemform']) && (isset($_GET['status'])) ){
     $item_module = $_GET['newitemform'];
+    $item_status = $_GET['status'];
     if( ($item_module == 'tactic') || ($item_module == 'quote') || ($item_module == 'website') || ($item_module == 'tool') ){
-        echo '<input type="hidden" id="new-i-form-popup" value="'.$item_module.'">';
+        if( ($item_status == 'published') || ($item_status == 'suggested') ){            
+            echo '<input type="hidden" id="new-i-form-popup" value="'. $item_module.'">'
+                . '<input type="hidden" id="lcm-i-url-status" value="'. ucfirst($item_status).'">';
+        }
     }
 }
 

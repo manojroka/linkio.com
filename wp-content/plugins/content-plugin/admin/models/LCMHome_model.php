@@ -74,4 +74,14 @@ class LCMHome_model extends LCM_model {
             $this->db->delete("{$this->table_prefix}lcm_template_{$template_data->module}s", array('template_id'=>$template_data->id));
         }
     }
+    
+    function update_status_value() {
+        
+        $data = array(
+            'status'=>'Published'
+        );
+        $condition = array( 'id' => $_POST['id'], 'template_id'=>$_POST['template_id']);
+        return $this->db->update($this->table_prefix."lcm_template_{$_POST['module']}s", $data, $condition);
+    }
+    
 }

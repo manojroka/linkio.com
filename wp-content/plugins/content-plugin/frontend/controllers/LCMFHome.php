@@ -124,22 +124,6 @@ class LCMFHome extends LCMfrontend{
         return $f_arr;
     }
     
-    function lcm_get_search_item_ids__() {
-        
-        $id_s = $this->lcmf_model->get_search_item_ids();
-        if($id_s['status'] == TRUE){
-            $custom_data = array(
-                'msg'=>$id_s['result'],
-            );
-            return wp_send_json_success($custom_data);
-        }else{
-            $custom_data = array(
-                'msg'=>'Error:Something is wrong.',
-            );
-            return wp_send_json_error($custom_data);
-        }
-    }
-    
     function lcm_get_search_item_ids() {
         $id_s = $this->lcmf_model->get_search_item_ids();
         if($id_s['status'] != TRUE){
@@ -152,5 +136,27 @@ class LCMFHome extends LCMfrontend{
                 echo '<p class="tmp-no-match">No matching result found.</p>';
             }   
         }
+    }
+    
+    function submit_item() {
+        $save_result = $this->lcmf_model->save_item();
+        if($save_result['status'] == TRUE){
+            $lcm_refferer_url = $_SERVER['HTTP_REFERER'];
+            if (strpos($lcm_refferer_url, 'newitemform') !== false) {
+                $string_to_repalce = array("newitemform={$_POST['module']}","status=published", "status=suggested");
+                $lcm_refferer_url = str_replace($string_to_repalce, '', $lcm_refferer_url);
+                $save_result['lcm_refferer_url'] = $lcm_refferer_url;
+            } else {
+                $save_result['lcm_refferer_url'] = $lcm_refferer_url;
+            }
+            echo json_encode($save_result);
+        } else {
+            if( isset($save_result['status']) && $save_result['status'] == FALSE){
+                echo json_encode($save_result);
+            } else {
+                echo json_encode(array('status'=>FALSE));
+            }
+        }
+        exit;
     }
 }

@@ -29,3 +29,4 @@ if(is_array($data)){
 ?>
 
 <p><a href="admin.php?page=lcms">Content Templates</a> <?= $module_name ?><?= $template_name ?>  </p>
+<input type="hidden" id="lcm_home_url" value="<?= LCM_HOME_URL ?>">

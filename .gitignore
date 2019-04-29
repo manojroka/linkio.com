@@ -6,6 +6,7 @@ nbproject
 
 wp-config.php
 
+wp-content/uploads/*
 wp-content/uploads/2018/*
 wp-content/uploads/2019/*
 

@@ -24,10 +24,13 @@
                         <td><?= $item->company ?></td>
                         <td><?= $item->email ?></td>
                         <td>[<?= 'lcm_content type="item" template="' . $_GET['module'] . '" id="' . $item->id . '"' ?>]</td>
-                        <td>
+                        <td data-id="<?= $item->id ?>" data-module="<?= $_GET['module'] ?>" data-template_id="<?= $_GET['templateid'] ?>">
                             <a class="dashicons dashicons-edit" href="admin.php?page=lcms&module=<?= $_GET['module'] ?>&mid=<?= $_GET['mid'] ?>&templateid=<?= $_GET['templateid'] ?>&id=<?= $item->id ?>&action=edit"></a>
                             / 
                             <a class="dashicons dashicons-dismiss" href="javascript:lcm_admin_delete('admin.php?page=lcms&module=<?= $_GET['module'] ?>&mid=<?= $_GET['mid'] ?>&templateid=<?= $_GET['templateid'] ?>&id=<?= $item->id ?>&action=delete')"></a>
+                            <?php if($item->status != 'Published'){ ?>
+                                 <div class="button button_size_small lcm-i-action-publish">Publish</div>
+                            <?php } ?>
                         </td>
                     </tr>
                 <?php } ?>

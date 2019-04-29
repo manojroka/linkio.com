@@ -38,6 +38,11 @@ jQuery('#lcm-i-ajax-data').submit(function (event) {
     tinyMCE.triggerSave();
     var formData = new FormData(document.getElementById('lcm-i-ajax-data'));
     formData.append("action", "lcm_item_submit");
+    if(document.getElementById('lcm-i-url-status') != null){
+        formData.append("status", document.getElementById('lcm-i-url-status').value);
+    }else{
+        formData.append("status", "Published");
+    }
     lcm_item_submit_btn.setAttribute('disabled', true);
     jQuery('.lcm-i-submit-error').empty();
     event.preventDefault();

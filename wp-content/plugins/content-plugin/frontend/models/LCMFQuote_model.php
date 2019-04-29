@@ -13,21 +13,14 @@ class LCMFQuote_model extends LCMF_model {
     }
     
     function save_item() {
-        $post_data = $_POST;
-        //---upload image------
         
+        $post_data = $_POST;
         $is_validate = $this->quote_validation($post_data);
-        if($is_validate != FALSE){
+        if(isset($is_validate['last_error'])){
             return $is_validate;
         }
         
-        $image_upload = $this->upload_image();
-        if(($image_upload != FALSE) && ($image_upload['status'] != FALSE) ){
-            $post_data['headshot'] = $image_upload['status_id'];
-        } else {
-            return $image_upload;
-        }
-        $data = $this->quote_sanitize($post_data);
+        $data = $this->quote_sanitize($is_validate);
         return $this->save_new_item($this->table_prefix.'lcm_template_'.$post_data["module"].'s', $data);
     }
     
@@ -90,6 +83,7 @@ class LCMFQuote_model extends LCMF_model {
         
         $post_data['content'] = $post_data['quote_description'];
         $chk_validate = $this->common_validation($post_data, 200);
+        unset($post_data['content']);
         if($chk_validate != NULL){
             $error_msg = $chk_validate;
         }
@@ -113,6 +107,14 @@ class LCMFQuote_model extends LCMF_model {
             $error_msg[] = array('id'=>'i-job_position', 'msg'=>'Please enter the position');
         }
         
+        //---upload image------
+        $image_upload = $this->upload_image();
+        if(($image_upload != FALSE) && ($image_upload['status'] != FALSE) ){
+            $post_data['headshot'] = $image_upload['status_id'];
+        } else {
+            $error_msg[] = array('id'=>'i-headshot', 'msg'=>$image_upload['last_error']);
+        }
+        
         if($error_msg != NULL){
             $err_data = array(
                 'status'=>FALSE,
@@ -120,7 +122,7 @@ class LCMFQuote_model extends LCMF_model {
             );
             return $err_data;
         }
-        return FALSE;
+        return $post_data;
     }
     
     function get_search_item_ids() {
@@ -128,14 +130,14 @@ class LCMFQuote_model extends LCMF_model {
         if($_POST['qry_string'] == ''){
             $s_query = "SELECT * 
                     FROM `".$this->table_prefix."lcm_template_{$_POST['module']}s` 
-                    WHERE template_id = {$_POST['template_id']} 
+                    WHERE template_id = {$_POST['template_id']} AND status = 'Published' 
                     LIMIT 0, 1000";
         }else{
             $s_query = "SELECT *, 
                     MATCH (`title`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance1, 
                     MATCH (`quote_description`) AGAINST ('{$_POST['qry_string']}*' IN BOOLEAN MODE) AS relevance2 
                     FROM {$this->table_prefix}lcm_template_{$_POST['module']}s 
-                    WHERE template_id = {$_POST['template_id']} 
+                    WHERE template_id = {$_POST['template_id']} AND status = 'Published' 
                     HAVING (relevance1 + relevance2) > 0 
                     ORDER BY (relevance1 *3 ) + (relevance2) DESC 
                     LIMIT 0, 1000";       
