@@ -23,7 +23,14 @@
     `cd /home/linkio07/public_html`, 
     for dev.linkio.com, its `cd /home/linkio07/dev/public_html`.
 
-6.  Run: `git init`
+6.  If there are already existing files in the server and also in git repo, we might choose to put what the latest is in server to git repo.
+    A. Files already in the server
+    	- Make sure the .gitignore file is update that can ignore all backend changes of the project
+	- If any files are already tracked but want to ignore it now, ignore it by 
+	  `git update-index --assume-unchanged <file>`
+	- If the git is git not already initialized, 
+
+	Run: `git init`
 
 7.  Run: `git remote add origin git@github.com:manojroka/git_repo.git` (Use SSH type. This is just an sample repo. We can get one from github.com for the repo we want to sync with)
 
