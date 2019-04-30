@@ -1661,3 +1661,11 @@ Stack trace:
 [17-Apr-2019 09:02:36 UTC] PHP Warning:  A non-numeric value encountered in /home/linkio07/public_html/wp-content/plugins/master-slider/admin/includes/msp-admin-functions.php on line 232
 [17-Apr-2019 09:02:37 UTC] PHP Warning:  A non-numeric value encountered in /home/linkio07/public_html/wp-content/plugins/master-slider/admin/includes/msp-admin-functions.php on line 232
 [17-Apr-2019 09:02:37 UTC] PHP Warning:  A non-numeric value encountered in /home/linkio07/public_html/wp-content/plugins/master-slider/admin/includes/msp-admin-functions.php on line 232
+[29-Apr-2019 13:22:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTactic_model.php on line 35
+[29-Apr-2019 13:22:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTactic_model.php on line 52
+[29-Apr-2019 13:26:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTactic_model.php on line 35
+[29-Apr-2019 13:26:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTactic_model.php on line 52
+[29-Apr-2019 13:26:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTactic_model.php on line 35
+[29-Apr-2019 13:26:52 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTactic_model.php on line 52
+[29-Apr-2019 13:33:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTool_model.php on line 77
+[29-Apr-2019 13:33:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/linkio07/dev/public_html/wp-content/plugins/content-plugin/frontend/models/LCMFTool_model.php on line 96

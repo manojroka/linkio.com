@@ -7,7 +7,10 @@ nbproject
 wp-config.php
 
 wp-content/uploads/*
-wp-content/uploads/2018/*
-wp-content/uploads/2019/*
-
 wp-content/wflogs/*
+wp-admin/php_errorlog
+.htpasswd
+robots.txt
+*.zip
+*.tar.gz
+*.log
