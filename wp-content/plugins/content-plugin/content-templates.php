@@ -27,6 +27,13 @@ define( 'HOME_URL', get_home_url());
  */
 //error_reporting(-1); ini_set('error_reporting', E_ALL); 
 
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://greencodes.net/content-plugin.json',
+	__FILE__, //Full path to the main plugin file or functions.php.
+	'content-templates'
+);
+
 require_once LCM_PLUGIN_DIR. '/system/control.php';
 require_once LCM_PLUGIN_DIR. '/settings.php';
 require_once LCM_PLUGIN_DIR. '/frontend/short_codes.php';

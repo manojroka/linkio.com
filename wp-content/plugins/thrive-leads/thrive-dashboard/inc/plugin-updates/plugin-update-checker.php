@@ -78,8 +78,8 @@ if ( ! class_exists( 'TVE_PluginUpdateChecker_1_3_2', false ) ) {
 			if ( version_compare( PHP_VERSION, $this->required_php_version ) === - 1 ) {
 				add_action( 'admin_notices', array( $this, 'php_version_notice' ) );
 			}
-
-
+                        
+                        
 		}
 
 		/**
