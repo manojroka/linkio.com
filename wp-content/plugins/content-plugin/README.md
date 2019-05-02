@@ -14,4 +14,3 @@ Plugin dir: content-templates
 7. Done ;)
 
 
-

@@ -3,12 +3,12 @@
  * Plugin Name: Content Templates
  * Plugin URI: 
  * Description: This plugin manages content of your wordpress website.
- * Version: 1.0
+ * Version: 2.0
  * Author: Manoj Roka
  * Author URI:  
  */
-define( 'LCM_VERSION', '1.0' );
 
+define( 'LCM_VERSION', '2.0' );
 define( 'LCM_PLUGIN', __FILE__ );
 define( 'LCM_PLUGIN_DIR_NAME', dirname( __FILE__ ) );
 define( 'LCM_PLUGIN_BASENAME', plugin_basename( LCM_PLUGIN ) );
@@ -26,13 +26,6 @@ define( 'HOME_URL', get_home_url());
  * MAIN
  */
 //error_reporting(-1); ini_set('error_reporting', E_ALL); 
-
-require 'plugin-update-checker/plugin-update-checker.php';
-$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://greencodes.net/content-plugin.json',
-	__FILE__, //Full path to the main plugin file or functions.php.
-	'content-templates'
-);
 
 require_once LCM_PLUGIN_DIR. '/system/control.php';
 require_once LCM_PLUGIN_DIR. '/settings.php';
