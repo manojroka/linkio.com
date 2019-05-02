@@ -3,12 +3,12 @@
  * Plugin Name: Content Templates
  * Plugin URI: 
  * Description: This plugin manages content of your wordpress website.
- * Version: 2.0
+ * Version: 1.0
  * Author: Manoj Roka
  * Author URI:  
  */
 
-define( 'LCM_VERSION', '2.0' );
+define( 'LCM_VERSION', '1.0' );
 define( 'LCM_PLUGIN', __FILE__ );
 define( 'LCM_PLUGIN_DIR_NAME', dirname( __FILE__ ) );
 define( 'LCM_PLUGIN_BASENAME', plugin_basename( LCM_PLUGIN ) );
